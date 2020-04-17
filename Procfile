@@ -1,1 +1,1 @@
-worker: php helloworld.php
+web: php helloworld.php
