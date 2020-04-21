@@ -162,7 +162,7 @@ if (!isset($result['file_name'])) {
 				$manager[md5($mid)]['mime'] = $info['mime_type'];
 				$manager[md5($mid)]['size'] = $info['file_size'];
 				yield $this->save("manager.json",$manager);
-				$LINK =  "https://".$_SERVER['SERVER_NAME'].$_SERVER['SCRIPT_NAME']."?h=".md5($mid)."__uu__".$id."&f=".$info['file_name']."&a=".base64_encode($id."ACTIVE");
+				$LINK =  "https://".isset($_SERVER['SERVER_NAME']) ? $_SERVER['SERVER_NAME'] : "".$_SERVER['SCRIPT_NAME']."?h=".md5($mid)."__uu__".$id."&f=".$info['file_name']."&a=".base64_encode($id."ACTIVE");
                 yield $this->messages->sendMessage(['peer' => $peer, 'message' => $LINK."\nLink Expir Is\n".date("Y/m/d || H:i:s",time() + 600), 'reply_to_msg_id' => $mid]);
                  return;
             }
