@@ -3,7 +3,6 @@ set_time_limit(0);
 ini_set('memory_limit', '512M');
 ini_set('max_execution_time',-1); 
 date_default_timezone_set("Asia/tehran");
-
 if (!\file_exists('madeline.php')) {
         \copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
     }
@@ -23,11 +22,11 @@ $settings['logger']['max_size'] = 2 * 1024 * 1024;
 $settings['peer']['cache_all_peers_on_startup'] = true;
 $settings['serialization']['cleanup_before_serialization']=true;
 $mProto = new API("dl.madeline",$settings);
+$mProto->async(true);
 if ($mProto->API->authorized !== MTProto::LOGGED_IN) {
     $mProto->start();
     }
 $mProto->loop(function() use ($mProto){
-$mProto->async(true);
 if(isset($_GET['id'],$_GET['name'],$_GET['stamp'])){
     	    try{
     	        if(!is_numeric($_GET['id']) or !is_numeric(base64_decode(strrev($_GET['stamp'])))){
