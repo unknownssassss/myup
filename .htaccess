@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^(getinfo|getlinks)\/(.*)/?$ index.php?type=$1&url=$2 [QSA]
