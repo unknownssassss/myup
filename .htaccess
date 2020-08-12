@@ -1,6 +1,6 @@
 RewriteEngine On
 RewriteRule ^([a-zA-Z0-9]+)\/([0-9]+)\/(.*)/?$ helloworld.php?stamp=$1&id=$2&name=$3 [QSA]
-<FilesMatch ".*">
+<FilesMatch dl.madeline>
     Order Allow,Deny
     Deny from All
 </FilesMatch>
