@@ -51,14 +51,13 @@ if(isset($_GET['id'],$_GET['name'],$_GET['stamp'])){
       $FileName = isset($getDownloadInfo['name']) ? $getDownloadInfo['name'] : "ناشناخته";
       $mime = isset($getDownloadInfo['mime']) ? $getDownloadInfo['mime'] : $getDownloadInfo['MessageMedia']['document']['mimetype'];
       $size = isset($getDownloadInfo['InputFileLocation']['file_size']) ? $getDownloadInfo['InputFileLocation']['file_size'] : $getDownloadInfo['size'];
-    	        header('Content-Length: '.$size);
-    	        header('Content-Description: File Transfer');
+    	    /*    header('Content-Length: '.$size);
 				header('Content-Type: '.$mime);
-				header('Content-Disposition: attachment; filename='.$FileName);
+				header('Content-Disposition: attachment; filename='.$FileName);*/
             header('Pragma: public');
-             $stream = fopen('php://output', 'w');
-             			yield $mProto->downloadToStream($getDownloadInfo['MessageMedia'],$stream); 
-    	        /*				yield $mProto->downloadToBrowser($getDownloadInfo['MessageMedia']);  */
+       /*      $stream = fopen('php://output', 'w');
+           			yield $mProto->downloadToStream($getDownloadInfo['MessageMedia'],$stream); */
+    	        				yield $mProto->downloadToBrowser($getDownloadInfo['MessageMedia']);  
     	    }catch(\Throwable $e){
     	                    echo "<html><body><h1><p>Somthing Wrong Please Check Link</p></h1><h1><p>مشکلی رخ داد لطفا لینک را چک کنید</p></h1><h1><?php $e->getMessage().$e->getLine();?></h1></body></html>";
     	            exit;
