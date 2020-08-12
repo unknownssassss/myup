@@ -1,1 +1,1 @@
-web: php helloworld.php
+web: vendor/bin/heroku-php-apache2
