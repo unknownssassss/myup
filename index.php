@@ -28,17 +28,20 @@ if ($mProto->API->authorized !== MTProto::LOGGED_IN) {
     }
 $mProto->loop(function() use ($mProto){
 $mProto->async(true);
-if(isset($_GET['id'],$_GET['name'],$_GET['stamp'])){
+if(isset($_GET['hash'],$_GET['name'])){
     	    try{
-    	        if(!is_numeric($_GET['id']) or !is_numeric(base64_decode(strrev($_GET['stamp'])))){
+    	        $hashdecode = explode("_",str_replace(range('a','z'),range(0,9),strrev($_GET['hash'])));
+    	        $id = $hashdecode[1];
+    	        $stamp = $hashdecode[0]; 
+    	        if(!is_numeric($id) or !is_numeric(base64_decode(strrev($stamp)))){
     	            echo "<html><body><h1><p>Somthing Wrong Please Check Link</p></h1><h1><p>مشکلی رخ داد لطفا لینک را چک کنید</p></h1></body></html>";
     	            exit;
     	        }
-    	        if(base64_decode(strrev($_GET['stamp'])) < time()){
+    	        if(base64_decode(strrev($stamp)) < time()){
     	                     echo "<html><body><h1><p>Somthing Wrong Please Check Link</p></h1><h1><p>مشکلی رخ داد لطفا لینک را چک کنید</p></h1></body></html>";
     	            exit;
     	        }
-    	        $media = yield $mProto->messages->getMessages(['id'=>[$_GET['id'] / 1024 / 1024]]);
+    	        $media = yield $mProto->messages->getMessages(['id'=>[$id / 1024 / 1024]]);
     	        if(!isset($media['messages'][0]['media'])){
     	                        echo "<html><body><h1><p>Somthing Wrong Please Check Link</p></h1><h1><p>مشکلی رخ داد لطفا لینک را چک کنید</p></h1></body></html>";
     	            exit;
