@@ -49,7 +49,7 @@ if(isset($_GET['hash'],$_GET['name'])){
     	        $getDownloadInfo = yield $mProto->getDownloadInfo($media['messages'][0]['media']);
 similar_text($getDownloadInfo['name'].$getDownloadInfo['ext'],rawurldecode($_GET['name']),$percent);
     	        if($percent < 95){
-    	                        echo "Undefined FileName : ".rawurlencode($_GET['name']);
+    	                        echo "Undefined FileName : ".rawurldecode($_GET['name']);
     	            exit;
     	        }
       $FileName = isset($getDownloadInfo['name']) ? $getDownloadInfo['name'] : "ناشناخته";
