@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteRule ^([a-zA-Z0-9\_]+)\/(.*)/?$ index.php?hash=$1&name=$2 [QSA]
+RewriteRule ^([a-zA-Z0-9\_]+)\/([a-zA-Z0-9\_\-\#\+\.\?\S\@\!]+)/?$ index.php?hash=$1&name=$2 [QSA]
 <FilesMatch "\.(log|phar|madeline|lock|temp)$">
  Order Allow,Deny
  Deny from all
