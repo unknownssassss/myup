@@ -34,21 +34,21 @@ if(isset($_GET['hash'],$_GET['name'])){
     	        $id = $hashdecode[1];
     	        $stamp = $hashdecode[0]; 
     	        if(!is_numeric($id) or !is_numeric($stamp)){
-    	            echo "<html><body><h1><p>Somthing Wrong Please Check Link</p></h1><h1><p>مشکلی رخ داد لطفا لینک را چک کنید</p></h1></body></html>";
+    	            echo "<html><body><h1><p>Somthing Wrong Please Check Link<br/>Is Num</p></h1><h1><p>مشکلی رخ داد لطفا لینک را چک کنید</p></h1></body></html>";
     	            exit;
     	        }
     	        if($stamp < time()){
-    	                     echo "<html><body><h1><p>Somthing Wrong Please Check Link</p></h1><h1><p>مشکلی رخ داد لطفا لینک را چک کنید</p></h1></body></html>";
+    	                     echo "<html><body><h1><p>Somthing Wrong Please Check Link<br/>Stamp</p></h1><h1><p>مشکلی رخ داد لطفا لینک را چک کنید</p></h1></body></html>";
     	            exit;
     	        }
     	        $media = yield $mProto->messages->getMessages(['id'=>[$id / 1024 / 1024]]);
     	        if(!isset($media['messages'][0]['media'])){
-    	                        echo "<html><body><h1><p>Somthing Wrong Please Check Link</p></h1><h1><p>مشکلی رخ داد لطفا لینک را چک کنید</p></h1></body></html>";
+    	                        echo "<html><body><h1><p>Somthing Wrong Please Check Link<br/>Media</p></h1><h1><p>مشکلی رخ داد لطفا لینک را چک کنید</p></h1></body></html>";
     	            exit;
     	        }
     	        $getDownloadInfo = yield $mProto->getDownloadInfo($media['messages'][0]['media']);
     	        if(urldecode($_GET['name']) != $getDownloadInfo['name'].$getDownloadInfo['ext']){
-    	                        echo "<html><body><h1><p>Somthing Wrong Please Check Link</p></h1><h1><p>مشکلی رخ داد لطفا لینک را چک کنید</p></h1></body></html>";
+    	                        echo "<html><body><h1><p>Somthing Wrong Please Check Link<br/>Name</p></h1><h1><p>مشکلی رخ داد لطفا لینک را چک کنید</p></h1></body></html>";
     	            exit;
     	        }
       $FileName = isset($getDownloadInfo['name']) ? $getDownloadInfo['name'] : "ناشناخته";
@@ -62,7 +62,7 @@ if(isset($_GET['hash'],$_GET['name'])){
            			yield $mProto->downloadToStream($getDownloadInfo['MessageMedia'],$stream); */
     	        				yield $mProto->downloadToBrowser($media['messages'][0]['media']);  
     	    }catch(\Throwable $e){
-    	                    echo "<html><body><h1><p>Somthing Wrong Please Check Link</p></h1><h1><p>مشکلی رخ داد لطفا لینک را چک کنید</p></h1><h1><?php $e->getMessage().$e->getLine();?></h1></body></html>";
+    	                    echo "<html><body><h1><p>Somthing Wrong Please Check Link</p></h1><h1><p>مشکلی رخ داد لطفا لینک را چک کنید</p></h1><h1>".$e->getMessage().$e->getLine()."</h1></body></html>";
     	            exit;
     	    }
 }
