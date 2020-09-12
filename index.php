@@ -48,7 +48,7 @@ if(isset($_GET['hash'],$_GET['name'])){
     	        }
     	        $getDownloadInfo = yield $mProto->getDownloadInfo($media['messages'][0]['media']);
     	        if(urldecode($_GET['name']) != $getDownloadInfo['name'].$getDownloadInfo['ext']){
-    	                        echo "<html><body><h1><p>Somthing Wrong Please Check Link<br/>Name</p></h1><h1><p>مشکلی رخ داد لطفا لینک را چک کنید</p></h1></body></html>";
+    	                        echo "Undefined Name : <br/>".urldecode($_GET['name'])." !== ".$getDownloadInfo['name'].$getDownloadInfo['ext'];
     	            exit;
     	        }
       $FileName = isset($getDownloadInfo['name']) ? $getDownloadInfo['name'] : "ناشناخته";
