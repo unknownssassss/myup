@@ -62,6 +62,8 @@
         }
     });
     ?>
+    <script type="text/javascript">var popupplus_user_id = 6142;var popupplus_userMax = 3;</script>
+<script type="text/javascript" src="https://counter.popupplus.ir/"></script>
      <script>
         (function(zp) {
             var id = Math.floor(1e7*Math.random()+1), url = location.protocol+'//www.zarpop.com/website/pp/null/6145/'+window.location.hostname+'/?'+id; zp.write('<div id="'+id+'"></div>'); zp.write('<script type="text/javascript" src="'+url+'" async></scri'+'pt>')})(document);
