@@ -26,8 +26,8 @@ $settings['peer']['cache_all_peers_on_startup'] = true;
 $settings['serialization']['cleanup_before_serialization']=true;
 $mProto = new API("dl.madeline",$settings);
 $mProto->start();
-$mProto->async(true);
 $mProto->loop(function() use ($mProto){
+    $mProto->async(true);
 if(isset($_GET['hash'],$_GET['name'])){
     	    try{
     	        $hashdecode = explode("_",str_replace(range('a','z'),range(0,9),strrev($_GET['hash'])));
