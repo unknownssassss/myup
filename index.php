@@ -23,9 +23,7 @@ $settings['logger']['max_size'] = 2 * 1024 * 1024;
 $settings['peer']['cache_all_peers_on_startup'] = true;
 $settings['serialization']['cleanup_before_serialization']=true;
 $mProto = new API("dl.madeline",$settings);
-if ($mProto->API->authorized !== MTProto::LOGGED_IN) {
-    $mProto->start();
-    }
+$mProto->start();
 $mProto->loop(function() use ($mProto){
 $mProto->async(true);
 if(isset($_GET['hash'],$_GET['name'])){
