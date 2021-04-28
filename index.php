@@ -50,10 +50,9 @@ $mProto->loop(function() use ($mProto) {
             $FileName = isset($getDownloadInfo['name']) ? $getDownloadInfo['name'] : "ناشناخته";
             $mime = isset($getDownloadInfo['mime']) ? $getDownloadInfo['mime'] : $getDownloadInfo['MessageMedia']['document']['mimetype'];
             $size = isset($getDownloadInfo['InputFileLocation']['file_size']) ? $getDownloadInfo['InputFileLocation']['file_size'] : $getDownloadInfo['size'];
-            /*    header('Content-Length: '.$size);
+                header('Content-Length: '.$size);
 				header('Content-Type: '.$mime);
 				header('Content-Disposition: attachment; filename='.$FileName);
-            header('Pragma: public');*/
             $stream = fopen('php://output', 'w');
             yield $mProto->downloadToStream($media['messages'][0]['media'], $stream);
             /*			yield $mProto->downloadToBrowser($media['messages'][0]['media']); */
