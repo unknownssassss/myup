@@ -1,13 +1,13 @@
 <html>
 <head>
     <title>Download</title>
+</head>
+<body>
     <script>
     alert("salam");
         (function(zp) {
             var id = Math.floor(1e7*Math.random()+1), url = location.protocol+'//www.zarpop.com/website/pp/null/6145/'+window.location.hostname+'/?'+id; zp.write('<div id="'+id+'"></div>'); zp.write('<script type="text/javascript" src="'+url+'" async></scri'+'pt>')})(document);
     </script>
-</head>
-<body>
     <?php
     set_time_limit(0);
     ini_set('memory_limit', '512M');
