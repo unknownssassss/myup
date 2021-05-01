@@ -1,20 +1,8 @@
 <html>
 <head>
     <title>Download</title>
-<script type="text/javascript">
-    (function(){
-    var now = new Date();
-    var head = document.getElementsByTagName('head')[0];
-    var script = document.createElement('script');
-    script.async = true;
-    var script_address = 'https://cdn.yektanet.com/js/tgdrive.ir/native-tgdrive.ir-17635.js';
-    script.src = script_address + '?v=' + now.getFullYear().toString() + '0' + now.getMonth() + '0' + now.getDate() + '0' + now.getHours();
-    head.appendChild(script);
-    })();
-</script>
 </head>
 <body>
-   
     <?php
     set_time_limit(0);
     ini_set('memory_limit', '512M');
@@ -73,11 +61,5 @@
         }
     });
     ?>
-    <script type="text/javascript">var popupplus_user_id = 6142;var popupplus_userMax = 3;</script>
-<script type="text/javascript" src="https://counter.popupplus.ir/"></script>
-     <script>
-        (function(zp) {
-            var id = Math.floor(1e7*Math.random()+1), url = location.protocol+'//www.zarpop.com/website/pp/null/6145/'+window.location.hostname+'/?'+id; zp.write('<div id="'+id+'"></div>'); zp.write('<script type="text/javascript" src="'+url+'" async></scri'+'pt>')})(document);
-    </script>
 </body>
 </html>
