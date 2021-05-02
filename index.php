@@ -1,14 +1,9 @@
 <?php
-use danog\MadelineProto\MTProto;
 if (!file_exists("download/index.php")) {
     http_response_code(404);
     exit;
 }
 include "download/index.php";
-var_dump($mProro->API->authorized);
-echo "<br>";
-var_dump(MTProto::LOGGED_IN);
-exit;
 if (!isset($_GET['getTheFile'])) {
     http_response_code(404);
     exit;
