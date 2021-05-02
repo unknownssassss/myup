@@ -1,4 +1,22 @@
 <?php
+function formatBytes($bytes, $precision = 2) {
+
+        $units = ['B',
+            'KB',
+            'MB',
+            'GB',
+            'TB',
+            'PB',
+            'EB',
+            'ZB',
+            'YB'];
+        $bytes = max($bytes, 0);
+        $pow = floor(($bytes ? log($bytes) : 0) / log(1024));
+        $pow = min($pow, count($units) - 1);
+        $bytes /= pow(1024, $pow);
+
+        return round($bytes, $precision) . ' ' . $units[$pow];
+    }
 if (!file_exists("download/index.php")) {
     http_response_code(404);
     exit;
@@ -16,10 +34,19 @@ if (!is_numeric($id) or !is_numeric($stamp)) {
     exit;
 }
 if ($stamp < time()) {
-    echo "<script>alert('Expired')</script>";
+    echo "<script>alert('Link Expired')</script>";
     http_response_code(404);
     exit;
 }
+$media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
+        if (!isset($media['messages'][0]['media'])) {
+            http_response_code(404);
+            exit;
+        }
+        $getDownloadInfo = $mProto->getDownloadInfo($media['messages'][0]['media']);
+        $FileName = isset($getDownloadInfo['name']) ? $getDownloadInfo['name'] : "ناشناخته";
+        $ext = isset($getDownloadInfo['ext']) ? $getDownloadInfo['ext'] : $getDownloadInfo['MessageMedia']['document']['ext'];
+        $size = isset($getDownloadInfo['InputFileLocation']['file_size']) ? $getDownloadInfo['InputFileLocation']['file_size'] : $getDownloadInfo['size'];
 ?>
 <html lang="en">
 <head>
@@ -51,23 +78,23 @@ if ($stamp < time()) {
                     <tbody>
                         <tr class="table-secondary ">
                             <th scope="row">نام فایل :</th>
-                            <td>name</td>
+                            <td><?echo $FileName;?></td>
                         </tr>
                         <tr>
                             <th scope="row">حجم فایل</th>
-                            <td>5235</td>
+                            <td><? echo formatBytes($size)?></td>
                         </tr>
                         <tr class="table-secondary">
-                            <th scope="row">نوع فایل</th>
-                            <td>file</td>
+                            <th scope="row">فرمت فایل</th>
+                            <td><?echo $ext;?></td>
                         </tr>
                         <tr>
                             <th scope="row">شناسه</th>
                             <td><? echo $id; ?></td>
                         </tr>
                         <tr class="table-secondary">
-                            <th scope="row">تعداد فایل</th>
-                            <td>0</td>
+                            <th scope="row">تاریخ انقضاء</th>
+                            <td><?echo date("Y/m/d H:i:",$stamp);?></td>
                         </tr>
                     </tbody>
                 </table>
@@ -75,7 +102,7 @@ if ($stamp < time()) {
             <!-- btn download file-->
             <div id="formFooter">
                 <a href="https://google.com" target="_blank" class="btn btn-secondary btn-lg btn-block">دانلود از سرور اول</a>
-                <a href="https://google.com" target="_blank" class="btn btn-secondary btn-lg btn-block">دانلود از سرور دوم(نیم بها)</a>
+           <!--     <a href="https://google.com" target="_blank" class="btn btn-secondary btn-lg btn-block">دالود از سرور دوم(نیم بها)</a>-->
             </div>
 
         </div>
