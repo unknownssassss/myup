@@ -77,7 +77,7 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
                 <table class="table table-sm">
 
                     <tbody>
-                        <tr class="table-secondary table-bordered table-hover">
+                        <tr class="table-secondary">
                             <th scope="row">نام فایل :</th>
                             <td class="text-right"><?echo $FileName;?></td>
                         </tr>
@@ -87,7 +87,7 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
                         </tr>
                         <tr class="table-secondary">
                             <th scope="row">فرمت فایل</th>
-                            <td class="text-right"><?echo $ext;?></td>
+                            <td class="text-right"><?echo trim($ext,".");?></td>
                         </tr>
                         <tr>
                             <th scope="row">شناسه</th>
