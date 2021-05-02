@@ -1,27 +1,3 @@
-<?php
-if (!file_exists("download/index.php")) {
-    http_response_code(404);
-    exit;
-}
-include "download/index.php";
-if (!isset($_GET['getTheFile'])) {
-    http_response_code(404);
-    exit;
-}
-$hashdecode = explode("_", str_replace(range('a', 'z'), range(0, 9), strrev($_GET['getTheFile'])));
-$id = $hashdecode[1];
-$stamp = $hashdecode[0];
-if (!is_numeric($id) or !is_numeric($stamp)) {
-    echo "<script>alert('😕')</script>";
-    http_response_code(404);
-    exit;
-}
-if ($stamp < time()) {
-    echo "<script>alert('Expired')</script>";
-    http_response_code(404);
-    exit;
-}
-?>
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,7 +11,30 @@ if ($stamp < time()) {
 
 </head>
 <body>
-
+    <?php
+    if (!file_exists("download/index.php")) {
+        http_response_code(404);
+        exit;
+    }
+    include "download/index.php";
+    if (!isset($_GET['getTheFile'])) {
+        http_response_code(404);
+        exit;
+    }
+    $hashdecode = explode("_", str_replace(range('a', 'z'), range(0, 9), strrev($_GET['getTheFile'])));
+    $id = $hashdecode[1];
+    $stamp = $hashdecode[0];
+    if (!is_numeric($id) or !is_numeric($stamp)) {
+        echo "<script>alert('😕')</script>";
+        http_response_code(404);
+        exit;
+    }
+    if ($stamp < time()) {
+        echo "<script>alert('Expired')</script>";
+        http_response_code(404);
+        exit;
+    }
+    ?>
     <div class="wrapper">
 
         <div id="formContent">
