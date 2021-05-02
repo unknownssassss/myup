@@ -1,67 +1,90 @@
 <?php
-set_time_limit(0);
-ini_set('memory_limit', '512M');
-ini_set('max_execution_time',-1); 
-date_default_timezone_set("Asia/tehran");
-
-if (!\file_exists('madeline.php')) {
-        \copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
-    }
-    require_once('madeline.php');			 
-use Amp\File\File;
-use danog\MadelineProto\API;
-use danog\MadelineProto\EventHandler;
-use danog\MadelineProto\Exception;
-use danog\MadelineProto\Logger;
-use danog\MadelineProto\MTProto;
-use danog\MadelineProto\RPCErrorException;
-$settings=[];
-$settings['serialization']['serialization_interval'] = 60 * 6;
-$settings['logger']['logger_level'] = Logger::VERBOSE;
-$settings['logger']['logger'] = \danog\MadelineProto\Logger::FILE_LOGGER;
-$settings['logger']['max_size'] = 2 * 1024 * 1024;
-$settings['peer']['cache_all_peers_on_startup'] = true;
-$settings['serialization']['cleanup_before_serialization']=true;
-$mProto = new API("dl.madeline",$settings);
-if ($mProto->API->authorized !== MTProto::LOGGED_IN) {
-    $mProto->start();
-    }
-$mProto->loop(function() use ($mProto){
-$mProto->async(true);
-if(isset($_GET['hash'],$_GET['name'])){
-    	    try{
-    	        $hashdecode = explode("_",str_replace(range('a','z'),range(0,9),strrev($_GET['hash'])));
-    	        $id = $hashdecode[1];
-    	        $stamp = $hashdecode[0]; 
-    	        if(!is_numeric($id) or !is_numeric($stamp)){
-    	            echo "<html><body><h1><p>Somthing Wrong Please Check Link<br/>Is Num</p></h1><h1><p>مشکلی رخ داد لطفا لینک را چک کنید</p></h1></body></html>";
-    	            exit;
-    	        }
-    	        if($stamp < time()){
-    	                     echo "<html><body><h1><p>Somthing Wrong Please Check Link<br/>Stamp</p></h1><h1><p>مشکلی رخ داد لطفا لینک را چک کنید</p></h1></body></html>";
-    	            exit;
-    	        }
-    	        $media = yield $mProto->messages->getMessages(['id'=>[$id / 1024 / 1024]]);
-    	        if(!isset($media['messages'][0]['media'])){
-    	                        echo "<html><body><h1><p>Somthing Wrong Please Check Link<br/>Media</p></h1><h1><p>مشکلی رخ داد لطفا لینک را چک کنید</p></h1></body></html>";
-    	            exit;
-    	        }
-    	        $getDownloadInfo = yield $mProto->getDownloadInfo($media['messages'][0]['media']);
-similar_text($getDownloadInfo['name'].$getDownloadInfo['ext'],rawurldecode($_GET['name']),$percent);
-    	        
-      $FileName = isset($getDownloadInfo['name']) ? $getDownloadInfo['name'] : "ناشناخته";
-      $mime = isset($getDownloadInfo['mime']) ? $getDownloadInfo['mime'] : $getDownloadInfo['MessageMedia']['document']['mimetype'];
-      $size = isset($getDownloadInfo['InputFileLocation']['file_size']) ? $getDownloadInfo['InputFileLocation']['file_size'] : $getDownloadInfo['size'];
-    	    /*    header('Content-Length: '.$size);
-				header('Content-Type: '.$mime);
-				header('Content-Disposition: attachment; filename='.$FileName);
-            header('Pragma: public');
-             $stream = fopen('php://output', 'w');
-           			yield $mProto->downloadToStream($getDownloadInfo['MessageMedia'],$stream); */
-    	        				yield $mProto->downloadToBrowser($media['messages'][0]['media']);  
-    	    }catch(\Throwable $e){
-    	                    echo "<html><body><h1><p>Somthing Wrong Please Check Link</p></h1><h1><p>مشکلی رخ داد لطفا لینک را چک کنید</p></h1><h1>".$e->getMessage().$e->getLine()."</h1></body></html>";
-    	            exit;
-    	    }
+if (!file_exists("download/index.php")) {
+    http_response_code(404);
+    exit;
 }
-});
+include "download/index.php";
+if (!isset($_GET['getTheFile'])) {
+    http_response_code(404);
+    exit;
+}
+$hashdecode = explode("_", str_replace(range('a', 'z'), range(0, 9), strrev($_GET['getTheFile'])));
+$id = $hashdecode[1];
+$stamp = $hashdecode[0];
+if (!is_numeric($id) or !is_numeric($stamp)) {
+    http_response_code(404);
+    exit;
+}
+if ($stamp < time()) {
+    http_response_code(404);
+    exit;
+}
+?>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+
+
+    <!--bootstrap css-->
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <div id="formContent">
+            <!-- text -->
+            <div class="fadeIn first">
+                <span class="text-center pro-text text-secondary "> مشخصات </span>
+            </div>
+            <br>
+            <!-- table -->
+            <div class="container-fluid col-lg-9 col-md-6 col-sm-9 col-12 table-hover">
+                <table class="table table-sm">
+
+                    <tbody>
+                        <tr class="table-secondary ">
+                            <th scope="row">نام فایل :</th>
+                            <td>name</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">حجم فایل</th>
+                            <td>5235</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <th scope="row">نوع فایل</th>
+                            <td>file</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">شناسه</th>
+                            <td>2153</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <th scope="row">تعداد فایل</th>
+                            <td>0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- btn download file-->
+            <div id="formFooter">
+                <button type="button" class="btn btn-secondary btn-lg btn-block" onclick="window.open('https://google.com','_blank)">دانلود از سرور اول</button>
+                <a href="https://google.com" target="_blank" class="btn btn-secondary btn-lg btn-block">دانلود از سرور دوم(نیم بها)</a>
+            </div>
+
+        </div>
+        <!-- footer -->
+        <footer class="  fixed-bottom bg-light text-center text-lg-start">
+            <div class="text-center p-3 txt-footer">
+                file2linkskybot@ کلیه حقوق محفوظ است به ربات
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </div>
+
+</body>
+</html>
