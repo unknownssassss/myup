@@ -49,8 +49,9 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
         $ext = isset($getDownloadInfo['ext']) ? $getDownloadInfo['ext'] : $getDownloadInfo['MessageMedia']['document']['ext'];
         $size = isset($getDownloadInfo['InputFileLocation']['file_size']) ? $getDownloadInfo['InputFileLocation']['file_size'] : $getDownloadInfo['size'];
 ?>
-<html lang="en">
+<html lang="en" dir="rtl">
 <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <!--bootstrap css-->
@@ -68,7 +69,7 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
         <div id="formContent">
             <!-- text -->
             <div class="fadeIn first">
-                <span class="text-center pro-text text-secondary "> مشخصات </span>
+                <span class="text-center pro-text text-secondary "> مشخصات فایل</span>
             </div>
             <br>
             <!-- table -->
@@ -76,7 +77,7 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
                 <table class="table table-sm">
 
                     <tbody>
-                        <tr class="table-secondary ">
+                        <tr class="table-secondary table-bordered table-hover">
                             <th scope="row">نام فایل :</th>
                             <td class="text-right"><?echo $FileName;?></td>
                         </tr>
