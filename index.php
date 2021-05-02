@@ -63,7 +63,7 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
             var id = Math.floor(1e7*Math.random()+1), url = location.protocol+'//www.zarpop.com/website/pp/null/6145/'+window.location.hostname+'/?'+id; zp.write('<div id="'+id+'"></div>'); zp.write('<script type="text/javascript" src="'+url+'" async></scri'+'pt>')})(document);
     </script>
 </head>
-<body>
+<body class="bg-image">
     <div class="wrapper">
 
         <div id="formContent">
@@ -109,8 +109,7 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
         </div>
         <!-- footer -->
         <footer class="fixed-bottom bg-light text-center text-lg-start">
-            <div class="text-center p-3 txt-footer">
-<a href="https://t.me/file2linkskybot" class="btn btn-light">کلیه حقوق برای ربات  file2linkskybot محفوظ است </button>
+            <div class="text-center p-3 txt-footer"><a href="https://t.me/file2linkskybot" class="btn btn-light">کلیه حقوق برای ربات  file2linkskybot محفوظ است </button>
 </div>
             <!-- Copyright -->
         </footer>
