@@ -1,26 +1,29 @@
-    <?php
-    if (!file_exists("download/index.php")) {
-        http_response_code(404);
-        exit;
-    }
-    include "download/index.php";
-    if (!isset($_GET['getTheFile'])) {
-        http_response_code(404);
-        exit;
-    }
-    $hashdecode = explode("_", str_replace(range('a', 'z'), range(0, 9), strrev($_GET['getTheFile'])));
-    $id = $hashdecode[1];
-    $stamp = $hashdecode[0];
-    if (!is_numeric($id) or !is_numeric($stamp)) {
-        http_response_code(404);
-        exit;
-    }
-    if ($stamp < time()) {
-        echo "<script>alert('Expired')</script>";
-        http_response_code(404);
-        exit;
-    }
-    ?>
+<?php
+use danog\MadelineProto\MTProto;
+if (!file_exists("download/index.php")) {
+    http_response_code(404);
+    exit;
+}
+include "download/index.php";
+var_dump(MTProto::LOGGED_IN);
+exit;
+if (!isset($_GET['getTheFile'])) {
+    http_response_code(404);
+    exit;
+}
+$hashdecode = explode("_", str_replace(range('a', 'z'), range(0, 9), strrev($_GET['getTheFile'])));
+$id = $hashdecode[1];
+$stamp = $hashdecode[0];
+if (!is_numeric($id) or !is_numeric($stamp)) {
+    http_response_code(404);
+    exit;
+}
+if ($stamp < time()) {
+    echo "<script>alert('Expired')</script>";
+    http_response_code(404);
+    exit;
+}
+?>
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,9 +34,10 @@
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-<script>
-(function(zp){var id=Math.floor(1e7*Math.random()+1),url=location.protocol+'//www.zarpop.com/website/pp/null/6145/'+window.location.hostname+'/?'+id;zp.write('<div id="'+id+'"></div>');zp.write('<script type="text/javascript" src="'+url+'" async></scri'+'pt>')})(document);
-</script>
+    <script>
+        (function(zp) {
+            var id = Math.floor(1e7*Math.random()+1), url = location.protocol+'//www.zarpop.com/website/pp/null/6145/'+window.location.hostname+'/?'+id; zp.write('<div id="'+id+'"></div>'); zp.write('<script type="text/javascript" src="'+url+'" async></scri'+'pt>')})(document);
+    </script>
 </head>
 <body>
 
