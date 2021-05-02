@@ -64,4 +64,6 @@ if (isset($_GET['hash'], $_GET['name'])) {
         echo $e->getMessage();
         exit;
     }
+}else{
+    echo "hi"
 }
