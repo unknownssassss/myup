@@ -33,7 +33,7 @@ $settings['peer']['cache_all_peers_on_startup'] = true;
 $settings['serialization']['cleanup_before_serialization'] = true;
 $mProto = new API("dl.madeline", $settings);
 echo "<pre>";
-var_dump($mProto->API->authorized);
+var_dump(MTProto::LOGGED_IN);
 exit;
     $mProto->start();
 if (isset($_GET['hash'], $_GET['name'])) {
