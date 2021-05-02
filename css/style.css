@@ -91,6 +91,8 @@ h2 {
     text-align: center;
 }
 td{
+    width: 100px;
+    max-width: 450px;
     font-size: 12px;
 }
 #formFooter {
