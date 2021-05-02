@@ -1,6 +1,5 @@
     <?php
     if (!file_exists("download/index.php")) {
-        echo "<script>alert('😶')</script>";
         http_response_code(404);
         exit;
     }
@@ -13,7 +12,6 @@
     $id = $hashdecode[1];
     $stamp = $hashdecode[0];
     if (!is_numeric($id) or !is_numeric($stamp)) {
-        echo "<script>alert('😕')</script>";
         http_response_code(404);
         exit;
     }
@@ -64,7 +62,7 @@
                         </tr>
                         <tr>
                             <th scope="row">شناسه</th>
-                            <td>2153</td>
+                            <td><? echo $id; ?></td>
                         </tr>
                         <tr class="table-secondary">
                             <th scope="row">تعداد فایل</th>
