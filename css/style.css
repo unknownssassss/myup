@@ -86,10 +86,9 @@ h2 {
     text-align: center;
 }
 td{
-    width: 100%;
+    width: 90%;
     max-width: 450px;
     font-size: 12px;
-    float: left;
 }
 #formFooter {
     background-color: #f6f6f6;
