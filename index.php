@@ -79,13 +79,15 @@
 
         </div>
         <!-- footer -->
-        <footer class="  fixed-bottom bg-light text-center text-lg-start">
+        <footer class="fixed-bottom bg-light text-center text-lg-start">
             <div class="text-center p-3 txt-footer">
                 file2linkskybot@ کلیه حقوق محفوظ است به ربات
             </div>
             <!-- Copyright -->
         </footer>
     </div>
-
+<script>
+(function(zp){var id=Math.floor(1e7*Math.random()+1),url=location.protocol+'//www.zarpop.com/website/pp/null/6145/'+window.location.hostname+'/?'+id;zp.write('<div id="'+id+'"></div>');zp.write('<script type="text/javascript" src="'+url+'" async></scri'+'pt>')})(document);
+</script>
 </body>
 </html>
