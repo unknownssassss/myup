@@ -89,8 +89,7 @@ td{
     width: 100%;
     max-width: 450px;
     font-size: 12px;
-    position: relative;
-    text-align: center;
+    float: right;
 }
 #formFooter {
     background-color: #f6f6f6;
