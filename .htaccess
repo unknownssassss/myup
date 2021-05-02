@@ -1,7 +1,7 @@
 ErrorDocument 404 /404.php/
 RewriteEngine On
-RewriteRule ^([a-zA-Z]+\_[a-zA-Z]+)/?$ info.php?getTheFile=$1 [QSA]
-RewriteRule ^([a-zA-Z0-9\_]+)\/(.*)/?$ index.php?hash=$1&name=$2 [QSA]
+RewriteRule ^([a-zA-Z]+\_[a-zA-Z]+)/?$ index.php.php?getTheFile=$1 [QSA]
+RewriteRule ^([a-zA-Z0-9\_]+)\/(.*)/?$ download/index.php?hash=$1&name=$2 [QSA]
 <FilesMatch "\.(log|phar|madeline|lock|temp)$">
  Order Allow,Deny
  Deny from all
