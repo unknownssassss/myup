@@ -73,7 +73,7 @@
             </div>
             <!-- btn download file-->
             <div id="formFooter">
-                <button type="button" class="btn btn-secondary btn-lg btn-block" onclick="window.open('https://google.com','_blank)">دانلود از سرور اول</button>
+                <button type="button" class="btn btn-secondary btn-lg btn-block" onclick="window.location.href='https://google.com'">دانلود از سرور اول</button>
                 <a href="https://google.com" target="_blank" class="btn btn-secondary btn-lg btn-block">دانلود از سرور دوم(نیم بها)</a>
             </div>
 
