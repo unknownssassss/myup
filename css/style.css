@@ -9,10 +9,6 @@
 body
 {
     background-image: url("../name.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    width: 100%;
-    height: auto;
     font-family: vazir ;
     direction: rtl ;
 }
