@@ -106,7 +106,7 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
         </div>
         <!-- footer -->
         <footer class="fixed-bottom bg-light text-center text-lg-start">
-            <div class="text-center p-3 txt-footer"><a href="https://t.me/file2linkskybot" class="btn btn-light">کلیه حقوق برای ربات  file2linkskybot محفوظ است </button>
+            <div class="text-center p-3 txt-footer"><a href="https://t.me/file2linkskybot" class="btn btn-light">کلیه حقوق برای ربات  file2linkskybot محفوظ است </a>
 </div>
             <!-- Copyright -->
         </footer>
