@@ -58,7 +58,11 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
- 
+    <style>
+        th {
+            text-align: center;
+        }
+    </style>
 </head>
 <body class="bg-image">
     <div class="wrapper">
@@ -75,7 +79,7 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
 
                     <tbody>
                         <tr class="table-secondary">
-                            <th scope="row">نام فایل :</th>
+                            <th scope="row">نام فایل</th>
                             <td><?echo $FileName;?></td>
                         </tr>
                         <tr>
