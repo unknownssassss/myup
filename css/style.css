@@ -78,7 +78,7 @@ h2 {
     background: #fff;
     padding: 30px;
     width: 90%;
-    max-width: 450px
+    max-width: 450px;
     font-size: 5px;
     position: relative;
     padding: 0px;
@@ -86,7 +86,10 @@ h2 {
     box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
     text-align: center;
 }
-
+td {
+    text-align:center;
+    width: 100%;
+}
 #formFooter {
     background-color: #f6f6f6;
     width: 100%;
