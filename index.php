@@ -101,7 +101,7 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
             </div>
             <!-- btn download file-->
             <div id="formFooter">
-                <a href='<? echo "http://chetoridash.herokuapp.com/".$_GET["getTheFile"]."/".$FileName.$ext;?>' target="_blank" class="btn btn-secondary btn-lg btn-block">دانلود از سرور اول</a>
+                <a href='<? echo "http://chetoridash.herokuapp.com/download/".$_GET["getTheFile"]."/".$FileName.$ext;?>' target="_blank" class="btn btn-secondary btn-lg btn-block">دانلود از سرور اول</a>
            <!--     <a href="https://google.com" target="_blank" class="btn btn-secondary btn-lg btn-block">دالود از سرور دوم(نیم بها)</a>-->
             </div>
 
