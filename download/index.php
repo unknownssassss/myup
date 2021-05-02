@@ -35,7 +35,9 @@ $mProto = new API("dl.madeline", $settings);
 if ($mProto->API->authorized !== MTProto::LOGGED_IN) {
     $mProto->start();
     }
-if (isset($_GET['hash'], $_GET['name'])) {
+if (!isset($_GET['hash']) or !isset($_GET['name'])) {
+    echo "hiiii";
+}
     try {
         $hashdecode = explode("_", str_replace(range('a', 'z'), range(0, 9), strrev($_GET['hash'])));
         $id = $hashdecode[1];
@@ -64,6 +66,3 @@ if (isset($_GET['hash'], $_GET['name'])) {
         echo $e->getMessage();
         exit;
     }
-}else{
-    echo "hi"
-}
