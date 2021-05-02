@@ -7,7 +7,7 @@ date_default_timezone_set("Asia/tehran");
 if (!\file_exists('madeline.php')) {
     \copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
-require('madeline.php');
+require_once('madeline.php');
 use danog\MadelineProto\API;
 use danog\MadelineProto\MTProto;
 use danog\MadelineProto\Logger;
@@ -32,9 +32,10 @@ $settings['logger']['max_size'] = 2 * 1024 * 1024;
 $settings['peer']['cache_all_peers_on_startup'] = true;
 $settings['serialization']['cleanup_before_serialization'] = true;
 $mProto = new API("dl.madeline", $settings);
-if ($mProto->API->authorized !== MTProto::LOGGED_IN) {
+echo "<pre>";
+var_dump($mProto->API->authorized);
+exit;
     $mProto->start();
-    }
 if (isset($_GET['hash'], $_GET['name'])) {
     try {
         $hashdecode = explode("_", str_replace(range('a', 'z'), range(0, 9), strrev($_GET['hash'])));
