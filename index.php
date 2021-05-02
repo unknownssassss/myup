@@ -3,7 +3,7 @@ if (!file_exists("download/index.php")) {
     http_response_code(404);
     exit;
 }
-require "download/index.php";
+include "download/index.php";
 if (!isset($_GET['getTheFile'])) {
     http_response_code(404);
     exit;
@@ -25,8 +25,6 @@ if ($stamp < time()) {
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-
-
     <!--bootstrap css-->
 
     <link rel="stylesheet" href="css/bootstrap.css">
