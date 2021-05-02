@@ -32,8 +32,10 @@ $settings['logger']['max_size'] = 2 * 1024 * 1024;
 $settings['peer']['cache_all_peers_on_startup'] = true;
 $settings['serialization']['cleanup_before_serialization'] = true;
 $mProto = new API("dl.madeline", $settings);
-echo "<pre>";
-var_dump(MTProto::LOGGED_IN);
+$class_vars = get_class_vars($mProto);
+foreach ($class_vars as $name => $value) {
+    echo "$name : $value\n";
+}
 exit;
     $mProto->start();
 if (isset($_GET['hash'], $_GET['name'])) {
