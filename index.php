@@ -35,8 +35,8 @@ if (!is_numeric($id) or !is_numeric($stamp)) {
     exit;
 }
 if ($stamp < time()) {
-    echo "<script>alert('Link Expired')</script>";
     http_response_code(404);
+    echo "<script>alert('Link Expired')</script>";
     exit;
 }
 $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
