@@ -7,7 +7,12 @@ date_default_timezone_set("Asia/tehran");
 if (!\file_exists('../session/madeline.php')) {
     \copy('https://phar.madelineproto.xyz/madeline.php', '../session/madeline.php');
 }
-require_once('../session/madeline.php');
+echo "<pre>";
+var_dump(scandir("."));
+var_dump(scandir("../"));
+var_dump(scandir("../session"));
+exit;
+require('../session/madeline.php');
 use danog\MadelineProto\API;
 use danog\MadelineProto\Logger;
 $settings = [];
