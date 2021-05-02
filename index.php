@@ -13,13 +13,13 @@
 <body>
     <?php
     if (!file_exists("download/index.php")) {
-        echo "<script>alert('')</script>";
+        echo "<script>alert('😶')</script>";
         http_response_code(404);
         exit;
     }
     include "download/index.php";
     if (!isset($_GET['getTheFile'])) {
-        echo "<script>alert('😐')</script>";
+      
         http_response_code(404);
         exit;
     }
