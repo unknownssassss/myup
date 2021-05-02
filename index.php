@@ -1,4 +1,5 @@
 <?php
+define("link","https://dl2.tgdrive.ir/download/");
 function formatBytes($bytes, $precision = 2) {
 
         $units = ['B',
@@ -62,7 +63,24 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
     </script>
 </head>
 <body>
-
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">🔥</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        سرورهای جدید به زودی اضافه میشوند😻<br>منتظر خبرهای خوب باشیدد😁❤
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">بستن</button>
+      </div>
+    </div>
+  </div>
+</div>
     <div class="wrapper">
 
         <div id="formContent">
@@ -101,7 +119,7 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
             </div>
             <!-- btn download file-->
             <div id="formFooter">
-                <a href='<? echo "http://chetoridash.herokuapp.com/download/".$_GET["getTheFile"]."/".$FileName.$ext;?>' target="_blank" class="btn btn-secondary btn-lg btn-block">دانلود از سرور اول</a>
+                <a href='<? echo link.$_GET["getTheFile"]."/".$FileName.$ext;?>' target="_blank" class="btn btn-secondary btn-lg btn-block">دانلود از سرور اول</a>
            <!--     <a href="https://google.com" target="_blank" class="btn btn-secondary btn-lg btn-block">دالود از سرور دوم(نیم بها)</a>-->
             </div>
 
