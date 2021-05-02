@@ -76,7 +76,7 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
                     <tbody>
                         <tr class="table-secondary">
                             <th scope="row">نام فایل :</th>
-                            <td class="w-100 p-3"><?echo $FileName;?></td>
+                            <td><?echo $FileName;?></td>
                         </tr>
                         <tr>
                             <th scope="row">حجم فایل</th>
