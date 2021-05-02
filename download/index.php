@@ -9,6 +9,7 @@ if (!\file_exists('madeline.php')) {
 }
 require('madeline.php');
 use danog\MadelineProto\API;
+use danog\MadelineProto\MTProto;
 use danog\MadelineProto\Logger;
 $settings = [];
 $env = parse_url($_ENV['CLEARDB_DATABASE_URL']);
@@ -31,7 +32,9 @@ $settings['logger']['max_size'] = 2 * 1024 * 1024;
 $settings['peer']['cache_all_peers_on_startup'] = true;
 $settings['serialization']['cleanup_before_serialization'] = true;
 $mProto = new API("dl.madeline", $settings);
-$mProto->start();
+if ($mProto->API->authorized !== MTProto::LOGGED_IN) {
+    $mProto->start();
+    }
 if (isset($_GET['hash'], $_GET['name'])) {
     try {
         $hashdecode = explode("_", str_replace(range('a', 'z'), range(0, 9), strrev($_GET['hash'])));
