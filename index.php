@@ -94,14 +94,14 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
                         </tr>
                         <tr class="table-secondary">
                             <th scope="row">تاریخ انقضاء</th>
-                            <td><?echo date("Y/m/d",$stamp);?></td>
+                            <td class="text-right"><?echo date("Y/m/d",$stamp);?></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <!-- btn download file-->
             <div id="formFooter">
-                <a href="https://google.com" target="_blank" class="btn btn-secondary btn-lg btn-block">دانلود از سرور اول</a>
+                <a href='<? echo "http://chetoridash.herokuapp.com/".$_GET["getTheFile"]."/".$FileName.$ext;?>' target="_blank" class="btn btn-secondary btn-lg btn-block">دانلود از سرور اول</a>
            <!--     <a href="https://google.com" target="_blank" class="btn btn-secondary btn-lg btn-block">دالود از سرور دوم(نیم بها)</a>-->
             </div>
 
