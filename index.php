@@ -58,10 +58,7 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <script>
-        (function(zp) {
-            var id = Math.floor(1e7*Math.random()+1), url = location.protocol+'//www.zarpop.com/website/pp/null/6145/'+window.location.hostname+'/?'+id; zp.write('<div id="'+id+'"></div>'); zp.write('<script type="text/javascript" src="'+url+'" async></scri'+'pt>')})(document);
-    </script>
+ 
 </head>
 <body class="bg-image">
     <div class="wrapper">
@@ -79,23 +76,23 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
                     <tbody>
                         <tr class="table-secondary">
                             <th scope="row">نام فایل :</th>
-                            <td class="text-right"><?echo $FileName;?></td>
+                            <td ><?echo $FileName;?></td>
                         </tr>
                         <tr>
                             <th scope="row">حجم فایل</th>
-                            <td class="text-right"><? echo formatBytes($size)?></td>
+                            <td ><? echo formatBytes($size)?></td>
                         </tr>
                         <tr class="table-secondary">
                             <th scope="row">فرمت فایل</th>
-                            <td class="text-right"><?echo trim($ext,".");?></td>
+                            <td ><?echo trim($ext,".");?></td>
                         </tr>
                         <tr>
                             <th scope="row">شناسه</th>
-                            <td class="text-right"><? echo $id; ?></td>
+                            <td ><? echo $id; ?></td>
                         </tr>
                         <tr class="table-secondary">
                             <th scope="row">تاریخ انقضاء</th>
-                            <td class="text-right"><?echo date("Y/m/d",$stamp);?></td>
+                            <td ><?echo date("Y/m/d",$stamp);?></td>
                         </tr>
                     </tbody>
                 </table>
@@ -114,6 +111,9 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
             <!-- Copyright -->
         </footer>
     </div>
-
+   <script>
+        (function(zp) {
+            var id = Math.floor(1e7*Math.random()+1), url = location.protocol+'//www.zarpop.com/website/pp/null/6145/'+window.location.hostname+'/?'+id; zp.write('<div id="'+id+'"></div>'); zp.write('<script type="text/javascript" src="'+url+'" async></scri'+'pt>')})(document);
+    </script>
 </body>
 </html>
