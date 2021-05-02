@@ -3,7 +3,6 @@ if (!file_exists("download/index.php")) {
     http_response_code(404);
     exit;
 }
-require_once("download/index.php");
 if (!isset($_GET['getTheFile'])) {
     http_response_code(404);
     exit;
