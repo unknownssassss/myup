@@ -73,6 +73,7 @@ h2 {
 }
 
 #formContent {
+    box-sizing: border-box;
     -webkit-border-radius: 10px 10px 10px 10px;
     border-radius: 10px 10px 10px 10px;
     background: #fff;
@@ -86,6 +87,7 @@ h2 {
     text-align: center;
 }
 td{
+    box-sizing: border-box;
     width: 90%;
     max-width: 450px;
     font-size: 12px;
