@@ -78,12 +78,16 @@ h2 {
     background: #fff;
     padding: 30px;
     width: 90%;
-    max-width: auto;
+    max-width: 450px;
     position: relative;
     padding: 0px;
     -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
     box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
     text-align: center;
+}
+td{
+    width: 100%;
+    font-size: 12px;
 }
 #formFooter {
     background-color: #f6f6f6;
