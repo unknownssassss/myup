@@ -41,11 +41,6 @@ if (isset($_GET['hash']) && isset($_GET['name'])) {
             exit;
         }
         $getDownloadInfo = $mProto->getDownloadInfo($media['messages'][0]['media']);
-        similar_text($getDownloadInfo['name'].$getDownloadInfo['ext'], rawurldecode($_GET['name']), $percent);
-
-        $FileName = isset($getDownloadInfo['name']) ? $getDownloadInfo['name'] : "ناشناخته";
-        $mime = isset($getDownloadInfo['mime']) ? $getDownloadInfo['mime'] : $getDownloadInfo['MessageMedia']['document']['mimetype'];
-        $size = isset($getDownloadInfo['InputFileLocation']['file_size']) ? $getDownloadInfo['InputFileLocation']['file_size'] : $getDownloadInfo['size'];
         $mProto->downloadToBrowser($media['messages'][0]['media']);
     }catch(\Throwable $e) {
         echo $e->getMessage();
