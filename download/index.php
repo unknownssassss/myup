@@ -4,12 +4,10 @@ ini_set('memory_limit', '512M');
 ini_set('max_execution_time', -1);
 date_default_timezone_set("Asia/tehran");
 
-if (!\file_exists('session/madeline.php')) {
-    \copy('https://phar.madelineproto.xyz/madeline.php', 'session/madeline.php');
+if (!\file_exists('../app/session/madeline.php')) {
+    \copy('https://phar.madelineproto.xyz/madeline.php', '../app/session/madeline.php');
 }
-var_dump(scandir("../app"));
-exit;
-require('session/madeline.php');
+require('../app/session/madeline.php');
 use danog\MadelineProto\API;
 use danog\MadelineProto\Logger;
 $settings = [];
@@ -19,7 +17,7 @@ $settings['logger']['logger'] = \danog\MadelineProto\Logger::FILE_LOGGER;
 $settings['logger']['max_size'] = 2 * 1024 * 1024;
 $settings['peer']['cache_all_peers_on_startup'] = true;
 $settings['serialization']['cleanup_before_serialization'] = true;
-$mProto = new API("session/dl.madeline", $settings);
+$mProto = new API("../app/session/dl.madeline", $settings);
 $mProto->start();
 if (isset($_GET['hash'], $_GET['name'])) {
     try {
