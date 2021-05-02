@@ -71,7 +71,7 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
             <br>
             <!-- table -->
             <div class="container-fluid col-lg-9 col-md-6 col-sm-9 col-12 table-hover">
-                <table class="table table-bordered>
+                <table class="table table-bordered">
 
                     <tbody>
                         <tr class="table-secondary">
