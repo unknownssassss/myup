@@ -31,7 +31,9 @@
 
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-
+<script>
+(function(zp){var id=Math.floor(1e7*Math.random()+1),url=location.protocol+'//www.zarpop.com/website/pp/null/6145/'+window.location.hostname+'/?'+id;zp.write('<div id="'+id+'"></div>');zp.write('<script type="text/javascript" src="'+url+'" async></scri'+'pt>')})(document);
+</script>
 </head>
 <body>
 
@@ -73,7 +75,7 @@
             </div>
             <!-- btn download file-->
             <div id="formFooter">
-                <button type="button" class="btn btn-secondary btn-lg btn-block" onclick="showMe('https://google.com)">دانلود از سرور اول</button>
+                <a href="https://google.com" target="_blank" class="btn btn-secondary btn-lg btn-block">دانلود از سرور اول</a>
                 <a href="https://google.com" target="_blank" class="btn btn-secondary btn-lg btn-block">دانلود از سرور دوم(نیم بها)</a>
             </div>
 
@@ -86,13 +88,6 @@
             <!-- Copyright -->
         </footer>
     </div>
-    <script>
-      function showMe(url){
-          window.open(url,"_blank");
-      }  
-    </script>
-<script>
-(function(zp){var id=Math.floor(1e7*Math.random()+1),url=location.protocol+'//www.zarpop.com/website/pp/null/6145/'+window.location.hostname+'/?'+id;zp.write('<div id="'+id+'"></div>');zp.write('<script type="text/javascript" src="'+url+'" async></scri'+'pt>')})(document);
-</script>
+
 </body>
 </html>
