@@ -63,24 +63,6 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
     </script>
 </head>
 <body>
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">🔥</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        سرورهای جدید به زودی اضافه میشوند😻<br>منتظر خبرهای خوب باشیدد😁❤
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">بستن</button>
-      </div>
-    </div>
-  </div>
-</div>
     <div class="wrapper">
 
         <div id="formContent">
@@ -127,8 +109,8 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
         <!-- footer -->
         <footer class="fixed-bottom bg-light text-center text-lg-start">
             <div class="text-center p-3 txt-footer">
-                file2linkskybot@ کلیه حقوق محفوظ است به ربات
-            </div>
+><a href="https://t.me/file2linkskybot" class="btn btn-secondary">کلیه حقوق برای ربات  file2linkskybot محفوظ است </button>
+</div>
             <!-- Copyright -->
         </footer>
     </div>
