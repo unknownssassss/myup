@@ -1,8 +1,24 @@
-ErrorDocument 404 /404.php/
-RewriteEngine On
-RewriteRule ^download\/([a-zA-Z0-9\_]+)\/(.*)/?$ download/index.php?hash=$1&name=$2 [QSA]
-RewriteRule ^([a-zA-Z]+\_[a-zA-Z]+)/?$ index.php.php?getTheFile=$1 [QSA]
-<FilesMatch "\.(log|phar|madeline|lock|temp)$">
- Order Allow,Deny
- Deny from all
-</FilesMatch>
+Options -Multiviews -Indexes
+RewriteEngine on
+RewriteBase /
+
+## hide .php extension snippet
+
+# To externally redirect /dir/foo.php?id=123 to /dir/foo
+RewriteCond %{THE_REQUEST} \s(.+?)\.php\?getTheFile=([^&\s]+)(?:&(\S+))? [NC] 
+RewriteRule ^ %1/%2?%3 [R,L]
+
+# To externally redirect /dir/foo.php to /dir/foo
+RewriteCond %{THE_REQUEST} \s(.+?)\.php(\S*) [NC]
+RewriteRule ^ %1%2 [R,L]
+
+# To internally forward /dir/foo to /dir/foo.php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{DOCUMENT_ROOT}/$1.php -f
+RewriteRule ^(.+?)/?$ $1.php [L]
+
+# To internally forward /dir/foo/12 to /dir/foo.php?id=12
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^/]+)/([^/]+)/?$ $1.php?getTheFile=$2 [L,QSA]
