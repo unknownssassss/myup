@@ -8,7 +8,7 @@ if (!\file_exists('../app/session/madeline.php')) {
     \copy('https://phar.madelineproto.xyz/madeline.php', '../app/session/madeline.php');
 }
 echo "<pre>";
-var_dump(scandir('../app/session'));
+var_dump(scandir('../app'));
 exit;
 require('../app/session/madeline.php');
 use danog\MadelineProto\API;
