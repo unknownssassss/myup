@@ -11,6 +11,19 @@ require('madeline.php');
 use danog\MadelineProto\API;
 use danog\MadelineProto\Logger;
 $settings = [];
+$env = parse_url($_ENV['CLEARDB_DATABASE_URL']);
+$settings = [
+    'db' => [
+        'type' => 'mysql',
+        'mysql' => [
+            'host' => $env['host'],
+            'port' => '3306',
+            'user' => $env['user'],
+            'password' => $env['pass'],
+            'database' => trim($env['path'],'/'),
+            ]
+        ],
+]; 
 $settings['serialization']['serialization_interval'] = 60 * 6;
 $settings['logger']['logger_level'] = Logger::VERBOSE;
 $settings['logger']['logger'] = \danog\MadelineProto\Logger::FILE_LOGGER;
