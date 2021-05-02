@@ -9,6 +9,8 @@
 body
 {
     background-image: url("../name.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
     font-family: vazir ;
     direction: rtl ;
 }
