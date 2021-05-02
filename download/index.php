@@ -22,35 +22,33 @@ $mProto = new API("dl.madeline", $settings);
 if ($mProto->getAuthorization() !== MTProto::LOGGED_IN) {
     $mProto->start();
 }
-if (!isset($_GET['hash']) or !isset($_GET['name'])) {
-    echo "hiii";
-    exit;
-}
-try {
-    $hashdecode = explode("_", str_replace(range('a', 'z'), range(0, 9), strrev($_GET['hash'])));
-    $id = $hashdecode[1];
-    $stamp = $hashdecode[0];
-    if (!is_numeric($id) or !is_numeric($stamp)) {
-        echo "numeric";
-        exit;
-    }
-    if ($stamp < time()) {
-        echo "time";
-        exit;
-    }
-    $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
-    if (!isset($media['messages'][0]['media'])) {
-        echo "media";
-        exit;
-    }
-    $getDownloadInfo = $mProto->getDownloadInfo($media['messages'][0]['media']);
-    similar_text($getDownloadInfo['name'].$getDownloadInfo['ext'], rawurldecode($_GET['name']), $percent);
+if (isset($_GET['hash']) && isset($_GET['name'])) {
+    try {
+        $hashdecode = explode("_", str_replace(range('a', 'z'), range(0, 9), strrev($_GET['hash'])));
+        $id = $hashdecode[1];
+        $stamp = $hashdecode[0];
+        if (!is_numeric($id) or !is_numeric($stamp)) {
+            echo "numeric";
+            exit;
+        }
+        if ($stamp < time()) {
+            echo "time";
+            exit;
+        }
+        $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
+        if (!isset($media['messages'][0]['media'])) {
+            echo "media";
+            exit;
+        }
+        $getDownloadInfo = $mProto->getDownloadInfo($media['messages'][0]['media']);
+        similar_text($getDownloadInfo['name'].$getDownloadInfo['ext'], rawurldecode($_GET['name']), $percent);
 
-    $FileName = isset($getDownloadInfo['name']) ? $getDownloadInfo['name'] : "ناشناخته";
-    $mime = isset($getDownloadInfo['mime']) ? $getDownloadInfo['mime'] : $getDownloadInfo['MessageMedia']['document']['mimetype'];
-    $size = isset($getDownloadInfo['InputFileLocation']['file_size']) ? $getDownloadInfo['InputFileLocation']['file_size'] : $getDownloadInfo['size'];
-    $mProto->downloadToBrowser($media['messages'][0]['media']);
-}catch(\Throwable $e) {
-    echo $e->getMessage();
-    exit;
+        $FileName = isset($getDownloadInfo['name']) ? $getDownloadInfo['name'] : "ناشناخته";
+        $mime = isset($getDownloadInfo['mime']) ? $getDownloadInfo['mime'] : $getDownloadInfo['MessageMedia']['document']['mimetype'];
+        $size = isset($getDownloadInfo['InputFileLocation']['file_size']) ? $getDownloadInfo['InputFileLocation']['file_size'] : $getDownloadInfo['size'];
+        $mProto->downloadToBrowser($media['messages'][0]['media']);
+    }catch(\Throwable $e) {
+        echo $e->getMessage();
+        exit;
+    }
 }
