@@ -62,7 +62,6 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
         th {
             text-align: center;
         }
-
 </head>
 <body class="bg-image">
     <div class="wrapper">
