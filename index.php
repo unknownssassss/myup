@@ -36,7 +36,6 @@ if (!is_numeric($id) or !is_numeric($stamp)) {
 }
 if ($stamp < time()) {
     http_response_code(404);
-
     exit;
 }
 $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
@@ -62,6 +61,7 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
         th {
             text-align: center;
         }
+    </style>
 </head>
 <body class="bg-image">
     <div class="wrapper">
