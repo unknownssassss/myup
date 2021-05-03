@@ -83,7 +83,7 @@ h2 {
     background: #fff;
     padding: 30px;
     width: 90%;
-    max-width: 450px;
+    max-width: auto;
     position: relative;
     padding: 0px;
     -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
@@ -91,10 +91,8 @@ h2 {
     text-align: center;
 }
 td{
-    padding-top: 10px;
-    padding-left: 5px;
     width: 90%;
-    max-width: auto;
+    max-width: 450px;
     font-size: 12px;
     text-align: center;
 }
