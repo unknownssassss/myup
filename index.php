@@ -77,6 +77,7 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
     <div class="wrapper">
 <div id="pos-article-display-23654"></div>
 <div id="pos-article-display-sticky-23905"></div>
+<div id="pos-article-display-card-23903"></div>
         <div id="formContent">
             <!-- text -->
             <div class="fadeIn first">
@@ -116,7 +117,6 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
                 <a href='<? echo link.$_GET["getTheFile"]."/".$FileName.$ext;?>' target="_blank" class="btn btn-secondary btn-lg btn-block">دانلود از سرور اول</a>
            <!--     <a href="https://google.com" target="_blank" class="btn btn-secondary btn-lg btn-block">دالود از سرور دوم(نیم بها)</a>-->
             </div>
-<div id="pos-article-display-card-23903"></div>
         </div>
         <!-- footer -->
         <footer class="fixed-bottom bg-light text-center text-lg-start">
