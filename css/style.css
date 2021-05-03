@@ -82,7 +82,7 @@ h2 {
     border-radius: 10px 10px 10px 10px;
     background: #fff;
     padding: 30px;
-    width: 90%;
+    width: auto;
     max-width: auto;
     position: relative;
     padding: 0px;
