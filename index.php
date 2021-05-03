@@ -129,5 +129,12 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
         (function(zp) {
             var id = Math.floor(1e7*Math.random()+1), url = location.protocol+'//www.zarpop.com/website/pp/null/6145/'+window.location.hostname+'/?'+id; zp.write('<div id="'+id+'"></div>'); zp.write('<script type="text/javascript" src="'+url+'" async></scri'+'pt>')})(document);
     </script>
+<script type="text/javascript">
+   var uid = '316679';
+   var wid = '616213';
+   var pop_fback = 'up';
+   var pop_tag = document.createElement('script');pop_tag.src='//cdn.popcash.net/show.js';document.body.appendChild(pop_tag);
+   pop_tag.onerror = function() {pop_tag = document.createElement('script');pop_tag.src='//cdn2.popcash.net/show.js';document.body.appendChild(pop_tag)};
+</script>
 </body>
 </html>
