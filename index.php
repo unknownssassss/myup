@@ -1,5 +1,5 @@
 <?php
-define("link","https://dl2.tgdrive.ir/download/");
+define("link","https://dl.tgdrive.ir/download/");
 function formatBytes($bytes, $precision = 2) {
 
         $units = ['B',
