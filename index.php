@@ -1,122 +1,126 @@
-<?php
-define("link","https://dl.tgdrive.ir/download/");
-function formatBytes($bytes, $precision = 2) {
-
-        $units = ['B',
-            'KB',
-            'MB',
-            'GB',
-            'TB',
-            'PB',
-            'EB',
-            'ZB',
-            'YB'];
-        $bytes = max($bytes, 0);
-        $pow = floor(($bytes ? log($bytes) : 0) / log(1024));
-        $pow = min($pow, count($units) - 1);
-        $bytes /= pow(1024, $pow);
-
-        return round($bytes, $precision) . ' ' . $units[$pow];
-    }
-if (!file_exists("download/index.php")) {
-    http_response_code(404);
-    exit;
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
-include "download/index.php";
-if (!isset($_GET['getTheFile'])) {
-    http_response_code(404);
-    exit;
+@font-face {
+    font-family: 'Vazir' ;
+    src: url('../font/vazir.woff') format('woff');
 }
-$hashdecode = explode("_", str_replace(range('a', 'z'), range(0, 9), strrev($_GET['getTheFile'])));
-$id = $hashdecode[1];
-$stamp = $hashdecode[0];
-if (!is_numeric($id) or !is_numeric($stamp)) {
-    http_response_code(404);
-    exit;
+@font-face {
+    font-family: 'Material Icons' ;
+    src: url('../font/materialicon.woff2') format('woff2');
 }
-if ($stamp < time()) {
-    http_response_code(404);
-    exit;
+body
+{
+    background-color: #9d9d9dc3;
+    font-family: vazir ;
+    direction: rtl ;
 }
-$media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
-        if (!isset($media['messages'][0]['media'])) {
-            http_response_code(404);
-            exit;
-        }
-        $getDownloadInfo = $mProto->getDownloadInfo($media['messages'][0]['media']);
-        $FileName = isset($getDownloadInfo['name']) ? $getDownloadInfo['name'] : "ناشناخته";
-        $ext = isset($getDownloadInfo['ext']) ? $getDownloadInfo['ext'] : $getDownloadInfo['MessageMedia']['document']['ext'];
-        $size = isset($getDownloadInfo['InputFileLocation']['file_size']) ? $getDownloadInfo['InputFileLocation']['file_size'] : $getDownloadInfo['size'];
-?>
-<html lang="en" dir="rtl">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <!--bootstrap css-->
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
 
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <style>
-        th {
-            text-align: center;
-        }
-    </style>
-</head>
-<body class="bg-image">
-    <div class="wrapper">
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
 
-        <div id="formContent">
-            <!-- text -->
-            <div class="fadeIn first">
-                <span class="text-center pro-text text-secondary "> مشخصات فایل</span>
-            </div>
-            <br>
-            <!-- table -->
-            <div class="container-fluid col-lg-9 col-md-6 col-sm-9 col-12 table-hover">
-                <table class="table table-bordered">
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
 
-                    <tbody>
-                        <tr class="table-secondary">
-                            <th scope="row">نام فایل</th>
-                            <td><?echo $FileName;?></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">حجم فایل</th>
-                            <td ><? echo formatBytes($size)?></td>
-                        </tr>
-                        <tr class="table-secondary">
-                            <th scope="row">فرمت فایل</th>
-                            <td ><?echo trim($ext,".");?></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">شناسه</th>
-                            <td ><? echo $id; ?></td>
-                        </tr>
-                        <tr class="table-secondary">
-                            <th scope="row">تاریخ انقضاء</th>
-                            <td ><?echo date("Y/m/d",$stamp);?></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <!-- btn download file-->
-            <div id="formFooter">
-                <a href='<? echo link.$_GET["getTheFile"]."/".$FileName.$ext;?>' target="_blank" class="btn btn-secondary btn-lg btn-block">دانلود از سرور اول</a>
-           <!--     <a href="https://google.com" target="_blank" class="btn btn-secondary btn-lg btn-block">دالود از سرور دوم(نیم بها)</a>-->
-            </div>
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
 
-        </div>
-        <!-- footer -->
-        <footer class="fixed-bottom bg-light text-center text-lg-start">
-            <div class="text-center p-3 txt-footer"><a href="https://t.me/file2linkskybot" class="btn btn-light">کلیه حقوق برای ربات  file2linkskybot محفوظ است </a>
-</div>
-            <!-- Copyright -->
-        </footer>
-    </div>
-   <script>
-        (function(zp) {
-            var id = Math.floor(1e7*Math.random()+1), url = location.protocol+'//www.zarpop.com/website/pp/null/6145/'+window.location.hostname+'/?'+id; zp.write('<div id="'+id+'"></div>'); zp.write('<script type="text/javascript" src="'+url+'" async></scri'+'pt>')})(document);
-    </script>
-</body>
-</html>
+.pro-text {
+    text-align: center;
+    padding: 25%;
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+}
+h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display:inline-block;
+    margin: 40px 8px 10px 8px;
+    color: #cccccc;
+}
+
+
+
+/* STRUCTURE */
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+}
+
+#formContent {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    padding: 30px;
+    width: auto;
+    max-width: auto;
+    position: relative;
+    padding: 0px;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+}
+/*td{
+
+    width: 90%;
+
+    max-width: 450px;
+    font-size: 12px;
+    text-align: center;
+}*/
+#formFooter {
+    background-color: #f6f6f6;
+    width: 100%;
+    border-top: 1px solid #dce8f1;
+    padding: 25px;
+    text-align: center;
+    float: left;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+
+
+/* TABS */
+
+h2.inactive {
+    color: #cccccc;
+}
+
+h2.active {
+    color: #0d0d0d;
+    border-bottom: 2px solid #5fbae9;
+}
+.txt-footer{
+    color: #454545;
+}
