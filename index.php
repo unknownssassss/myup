@@ -27,7 +27,7 @@ if (!isset($_GET['getTheFile'])) {
     http_response_code(404);
     exit;
 }
-$hashdecode = explode("_", str_replace(range('a', 'z'), range(0, 9), strrev($_GET['getTheFile'])));
+$hashdecode = explode("_", str_replace(range('a', 'z'), range(0, 9), strrev(base64_decode($_GET['getTheFile']))));
 $id = $hashdecode[1];
 $stamp = $hashdecode[0];
 if (!is_numeric($id) or !is_numeric($stamp)) {
@@ -115,7 +115,7 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
             </div>
             <!-- btn download file-->
             <div id="formFooter">
-                <a href='<? echo link.$_GET["getTheFile"]."/".$FileName.$ext;?>' target="_blank" class="btn btn-secondary btn-lg btn-block">دانلود از سرور اول</a>
+                <a href='<? echo link.base64_decode($_GET["getTheFile"])."/".$FileName.$ext;?>' target="_blank" class="btn btn-secondary btn-lg btn-block">دانلود از سرور اول</a>
            <!--     <a href="https://google.com" target="_blank" class="btn btn-secondary btn-lg btn-block">دالود از سرور دوم(نیم بها)</a>-->
             </div>
         </div>
