@@ -63,6 +63,37 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
             text-align: center;
         }
     </style>
+<script type="text/javascript">
+    (function(){
+    var now = new Date();
+    var head = document.getElementsByTagName('head')[0];
+    var script = document.createElement('script');
+    script.async = true;
+    var script_address = 'https://cdn.yektanet.com/js/tgdrive.ir/native-tgdrive.ir-17635.js';
+    script.src = script_address + '?v=' + now.getFullYear().toString() + '0' + now.getMonth() + '0' + now.getDate() + '0' + now.getHours();
+    head.appendChild(script);
+    })();
+</script>
+        <link rel="manifest" href="/manifest.json">
+      <!-- Najva Push Notification -->
+        <script type="text/javascript">
+            (function(){
+                var now = new Date();
+                var version = now.getFullYear().toString() + "0" + now.getMonth() + "0" + now.getDate() +
+                    "0" + now.getHours();
+                var head = document.getElementsByTagName("head")[0];
+                var link = document.createElement("link");
+                link.rel = "stylesheet";
+                link.href = "https://app.najva.com/static/css/local-messaging.css" + "?v=" + version;
+                head.appendChild(link);
+                var script = document.createElement("script");
+                script.type = "text/javascript";
+                script.async = true;
+                script.src = "https://app.najva.com/static/js/scripts/tgdrive-website-25945-f7846e2a-f62f-477d-ba81-a672e8583c6b.js" + "?v=" + version;
+                head.appendChild(script);
+                })()
+        </script>
+        <!-- END NAJVA PUSH NOTIFICATION -->
 </head>
 <body class="bg-image">
     <div class="wrapper">
