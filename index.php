@@ -50,12 +50,10 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
 ?>
 <html lang="en" dir="rtl">
 <head>
-<meta name="exoclick-site-verification" content="560e191e726e6223cc7729bd772cb6d5">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <!--bootstrap css-->
-
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <style>
@@ -63,6 +61,17 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
             text-align: center;
         }
     </style>
+    <script type="text/javascript">
+    (function(){
+    var now = new Date();
+    var head = document.getElementsByTagName('head')[0];
+    var script = document.createElement('script');
+    script.async = true;
+    var script_address = 'https://cdn.yektanet.com/js/tgdrive.ir/native-tgdrive.ir-17635.js';
+    script.src = script_address + '?v=' + now.getFullYear().toString() + '0' + now.getMonth() + '0' + now.getDate() + '0' + now.getHours();
+    head.appendChild(script);
+    })();
+</script> 
 </head>
 <body class="bg-image">
     <div class="wrapper">
