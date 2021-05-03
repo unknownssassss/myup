@@ -28,22 +28,23 @@ if (isset($_GET['hash']) && isset($_GET['name'])) {
         $id = $hashdecode[1];
         $stamp = $hashdecode[0];
         if (!is_numeric($id) or !is_numeric($stamp)) {
-            echo "numeric";
-            exit;
+            http_response_code(404);
+    exit;
         }
         if ($stamp < time()) {
-            echo "time";
-            exit;
+            http_response_code(404);
+    exit;
         }
         $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
         if (!isset($media['messages'][0]['media'])) {
-            echo "media";
-            exit;
+            http_response_code(404);
+    exit;
         }
         $getDownloadInfo = $mProto->getDownloadInfo($media['messages'][0]['media']);
         $mProto->downloadToBrowser($media['messages'][0]['media']);
     }catch(\Throwable $e) {
         echo $e->getMessage();
-        exit;
+        http_response_code(404);
+    exit;
     }
 }
