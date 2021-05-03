@@ -50,6 +50,7 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
 ?>
 <html lang="en" dir="rtl">
 <head>
+<meta name="exoclick-site-verification" content="560e191e726e6223cc7729bd772cb6d5">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
