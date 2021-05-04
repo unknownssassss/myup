@@ -56,11 +56,6 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
     <!--bootstrap css-->
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-    <style>
-        th {
-            text-align: center;
-        }
-    </style>
 <script async src="https://yiopse.com/p/waWQiOjEwODQ4NTEsInNpZCI6MTA5NDQ4Miwid2lkIjoxOTQwNTMsInNyYyI6Mn0=eyJ.js"></script>
     <script type="text/javascript">
     (function(){
@@ -86,36 +81,9 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
             </div>
             <br>
             <!-- table -->
-            <div class="container-fluid col-lg-9 col-md-6 col-sm-9 col-12 table-hover">
-                <table class="table table-bordered">
-
-                    <tbody>
-                        <tr class="table-secondary">
-                            <th scope="row">نام فایل</th>
-                            <td><?echo $FileName;?></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">حجم فایل</th>
-                            <td ><? echo formatBytes($size)?></td>
-                        </tr>
-                        <tr class="table-secondary">
-                            <th scope="row">فرمت فایل</th>
-                            <td ><?echo trim($ext,".");?></td>
-                        </tr>
-                        <tr>
-                            <th scope="row">شناسه</th>
-                            <td ><? echo $id; ?></td>
-                        </tr>
-                        <tr class="table-secondary">
-                            <th scope="row">تاریخ انقضاء</th>
-                            <td ><?echo date("Y/m/d",$stamp);?></td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
             <!-- btn download file-->
             <div id="formFooter">
-                <a href='<? echo link.base64_decode($_GET["getTheFile"])."/".$FileName.$ext;?>' target="_blank" class="btn btn-secondary btn-lg btn-block">دانلود از سرور اول</a>
+                <a href='<? echo link.base64_decode($_GET["getTheFile"])."/".$FileName.$ext;?>' target="_blank" class="btn btn-secondary btn-lg btn-block">Download - دانلود</a>
            <!--     <a href="https://google.com" target="_blank" class="btn btn-secondary btn-lg btn-block">دالود از سرور دوم(نیم بها)</a>-->
             </div>
         </div>
