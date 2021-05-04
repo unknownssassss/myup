@@ -69,19 +69,18 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
     })();
 </script> 
 </head>
-<body class="bg-image">
+<body>
 <div id="pos-article-display-23654"></div>
 <div id="pos-article-display-sticky-23905"></div>
 <div id="pos-article-display-card-23903"></div>
-        <div id="formContent">
-            <!-- text -->
-            <!-- table -->
-            <!-- btn download file-->
+     <main role="main" class="flex-shrink-0">
+  <div class="container">
+<a href='<? echo link.base64_decode($_GET["getTheFile"])."/".$FileName.$ext;?>' target="_blank" class="btn btn-secondary btn-lg btn-block">Download - دانلود</a>
+     </div>
+</main>   
                   <div id="formFooter">
-               <a href='<? echo link.base64_decode($_GET["getTheFile"])."/".$FileName.$ext;?>' target="_blank" class="btn btn-secondary btn-lg btn-block">Download - دانلود</a>
+               
                </div>
-</div>
-        <!-- footer -->
         
     </div>
    <script>
