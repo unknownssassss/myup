@@ -77,7 +77,7 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
             <!-- text -->
             <!-- table -->
             <!-- btn download file-->
-                  <div id="formContent">
+                  <div id="formFooter">
                <a href='<? echo link.base64_decode($_GET["getTheFile"])."/".$FileName.$ext;?>' target="_blank" class="btn btn-secondary btn-lg btn-block">Download - دانلود</a>
                </div>
 </div>
