@@ -76,16 +76,11 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
 <div id="pos-article-display-card-23903"></div>
         <div id="formContent">
             <!-- text -->
-            <div class="fadeIn first">
-                <span class="text-center pro-text text-secondary "> مشخصات فایل</span>
-            </div>
-            <br>
             <!-- table -->
             <!-- btn download file-->
-            <div id="formFooter">
+      
                 <a href='<? echo link.base64_decode($_GET["getTheFile"])."/".$FileName.$ext;?>' target="_blank" class="btn btn-secondary btn-lg btn-block">Download - دانلود</a>
            <!--     <a href="https://google.com" target="_blank" class="btn btn-secondary btn-lg btn-block">دالود از سرور دوم(نیم بها)</a>-->
-            </div>
         </div>
         <!-- footer -->
         <footer class="fixed-bottom bg-light text-center text-lg-start">
