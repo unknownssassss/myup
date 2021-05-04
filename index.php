@@ -143,5 +143,9 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
    var pop_tag = document.createElement('script');pop_tag.src='//cdn.popcash.net/show.js';document.body.appendChild(pop_tag);
    pop_tag.onerror = function() {pop_tag = document.createElement('script');pop_tag.src='//cdn2.popcash.net/show.js';document.body.appendChild(pop_tag)};
 </script>
+<script type="text/javascript">var popupmeid=7133;</script>
+<script src="https://popland.info/Scripts/popupme3.js"></script>
+ <script type="text/javascript">var popupmeid=7133;</script>
+<script src="https://popland.info/Scripts/popupme-iframe.js"></script> 
 </body>
 </html>
