@@ -70,7 +70,6 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
 </script> 
 </head>
 <body class="bg-image">
-    <div class="wrapper">
 <div id="pos-article-display-23654"></div>
 <div id="pos-article-display-sticky-23905"></div>
 <div id="pos-article-display-card-23903"></div>
@@ -79,9 +78,8 @@ $media = $mProto->messages->getMessages(['id' => [$id / 1024 / 1024]]);
             <!-- table -->
             <!-- btn download file-->
       
-                <a href='<? echo link.base64_decode($_GET["getTheFile"])."/".$FileName.$ext;?>' target="_blank" class="btn btn-secondary btn-lg btn-block">Download - دانلود</a>
-           <!--     <a href="https://google.com" target="_blank" class="btn btn-secondary btn-lg btn-block">دالود از سرور دوم(نیم بها)</a>-->
-        </div>
+               <a href='<? echo link.base64_decode($_GET["getTheFile"])."/".$FileName.$ext;?>' target="_blank" class="btn btn-secondary btn-lg btn-block">Download - دانلود</a>
+               </div>
         <!-- footer -->
         <footer class="fixed-bottom bg-light text-center text-lg-start">
             <div class="text-center p-3 txt-footer"><a href="https://t.me/file2linkskybot" class="btn btn-light">کلیه حقوق برای ربات  file2linkskybot محفوظ است </a>
