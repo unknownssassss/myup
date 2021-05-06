@@ -1,5 +1,5 @@
 <?php
-define("link", isset($_SERVER['SERVER_NAME']) ? $_SERVER['SERVER_NAME']."/download/" : $_SERVER['HTTP_HOST']."/download/");
+define("link", "https://".isset($_SERVER['SERVER_NAME']) ? $_SERVER['SERVER_NAME']."/download/" : $_SERVER['HTTP_HOST']."/download/");
 function toNim($url) {
 
     $post = ['downloadUri' => str_replace(" ", "", $url)];
