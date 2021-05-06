@@ -1,5 +1,5 @@
 <?php
-define("link", $_SERVER['SERVER_NAME'] ?? $_SERVER['HTTP_HOST']."/download/");
+define("link", isset($_SERVER['SERVER_NAME']) ? $_SERVER['SERVER_NAME']."/download/" : $_SERVER['HTTP_HOST']."/download/");
 function toNim($url) {
 
     $post = ['downloadUri' => str_replace(" ", "", $url)];
@@ -108,7 +108,8 @@ $size = isset($getDownloadInfo['InputFileLocation']['file_size']) ? $getDownload
                     <p class="card-text">
                         لینک های دانلود نیم بها به زودی اضافه میشوند.
                     </p>
-                    <button type="submit" class="btn btn-secondary btn-lg btn-block" onclick="window.location.href='<? echo link.base64_decode($_GET['getTheFile']).'/'.$FileName.$ext; ?>'">
+                    <?php $link = link.base64_decode($_GET['getTheFile']).'/'.$FileName.$ext;?>
+                    <button type="submit" class="btn btn-secondary btn-lg btn-block" onclick="window.location.href='<? echo $link; ?>'">
                         دانلود | DOWNLOAD
                     </button><br>
                 </div>
