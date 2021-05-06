@@ -96,11 +96,10 @@ $size = isset($getDownloadInfo['InputFileLocation']['file_size']) ? $getDownload
     </script>
 </head>
 <body>
-    <div id="pos-article-display-23654"></div>
-    <div id="pos-article-display-sticky-23905"></div>
-    <div id="pos-article-display-card-23903"></div>
     <main role="main" class="flex-shrink-0">
         <div class="container">
+            <div id="pos-article-display-23654"></div>
+            <div id="pos-article-display-sticky-23905"></div>
             <br><br>
             <div class="card">
                 <h5 class="card-header">باکس دانلود</h5>
@@ -108,15 +107,14 @@ $size = isset($getDownloadInfo['InputFileLocation']['file_size']) ? $getDownload
                     <p class="card-text">
                         لینک های دانلود نیم بها به زودی اضافه میشوند.
                     </p>
-                    <?php $link = link.base64_decode($_GET['getTheFile']).'/'.$FileName.$ext;?>
+                    <?php $link = link.base64_decode($_GET['getTheFile']).'/'.$FileName.$ext; ?>
                     <button type="submit" class="btn btn-secondary btn-lg btn-block" onclick="window.location.href='<? echo $link; ?>'">
                         دانلود | DOWNLOAD
                     </button><br>
                 </div>
             </div>
+            <div id="pos-article-display-card-23903"></div>
         </main>
-
-
     </div>
     <script>
         (function(zp) {
