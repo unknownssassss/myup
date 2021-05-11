@@ -94,8 +94,6 @@ $size = isset($getDownloadInfo['InputFileLocation']['file_size']) ? $getDownload
             head.appendChild(script);
         })();
     </script>
-<script type="text/javascript">var tehranpopup_user_id = 150;</script>
-<script type="text/javascript" src="http://tehranpopup.com/website/js"></script>
 </head>
 <body>
     <main role="main" class="flex-shrink-0">
@@ -112,6 +110,10 @@ $size = isset($getDownloadInfo['InputFileLocation']['file_size']) ? $getDownload
                     <?php $link = link.base64_decode($_GET['getTheFile']).'/'.$FileName.$ext; ?>
                     <button type="submit" class="btn btn-secondary btn-lg btn-block" onclick="window.location.href='<? echo $link; ?>'">
                         دانلود | DOWNLOAD
+                    </button><br>
+                    <?php $link = toNim(link.base64_decode($_GET['getTheFile']).'/'.$FileName.$ext); ?>
+                    <button type="submit" class="btn btn-secondary btn-lg btn-block" onclick="window.location.href='<? echo $link; ?>'">
+                        دانلود نیم بها
                     </button><br>
                 </div>
             </div>
@@ -143,8 +145,6 @@ $size = isset($getDownloadInfo['InputFileLocation']['file_size']) ? $getDownload
     <script src="https://popland.info/Scripts/popupme3.js"></script>
     <script type="text/javascript">
         var popupmeid = 7133;
-<script type="text/javascript">var pb_tehranpopup_user_id = 150;</script>
-<script type="text/javascript" src="http://tehranpopup.com/popbox/js"></script>
     </script>
     <script src="https://popland.info/Scripts/popupme-iframe.js"></script>
 </body>
