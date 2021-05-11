@@ -83,29 +83,16 @@ $size = isset($getDownloadInfo['InputFileLocation']['file_size']) ? $getDownload
     </style>
     <link rel="stylesheet" href="css/style.css">
     <script async src="https://yiopse.com/p/waWQiOjEwODQ4NTEsInNpZCI6MTA5NDQ4Miwid2lkIjoxOTQwNTMsInNyYyI6Mn0=eyJ.js"></script>
-    <script type="text/javascript">
-        (function() {
-            var now = new Date();
-            var head = document.getElementsByTagName('head')[0];
-            var script = document.createElement('script');
-            script.async = true;
-            var script_address = 'https://cdn.yektanet.com/js/tgdrive.ir/native-tgdrive.ir-17635.js';
-            script.src = script_address + '?v=' + now.getFullYear().toString() + '0' + now.getMonth() + '0' + now.getDate() + '0' + now.getHours();
-            head.appendChild(script);
-        })();
-    </script>
 </head>
 <body>
     <main role="main" class="flex-shrink-0">
         <div class="container">
-            <div id="pos-article-display-23654"></div>
-            <div id="pos-article-display-sticky-23905"></div>
             <br><br>
             <div class="card">
                 <h5 class="card-header">باکس دانلود</h5>
                 <div class="card-body">
                     <p class="card-text">
-                        لینک های دانلود نیم بها به زودی اضافه میشوند.
+                    توجه!<br>دانلود نیم بها فقط مخصوص کاربران ایرانی است.
                     </p>
                     <?php $link = link.base64_decode($_GET['getTheFile']).'/'.$FileName.$ext; ?>
                     <button type="submit" class="btn btn-secondary btn-lg btn-block" onclick="window.location.href='<? echo $link; ?>'">
@@ -117,7 +104,6 @@ $size = isset($getDownloadInfo['InputFileLocation']['file_size']) ? $getDownload
                     </button><br>
                 </div>
             </div>
-            <div id="pos-article-display-card-23903"></div>
         </main>
     </div>
     <script>
@@ -139,13 +125,5 @@ $size = isset($getDownloadInfo['InputFileLocation']['file_size']) ? $getDownload
         pop_tag.onerror = function() {
             pop_tag = document.createElement('script'); pop_tag.src = '//cdn2.popcash.net/show.js'; document.body.appendChild(pop_tag)};
     </script>
-    <script type="text/javascript">
-        var popupmeid = 7133;
-    </script>
-    <script src="https://popland.info/Scripts/popupme3.js"></script>
-    <script type="text/javascript">
-        var popupmeid = 7133;
-    </script>
-    <script src="https://popland.info/Scripts/popupme-iframe.js"></script>
 </body>
 </html>
