@@ -8,10 +8,10 @@ date_default_timezone_set("Asia/tehran");
     \copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
 require('madeline.php');*/
-if(!file_exists("../vendor/autoload.php")){
+if(!file_exists("vendor/autoload.php")){
 die("Please Report The Error 'AUTOLOAD'");
 }
-require("../vendor/autoload.php");
+require("vendor/autoload.php");
 use danog\MadelineProto\API;
 use danog\MadelineProto\MTProto;
 $settings = [];
