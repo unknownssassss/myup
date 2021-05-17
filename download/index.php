@@ -4,10 +4,14 @@ ini_set('memory_limit', '512M');
 ini_set('max_execution_time', -1);
 date_default_timezone_set("Asia/tehran");
 
-if (!\file_exists('madeline.php')) {
+/*if (!\file_exists('madeline.php')) {
     \copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
 }
-require('madeline.php');
+require('madeline.php');*/
+if(!file_exists("../vendor/autoload.php")){
+die("Please Report The Error 'AUTOLOAD'");
+}
+require("../vendor/autoload.php");
 use danog\MadelineProto\API;
 use danog\MadelineProto\MTProto;
 $settings = [];
