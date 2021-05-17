@@ -10,11 +10,8 @@ if (!\file_exists('madeline.php')) {
 require('madeline.php');
 use danog\MadelineProto\API;
 use danog\MadelineProto\MTProto;
-use danog\MadelineProto\Logger;
 $settings = [];
 $settings['serialization']['serialization_interval'] = 60 * 6;
-$settings['logger']['logger_level'] = Logger::VERBOSE;
-$settings['logger']['logger'] = \danog\MadelineProto\Logger::FILE_LOGGER;
 $settings['logger']['max_size'] = 2 * 1024 * 1024;
 $settings['peer']['cache_all_peers_on_startup'] = true;
 $settings['serialization']['cleanup_before_serialization'] = true;
