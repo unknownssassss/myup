@@ -70,6 +70,7 @@ $size = isset($getDownloadInfo['InputFileLocation']['file_size']) ? $getDownload
 <html lang="en" dir="rtl">
 <head>
     <meta charset="utf-8">
+<meta name="maValidation" content="43c21364d11fea2733a9e3396586b272" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <!--bootstrap css-->
