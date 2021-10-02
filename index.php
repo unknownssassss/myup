@@ -93,15 +93,10 @@ $size = isset($getDownloadInfo['InputFileLocation']['file_size']) ? $getDownload
                 <h5 class="card-header">باکس دانلود</h5>
                 <div class="card-body">
                     <p class="card-text">
-                    توجه!<br>دانلود نیم بها فقط مخصوص کاربران ایرانی است.
-                    </p>
+                    توجه!<br>قابلیت دانلود نیم بها از ربات حذف شده است</p>
                     <?php $link = link.base64_decode($_GET['getTheFile']).'/'.$FileName.$ext; ?>
                     <button type="submit" class="btn btn-secondary btn-lg btn-block" onclick="window.location.href='<? echo $link; ?>'">
                         دانلود | DOWNLOAD
-                    </button><br>
-                    <?php $link = toNim(link.base64_decode($_GET['getTheFile']).'/'.$FileName.$ext); ?>
-                    <button type="submit" class="btn btn-secondary btn-lg btn-block" onclick="window.location.href='<? echo $link; ?>'">
-                        دانلود نیم بها
                     </button><br>
                 </div>
             </div>
