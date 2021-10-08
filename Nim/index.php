@@ -45,6 +45,8 @@ if ($mProto->getAuthorization() !== MTProto::LOGGED_IN) {
 if (isset($_GET['hash'])) {
     try {
         $id = random_decode($_GET['hash']);
+        echo $id;
+        exit;
         if (!is_int($id)) {
             http_response_code(404);
             exit;
