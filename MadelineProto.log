@@ -1,0 +1,3099 @@
+[08-Oct-2021 11:33:55 Asia/tehran] PHP Warning:  include(phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/composer/../phabel/transpiler74/amphp/amp/lib/Failure.php): failed to open stream: phar error: Cannot open phar archive &quot;/home/pokermahdi/public_html/b/madeline-74.phar&quot; for reading&lt;br /&gt;
+phar error: Cannot open phar archive &quot;/home/pokermahdi/public_html/b/madeline-74.phar&quot; for reading in phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/composer/ClassLoader.php on line 478
+[08-Oct-2021 11:33:55 Asia/tehran] PHP Warning:  include(): Failed opening 'phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/composer/../phabel/transpiler74/amphp/amp/lib/Failure.php' for inclusion (include_path='.:/opt/alt/php74/usr/share/pear') in phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/composer/ClassLoader.php on line 478
+[08-Oct-2021 11:34:30 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:34:31 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:34:31 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+APIWrapper:     	Saved session!
+API:            	Done final serialization!
+[08-Oct-2021 11:34:31 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:34:31 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:34:31 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	Got exclusive session lock!
+MTProto:        	Prompting final serialization (SHUTDOWN)...
+MTProto:        	Done final serialization (SHUTDOWN)!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+APIWrapper:     	Saved session!
+API:            	Done final serialization!
+Serialization:  	Unlocking exclusive session lock!
+Serialization:  	Unlocked exclusive session lock!
+[08-Oct-2021 11:34:32 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:34:32 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:34:32 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	Got exclusive session lock!
+MTProto:        	Prompting final serialization (SHUTDOWN)...
+MTProto:        	Done final serialization (SHUTDOWN)!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+APIWrapper:     	Saved session!
+API:            	Done final serialization!
+Serialization:  	Unlocking exclusive session lock!
+Serialization:  	Unlocked exclusive session lock!
+[08-Oct-2021 11:34:42 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:34:42 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:34:42 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	Got exclusive session lock!
+MTProto:        	Prompting final serialization (SHUTDOWN)...
+MTProto:        	Done final serialization (SHUTDOWN)!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+APIWrapper:     	Saved session!
+API:            	Done final serialization!
+Serialization:  	Unlocking exclusive session lock!
+Serialization:  	Unlocked exclusive session lock!
+[08-Oct-2021 11:34:48 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:34:49 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:34:49 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	Got exclusive session lock!
+[08-Oct-2021 11:34:49 Asia/tehran] Enabled PHP logging
+TL:             	Loading TL schemes...
+TL:             	Parsing TL_telegram_v131.tl...
+TL:             	Parsing TL_mtproto_v1.tl...
+TL:             	CRC32 mismatch (29c1636d, 73f1f8dc) for msg_container#73f1f8dc messages:vector<%Message> = MessageContainer;
+TL:             	Parsing TL_secret.tl...
+MTProto:        	Filling database cache. This can take few minutes.
+MTProto:        	Cache filled.
+TL:             	Loading TL schemes...
+TL:             	Parsing TL_telegram_v131.tl...
+TL:             	Parsing TL_mtproto_v1.tl...
+TL:             	CRC32 mismatch (29c1636d, 73f1f8dc) for msg_container#73f1f8dc messages:vector<%Message> = MessageContainer;
+TL:             	Parsing TL_secret.tl...
+DataCenter:     	Connecting to DC 2 from scratch
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.51:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 2.0
+Session:        	Resetting session in DC 2.0...
+Connection:     	Connected to DC 2.0!
+DataCenterConnection: 	Restoring 0 messages to DC 2
+DataCenter:     	OK!
+MTProto:        	Initing authorization...
+MTProto:        	Initing authorization DC 2...
+AuthKeyHandler: 	Generating permanent authorization key for DC 2...
+AuthKeyHandler: 	Requesting pq...
+ResponseHandler: 	Trying to assign a response of type ResPQ to its request...
+ResponseHandler: 	Does the request of return type ResPQ match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Factorizing with auto_single (please wait, might take a while)
+AuthKeyHandler: 	Factorization 3585307330427085119 = 1836252289 * 1952513471
+AuthKeyHandler: 	Starting Diffie Hellman key exchange
+ResponseHandler: 	Trying to assign a response of type Server_DH_Params to its request...
+ResponseHandler: 	Does the request of return type Server_DH_Params match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Server-client time delta = 0.0 s
+Crypt:          	Executing p/g checks (1/2)...
+Crypt:          	Executing p/g checks (2/2)...
+Crypt:          	Executing g check...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Generating b...
+AuthKeyHandler: 	Generating g_b...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Executing g_b check...
+AuthKeyHandler: 	Preparing client_DH_inner_data...
+AuthKeyHandler: 	Executing set_client_DH_params...
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+MsgIdHandler:   	Can't garbage collect set_client_DH_params with message ID 7016603413374828552
+MsgIdHandler:   	Garbage collected 2 outgoing messages, 1 left
+ResponseHandler: 	Trying to assign a response of type Set_client_DH_params_answer to its request...
+ResponseHandler: 	Does the request of return type Set_client_DH_params_answer match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Generating authorization key...
+AuthKeyHandler: 	Diffie Hellman key exchange processed successfully!
+AuthKeyHandler: 	Auth key generated
+AuthKeyHandler: 	Generating temporary authorization key for DC 2...
+AuthKeyHandler: 	Requesting pq...
+ResponseHandler: 	Trying to assign a response of type ResPQ to its request...
+ResponseHandler: 	Does the request of return type ResPQ match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Factorizing with auto_single (please wait, might take a while)
+AuthKeyHandler: 	Factorization 2060795819210940527 = 1077606601 * 1912382327
+AuthKeyHandler: 	Starting Diffie Hellman key exchange
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+MsgIdHandler:   	Can't garbage collect req_DH_params with message ID 7016603417669795844
+MsgIdHandler:   	Garbage collected 2 outgoing messages, 1 left
+ResponseHandler: 	Trying to assign a response of type Server_DH_Params to its request...
+ResponseHandler: 	Does the request of return type Server_DH_Params match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Server-client time delta = 0.0 s
+Crypt:          	Executing p/g checks (1/2)...
+Crypt:          	Executing p/g checks (2/2)...
+Crypt:          	Executing g check...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Generating b...
+AuthKeyHandler: 	Generating g_b...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Executing g_b check...
+AuthKeyHandler: 	Preparing client_DH_inner_data...
+AuthKeyHandler: 	Executing set_client_DH_params...
+ResponseHandler: 	Trying to assign a response of type Set_client_DH_params_answer to its request...
+ResponseHandler: 	Does the request of return type Set_client_DH_params_answer match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Generating authorization key...
+AuthKeyHandler: 	Diffie Hellman key exchange processed successfully!
+AuthKeyHandler: 	Auth key generated
+AuthKeyHandler: 	Binding authorization keys...
+MsgIdHandler64: 	Given message id (7016603422963300353) is bigger than or equal to the current limit (7016603422963294209). Consider syncing your date.
+AuthKeyHandler: 	Bound temporary and permanent authorization keys, DC 2
+WriteLoop:      	Writing client info (also executing help.getConfig)...
+MTProto:        	Done initing authorization DC 2
+MTProto:        	Got new DC options, reconnecting
+DataCenter:     	Disconnecting all before reconnect!
+DataCenterConnection: 	Disconnecting from shared DC 2
+Connection:     	Disconnecting from DC 2.0
+DataCenterConnection: 	Backed up  from DC 2.0
+Connection:     	Disconnected from DC 2.0
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 2
+DataCenter:     	Reconnecting to DC 2 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.51:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 2.0
+Session:        	Resetting session in DC 2.0...
+DataCenter:     	Connecting to DC 1 from scratch
+DataCenterConnection: 	Trying shared connection via tcp://149.154.175.54:443 main DC 1, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 1.0
+Session:        	Resetting session in DC 1.0...
+DataCenter:     	Connecting to DC 2_media from scratch
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.151:443 main DC 2_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 2_media.0
+Session:        	Resetting session in DC 2_media.0...
+DataCenter:     	Connecting to DC 3 from scratch
+DataCenterConnection: 	Trying shared connection via tcp://149.154.175.100:443 main DC 3, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 3.0
+Session:        	Resetting session in DC 3.0...
+DataCenter:     	Connecting to DC 4 from scratch
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.92:443 main DC 4, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 4.0
+Session:        	Resetting session in DC 4.0...
+DataCenter:     	Connecting to DC 4_media from scratch
+DataCenterConnection: 	Trying shared connection via tcp://149.154.165.96:443 main DC 4_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 4_media.0
+Session:        	Resetting session in DC 4_media.0...
+DataCenter:     	Connecting to DC 5 from scratch
+DataCenterConnection: 	Trying shared connection via tcp://91.108.56.119:443 main DC 5, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 5.0
+Session:        	Resetting session in DC 5.0...
+Connection:     	Connected to DC 2.0!
+DataCenterConnection: 	Restoring 0 messages to DC 2
+DataCenter:     	OK!
+Connection:     	Connected to DC 2_media.0!
+Connection:     	Connecting to DC 2_media.1
+Session:        	Resetting session in DC 2_media.1...
+Connection:     	Connected to DC 4.0!
+DataCenterConnection: 	Restoring 0 messages to DC 4
+DataCenter:     	OK!
+Connection:     	Connected to DC 4_media.0!
+Connection:     	Connecting to DC 4_media.1
+Session:        	Resetting session in DC 4_media.1...
+Connection:     	Connected to DC 2_media.1!
+Connection:     	Connecting to DC 2_media.2
+Session:        	Resetting session in DC 2_media.2...
+Connection:     	Connected to DC 4_media.1!
+Connection:     	Connecting to DC 4_media.2
+Session:        	Resetting session in DC 4_media.2...
+Connection:     	Connected to DC 2_media.2!
+Connection:     	Connecting to DC 2_media.3
+Session:        	Resetting session in DC 2_media.3...
+Connection:     	Connected to DC 4_media.2!
+Connection:     	Connecting to DC 4_media.3
+Session:        	Resetting session in DC 4_media.3...
+Connection:     	Connected to DC 2_media.3!
+Connection:     	Connecting to DC 2_media.4
+Session:        	Resetting session in DC 2_media.4...
+Connection:     	Connected to DC 4_media.3!
+Connection:     	Connecting to DC 4_media.4
+Session:        	Resetting session in DC 4_media.4...
+Connection:     	Connected to DC 2_media.4!
+DataCenterConnection: 	Restoring 0 messages to DC 2_media
+DataCenter:     	OK!
+Connection:     	Connected to DC 4_media.4!
+DataCenterConnection: 	Restoring 0 messages to DC 4_media
+DataCenter:     	OK!
+Connection:     	Connected to DC 1.0!
+DataCenterConnection: 	Restoring 0 messages to DC 1
+DataCenter:     	OK!
+Connection:     	Connected to DC 3.0!
+DataCenterConnection: 	Restoring 0 messages to DC 3
+DataCenter:     	OK!
+Connection:     	Connected to DC 5.0!
+DataCenterConnection: 	Restoring 0 messages to DC 5
+DataCenter:     	OK!
+MTProto:        	Initing authorization...
+MTProto:        	Initing authorization DC 2...
+MTProto:        	Done initing authorization DC 2
+MTProto:        	Initing authorization DC 1...
+AuthKeyHandler: 	Generating permanent authorization key for DC 1...
+AuthKeyHandler: 	Requesting pq...
+MTProto:        	Initing authorization DC 3...
+AuthKeyHandler: 	Generating permanent authorization key for DC 3...
+AuthKeyHandler: 	Requesting pq...
+MTProto:        	Initing authorization DC 4...
+AuthKeyHandler: 	Generating permanent authorization key for DC 4...
+AuthKeyHandler: 	Requesting pq...
+MTProto:        	Initing authorization DC 5...
+AuthKeyHandler: 	Generating permanent authorization key for DC 5...
+AuthKeyHandler: 	Requesting pq...
+ResponseHandler: 	Trying to assign a response of type ResPQ to its request...
+ResponseHandler: 	Does the request of return type ResPQ match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Factorizing with auto_single (please wait, might take a while)
+AuthKeyHandler: 	Factorization 3129550833061523177 = 1573123243 * 1989386939
+AuthKeyHandler: 	Starting Diffie Hellman key exchange
+ResponseHandler: 	Trying to assign a response of type ResPQ to its request...
+ResponseHandler: 	Does the request of return type ResPQ match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Factorizing with auto_single (please wait, might take a while)
+AuthKeyHandler: 	Factorization 2060244499846757017 = 1030913687 * 1998464591
+AuthKeyHandler: 	Starting Diffie Hellman key exchange
+ResponseHandler: 	Trying to assign a response of type ResPQ to its request...
+ResponseHandler: 	Does the request of return type ResPQ match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Factorizing with auto_single (please wait, might take a while)
+AuthKeyHandler: 	Factorization 3412879656041497771 = 1794779089 * 1901559739
+AuthKeyHandler: 	Starting Diffie Hellman key exchange
+ResponseHandler: 	Trying to assign a response of type ResPQ to its request...
+ResponseHandler: 	Does the request of return type ResPQ match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Factorizing with auto_single (please wait, might take a while)
+AuthKeyHandler: 	Factorization 2332980184965907201 = 1356723799 * 1719568999
+AuthKeyHandler: 	Starting Diffie Hellman key exchange
+ResponseHandler: 	Trying to assign a response of type Server_DH_Params to its request...
+ResponseHandler: 	Does the request of return type Server_DH_Params match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Server-client time delta = 0.0 s
+Crypt:          	Executing p/g checks (1/2)...
+Crypt:          	Executing p/g checks (2/2)...
+Crypt:          	Executing g check...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Generating b...
+AuthKeyHandler: 	Generating g_b...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Executing g_b check...
+AuthKeyHandler: 	Preparing client_DH_inner_data...
+AuthKeyHandler: 	Executing set_client_DH_params...
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+MsgIdHandler:   	Can't garbage collect set_client_DH_params with message ID 7016603426259730432
+MsgIdHandler:   	Garbage collected 2 outgoing messages, 1 left
+ResponseHandler: 	Trying to assign a response of type Set_client_DH_params_answer to its request...
+ResponseHandler: 	Does the request of return type Set_client_DH_params_answer match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Generating authorization key...
+AuthKeyHandler: 	Diffie Hellman key exchange processed successfully!
+AuthKeyHandler: 	Auth key generated
+AuthKeyHandler: 	Generating temporary authorization key for DC 4...
+AuthKeyHandler: 	Requesting pq...
+ResponseHandler: 	Trying to assign a response of type ResPQ to its request...
+ResponseHandler: 	Does the request of return type ResPQ match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Factorizing with auto_single (please wait, might take a while)
+AuthKeyHandler: 	Factorization 3166717165765500703 = 1626893101 * 1946481403
+AuthKeyHandler: 	Starting Diffie Hellman key exchange
+MsgIdHandler:   	Can't garbage collect server_DH_params_ok
+MsgIdHandler:   	Garbage collected 1 incoming messages, 1 left
+MsgIdHandler:   	Can't garbage collect req_DH_params with message ID 7016603421964763140
+MsgIdHandler:   	Garbage collected 1 outgoing messages, 1 left
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+MsgIdHandler:   	Can't garbage collect req_DH_params with message ID 7016603426259730432
+MsgIdHandler:   	Garbage collected 1 outgoing messages, 1 left
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+MsgIdHandler:   	Can't garbage collect req_DH_params with message ID 7016603426259730432
+MsgIdHandler:   	Garbage collected 1 outgoing messages, 1 left
+ResponseHandler: 	Trying to assign a response of type Server_DH_Params to its request...
+ResponseHandler: 	Does the request of return type Server_DH_Params match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Server-client time delta = 0.0 s
+Crypt:          	Executing p/g checks (1/2)...
+Crypt:          	Executing p/g checks (2/2)...
+Crypt:          	Executing g check...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Generating b...
+AuthKeyHandler: 	Generating g_b...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Executing g_b check...
+AuthKeyHandler: 	Preparing client_DH_inner_data...
+AuthKeyHandler: 	Executing set_client_DH_params...
+ResponseHandler: 	Trying to assign a response of type Server_DH_Params to its request...
+ResponseHandler: 	Does the request of return type Server_DH_Params match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Server-client time delta = 0.0 s
+Crypt:          	Executing p/g checks (1/2)...
+Crypt:          	Executing p/g checks (2/2)...
+Crypt:          	Executing g check...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Generating b...
+AuthKeyHandler: 	Generating g_b...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Executing g_b check...
+AuthKeyHandler: 	Preparing client_DH_inner_data...
+AuthKeyHandler: 	Executing set_client_DH_params...
+ResponseHandler: 	Trying to assign a response of type Set_client_DH_params_answer to its request...
+ResponseHandler: 	Does the request of return type Set_client_DH_params_answer match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Generating authorization key...
+AuthKeyHandler: 	Diffie Hellman key exchange processed successfully!
+AuthKeyHandler: 	Auth key generated
+AuthKeyHandler: 	Generating temporary authorization key for DC 1...
+AuthKeyHandler: 	Requesting pq...
+ResponseHandler: 	Trying to assign a response of type Server_DH_Params to its request...
+ResponseHandler: 	Does the request of return type Server_DH_Params match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Server-client time delta = 0.0 s
+Crypt:          	Executing p/g checks (1/2)...
+Crypt:          	Executing p/g checks (2/2)...
+Crypt:          	Executing g check...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Generating b...
+AuthKeyHandler: 	Generating g_b...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Executing g_b check...
+AuthKeyHandler: 	Preparing client_DH_inner_data...
+AuthKeyHandler: 	Executing set_client_DH_params...
+ResponseHandler: 	Trying to assign a response of type Server_DH_Params to its request...
+ResponseHandler: 	Does the request of return type Server_DH_Params match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Server-client time delta = 0.0 s
+Crypt:          	Executing p/g checks (1/2)...
+Crypt:          	Executing p/g checks (2/2)...
+Crypt:          	Executing g check...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Generating b...
+AuthKeyHandler: 	Generating g_b...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Executing g_b check...
+AuthKeyHandler: 	Preparing client_DH_inner_data...
+AuthKeyHandler: 	Executing set_client_DH_params...
+ResponseHandler: 	Trying to assign a response of type Set_client_DH_params_answer to its request...
+ResponseHandler: 	Does the request of return type Set_client_DH_params_answer match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Generating authorization key...
+AuthKeyHandler: 	Diffie Hellman key exchange processed successfully!
+AuthKeyHandler: 	Auth key generated
+AuthKeyHandler: 	Binding authorization keys...
+ResponseHandler: 	Trying to assign a response of type Set_client_DH_params_answer to its request...
+ResponseHandler: 	Does the request of return type Set_client_DH_params_answer match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Generating authorization key...
+AuthKeyHandler: 	Diffie Hellman key exchange processed successfully!
+AuthKeyHandler: 	Auth key generated
+AuthKeyHandler: 	Generating temporary authorization key for DC 3...
+AuthKeyHandler: 	Requesting pq...
+MsgIdHandler64: 	Given message id (7016603431372778497) is bigger than or equal to the current limit (7016603431372758017). Consider syncing your date.
+AuthKeyHandler: 	Bound temporary and permanent authorization keys, DC 4
+WriteLoop:      	Writing client info (also executing help.getConfig)...
+MTProto:        	Done initing authorization DC 4
+ResponseHandler: 	Trying to assign a response of type ResPQ to its request...
+ResponseHandler: 	Does the request of return type ResPQ match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Factorizing with auto_single (please wait, might take a while)
+AuthKeyHandler: 	Factorization 2451200909844310669 = 1321584413 * 1854744113
+AuthKeyHandler: 	Starting Diffie Hellman key exchange
+MsgIdHandler:   	Garbage collected 9 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 8 outgoing messages, 0 left
+ResponseHandler: 	Trying to assign a response of type ResPQ to its request...
+ResponseHandler: 	Does the request of return type ResPQ match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Factorizing with auto_single (please wait, might take a while)
+AuthKeyHandler: 	Factorization 1854585974336284831 = 1199119247 * 1546623473
+AuthKeyHandler: 	Starting Diffie Hellman key exchange
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+MsgIdHandler:   	Can't garbage collect set_client_DH_params with message ID 7016603430554697728
+MsgIdHandler:   	Garbage collected 1 outgoing messages, 1 left
+MsgIdHandler:   	Garbage collected 3 incoming messages, 0 left
+MsgIdHandler:   	Can't garbage collect req_DH_params with message ID 7016603430554697732
+MsgIdHandler:   	Garbage collected 3 outgoing messages, 1 left
+MsgIdHandler:   	Garbage collected 3 incoming messages, 0 left
+MsgIdHandler:   	Can't garbage collect req_DH_params with message ID 7016603430554697732
+MsgIdHandler:   	Garbage collected 3 outgoing messages, 1 left
+ResponseHandler: 	Trying to assign a response of type Set_client_DH_params_answer to its request...
+ResponseHandler: 	Does the request of return type Set_client_DH_params_answer match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Generating authorization key...
+AuthKeyHandler: 	Diffie Hellman key exchange processed successfully!
+AuthKeyHandler: 	Auth key generated
+AuthKeyHandler: 	Generating temporary authorization key for DC 5...
+AuthKeyHandler: 	Requesting pq...
+ResponseHandler: 	Trying to assign a response of type ResPQ to its request...
+ResponseHandler: 	Does the request of return type ResPQ match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Factorizing with auto_single (please wait, might take a while)
+AuthKeyHandler: 	Factorization 2162111841151446307 = 1237477643 * 1747192649
+AuthKeyHandler: 	Starting Diffie Hellman key exchange
+ResponseHandler: 	Trying to assign a response of type Server_DH_Params to its request...
+ResponseHandler: 	Does the request of return type Server_DH_Params match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Server-client time delta = 0.0 s
+Crypt:          	Executing p/g checks (1/2)...
+Crypt:          	Executing p/g checks (2/2)...
+Crypt:          	Executing g check...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Generating b...
+AuthKeyHandler: 	Generating g_b...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Executing g_b check...
+AuthKeyHandler: 	Preparing client_DH_inner_data...
+AuthKeyHandler: 	Executing set_client_DH_params...
+ResponseHandler: 	Trying to assign a response of type Server_DH_Params to its request...
+ResponseHandler: 	Does the request of return type Server_DH_Params match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Server-client time delta = 0.0 s
+Crypt:          	Executing p/g checks (1/2)...
+Crypt:          	Executing p/g checks (2/2)...
+Crypt:          	Executing g check...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Generating b...
+AuthKeyHandler: 	Generating g_b...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Executing g_b check...
+AuthKeyHandler: 	Preparing client_DH_inner_data...
+AuthKeyHandler: 	Executing set_client_DH_params...
+ResponseHandler: 	Trying to assign a response of type Set_client_DH_params_answer to its request...
+ResponseHandler: 	Does the request of return type Set_client_DH_params_answer match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Generating authorization key...
+AuthKeyHandler: 	Diffie Hellman key exchange processed successfully!
+AuthKeyHandler: 	Auth key generated
+AuthKeyHandler: 	Binding authorization keys...
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+MsgIdHandler:   	Can't garbage collect auth.bindTempAuthKey with message ID 7016603434849665028
+MsgIdHandler:   	Garbage collected 3 outgoing messages, 1 left
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+MsgIdHandler:   	Can't garbage collect req_DH_params with message ID 7016603434849665024
+MsgIdHandler:   	Garbage collected 2 outgoing messages, 1 left
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+MsgIdHandler:   	Can't garbage collect set_client_DH_params with message ID 7016603434849665024
+MsgIdHandler:   	Garbage collected 1 outgoing messages, 1 left
+ResponseHandler: 	Trying to assign a response of type Set_client_DH_params_answer to its request...
+ResponseHandler: 	Does the request of return type Set_client_DH_params_answer match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Generating authorization key...
+AuthKeyHandler: 	Diffie Hellman key exchange processed successfully!
+AuthKeyHandler: 	Auth key generated
+AuthKeyHandler: 	Binding authorization keys...
+MsgIdHandler64: 	Given message id (7016603437827202049) is bigger than or equal to the current limit (7016603437827105793). Consider syncing your date.
+AuthKeyHandler: 	Bound temporary and permanent authorization keys, DC 1
+WriteLoop:      	Writing client info (also executing help.getConfig)...
+MsgIdHandler64: 	Given message id (7016603438504249345) is bigger than or equal to the current limit (7016603438504228865). Consider syncing your date.
+AuthKeyHandler: 	Bound temporary and permanent authorization keys, DC 3
+WriteLoop:      	Writing client info (also executing help.getConfig)...
+ResponseHandler: 	Trying to assign a response of type Server_DH_Params to its request...
+ResponseHandler: 	Does the request of return type Server_DH_Params match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Server-client time delta = 0.0 s
+Crypt:          	Executing p/g checks (1/2)...
+Crypt:          	Executing p/g checks (2/2)...
+Crypt:          	Executing g check...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Generating b...
+AuthKeyHandler: 	Generating g_b...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Executing g_b check...
+AuthKeyHandler: 	Preparing client_DH_inner_data...
+AuthKeyHandler: 	Executing set_client_DH_params...
+MTProto:        	Done initing authorization DC 1
+MTProto:        	Done initing authorization DC 3
+ResponseHandler: 	Trying to assign a response of type Set_client_DH_params_answer to its request...
+ResponseHandler: 	Does the request of return type Set_client_DH_params_answer match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Generating authorization key...
+AuthKeyHandler: 	Diffie Hellman key exchange processed successfully!
+AuthKeyHandler: 	Auth key generated
+AuthKeyHandler: 	Binding authorization keys...
+MsgIdHandler:   	Garbage collected 5 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 3 outgoing messages, 0 left
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+MsgIdHandler:   	Can't garbage collect auth.bindTempAuthKey with message ID 7016603439144632324
+MsgIdHandler:   	Garbage collected 3 outgoing messages, 1 left
+MsgIdHandler:   	Garbage collected 6 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 5 outgoing messages, 0 left
+MsgIdHandler64: 	Given message id (7016603442003339265) is bigger than or equal to the current limit (7016603442003332097). Consider syncing your date.
+AuthKeyHandler: 	Bound temporary and permanent authorization keys, DC 5
+WriteLoop:      	Writing client info (also executing help.getConfig)...
+MTProto:        	Done initing authorization DC 5
+MTProto:        	Initing authorization DC 2_media...
+AuthKeyHandler: 	Generating temporary authorization key for DC 2_media...
+AuthKeyHandler: 	Requesting pq...
+ResponseHandler: 	Trying to assign a response of type ResPQ to its request...
+ResponseHandler: 	Does the request of return type ResPQ match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Factorizing with auto_single (please wait, might take a while)
+AuthKeyHandler: 	Factorization 1935027728077653941 = 1268811563 * 1525071007
+AuthKeyHandler: 	Starting Diffie Hellman key exchange
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+MsgIdHandler:   	Can't garbage collect req_DH_params with message ID 7016603443439599620
+MsgIdHandler:   	Garbage collected 1 outgoing messages, 1 left
+MsgIdHandler:   	Garbage collected 5 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 3 outgoing messages, 0 left
+ResponseHandler: 	Trying to assign a response of type Server_DH_Params to its request...
+ResponseHandler: 	Does the request of return type Server_DH_Params match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Server-client time delta = 0.0 s
+Crypt:          	Executing p/g checks (1/2)...
+Crypt:          	Executing p/g checks (2/2)...
+Crypt:          	Executing g check...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Generating b...
+AuthKeyHandler: 	Generating g_b...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Executing g_b check...
+AuthKeyHandler: 	Preparing client_DH_inner_data...
+AuthKeyHandler: 	Executing set_client_DH_params...
+ResponseHandler: 	Trying to assign a response of type Set_client_DH_params_answer to its request...
+ResponseHandler: 	Does the request of return type Set_client_DH_params_answer match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Generating authorization key...
+AuthKeyHandler: 	Diffie Hellman key exchange processed successfully!
+AuthKeyHandler: 	Auth key generated
+AuthKeyHandler: 	Binding authorization keys...
+MsgIdHandler64: 	Given message id (7016603448269515777) is bigger than or equal to the current limit (7016603448269505537). Consider syncing your date.
+AuthKeyHandler: 	Bound temporary and permanent authorization keys, DC 2_media
+WriteLoop:      	Writing client info (also executing help.getConfig)...
+MTProto:        	Done initing authorization DC 2_media
+MTProto:        	Initing authorization DC 4_media...
+AuthKeyHandler: 	Generating temporary authorization key for DC 4_media...
+AuthKeyHandler: 	Requesting pq...
+ResponseHandler: 	Trying to assign a response of type ResPQ to its request...
+ResponseHandler: 	Does the request of return type ResPQ match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Factorizing with auto_single (please wait, might take a while)
+AuthKeyHandler: 	Factorization 3113796663287600419 = 1675976303 * 1857900173
+AuthKeyHandler: 	Starting Diffie Hellman key exchange
+MsgIdHandler:   	Garbage collected 7 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 6 outgoing messages, 0 left
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+MsgIdHandler:   	Can't garbage collect req_DH_params with message ID 7016603447734566916
+MsgIdHandler:   	Garbage collected 1 outgoing messages, 1 left
+ResponseHandler: 	Trying to assign a response of type Server_DH_Params to its request...
+ResponseHandler: 	Does the request of return type Server_DH_Params match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Server-client time delta = 0.0 s
+Crypt:          	Executing p/g checks (1/2)...
+Crypt:          	Executing p/g checks (2/2)...
+Crypt:          	Executing g check...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Generating b...
+AuthKeyHandler: 	Generating g_b...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Executing g_b check...
+AuthKeyHandler: 	Preparing client_DH_inner_data...
+AuthKeyHandler: 	Executing set_client_DH_params...
+ResponseHandler: 	Trying to assign a response of type Set_client_DH_params_answer to its request...
+ResponseHandler: 	Does the request of return type Set_client_DH_params_answer match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Generating authorization key...
+AuthKeyHandler: 	Diffie Hellman key exchange processed successfully!
+AuthKeyHandler: 	Auth key generated
+AuthKeyHandler: 	Binding authorization keys...
+MsgIdHandler64: 	Given message id (7016603452699185153) is bigger than or equal to the current limit (7016603452699179009). Consider syncing your date.
+AuthKeyHandler: 	Bound temporary and permanent authorization keys, DC 4_media
+WriteLoop:      	Writing client info (also executing help.getConfig)...
+MTProto:        	Done initing authorization DC 4_media
+DataCenter:     	Reconnecting to DC 2 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.51:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+DataCenterConnection: 	Already connected!
+DataCenter:     	OK!
+MTProto:        	Not reconnecting to DC 1 (-1)
+MTProto:        	Not reconnecting to DC 2_media (-1)
+MTProto:        	Not reconnecting to DC 3 (-1)
+MTProto:        	Not reconnecting to DC 4 (-1)
+MTProto:        	Not reconnecting to DC 4_media (-1)
+MTProto:        	Not reconnecting to DC 5 (-1)
+MTProto:        	Initing authorization...
+MTProto:        	Initing authorization DC 2...
+MTProto:        	Done initing authorization DC 2
+MTProto:        	Initing authorization DC 1...
+MTProto:        	Done initing authorization DC 1
+MTProto:        	Initing authorization DC 3...
+MTProto:        	Done initing authorization DC 3
+MTProto:        	Initing authorization DC 4...
+MTProto:        	Done initing authorization DC 4
+MTProto:        	Initing authorization DC 5...
+MTProto:        	Done initing authorization DC 5
+MTProto:        	Initing authorization DC 2_media...
+MTProto:        	Done initing authorization DC 2_media
+MTProto:        	Initing authorization DC 4_media...
+MTProto:        	Done initing authorization DC 4_media
+MTProto:        	Not fetching phone config
+DataCenter:     	Reconnecting to DC 2 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.51:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+DataCenterConnection: 	Already connected!
+DataCenter:     	OK!
+MTProto:        	Not reconnecting to DC 1 (-1)
+MTProto:        	Not reconnecting to DC 2_media (-1)
+MTProto:        	Not reconnecting to DC 3 (-1)
+MTProto:        	Not reconnecting to DC 4 (-1)
+MTProto:        	Not reconnecting to DC 4_media (-1)
+MTProto:        	Not reconnecting to DC 5 (-1)
+MTProto:        	Initing authorization...
+MTProto:        	Initing authorization DC 2...
+MTProto:        	Done initing authorization DC 2
+MTProto:        	Initing authorization DC 1...
+MTProto:        	Done initing authorization DC 1
+MTProto:        	Initing authorization DC 3...
+MTProto:        	Done initing authorization DC 3
+MTProto:        	Initing authorization DC 4...
+MTProto:        	Done initing authorization DC 4
+MTProto:        	Initing authorization DC 5...
+MTProto:        	Done initing authorization DC 5
+MTProto:        	Initing authorization DC 2_media...
+MTProto:        	Done initing authorization DC 2_media
+MTProto:        	Initing authorization DC 4_media...
+MTProto:        	Done initing authorization DC 4_media
+MTProto:        	Not fetching phone config
+MTProto:        	Not fetching phone config
+MsgIdHandler64: 	Given message id (7016603453129324545) is bigger than or equal to the current limit (7016603453129321473). Consider syncing your date.
+MTProto:        	We're in IR, nearest DC is 4.
+MTProto:        	Starting update system
+API:            	MadelineProto is ready!
+MTProto:        	Prompting final serialization (SHUTDOWN)...
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+MTProto:        	Done final serialization (SHUTDOWN)!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+MTProto:        	Will unreference instance
+UpdateLoop:     	Exiting getUpdate loop generic due to signal
+DataCenterConnection: 	Disconnecting from shared DC 2
+Connection:     	Disconnecting from DC 2.0
+DataCenterConnection: 	Backed up  from DC 2.0
+Connection:     	Disconnected from DC 2.0
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 2
+DataCenterConnection: 	Disconnecting from shared DC 1
+Connection:     	Disconnecting from DC 1.0
+DataCenterConnection: 	Backed up  from DC 1.0
+Connection:     	Disconnected from DC 1.0
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 1
+DataCenterConnection: 	Disconnecting from shared DC 2_media
+Connection:     	Disconnecting from DC 2_media.0
+DataCenterConnection: 	Backed up  from DC 2_media.0
+Connection:     	Disconnected from DC 2_media.0
+Connection:     	Disconnecting from DC 2_media.1
+DataCenterConnection: 	Backed up  from DC 2_media.1
+Connection:     	Disconnected from DC 2_media.1
+Connection:     	Disconnecting from DC 2_media.2
+DataCenterConnection: 	Backed up  from DC 2_media.2
+Connection:     	Disconnected from DC 2_media.2
+Connection:     	Disconnecting from DC 2_media.3
+DataCenterConnection: 	Backed up  from DC 2_media.3
+Connection:     	Disconnected from DC 2_media.3
+Connection:     	Disconnecting from DC 2_media.4
+DataCenterConnection: 	Backed up  from DC 2_media.4
+Connection:     	Disconnected from DC 2_media.4
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 2_media
+DataCenterConnection: 	Disconnecting from shared DC 3
+Connection:     	Disconnecting from DC 3.0
+DataCenterConnection: 	Backed up  from DC 3.0
+Connection:     	Disconnected from DC 3.0
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 3
+DataCenterConnection: 	Disconnecting from shared DC 4
+Connection:     	Disconnecting from DC 4.0
+DataCenterConnection: 	Backed up  from DC 4.0
+Connection:     	Disconnected from DC 4.0
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 4
+DataCenterConnection: 	Disconnecting from shared DC 4_media
+Connection:     	Disconnecting from DC 4_media.0
+DataCenterConnection: 	Backed up  from DC 4_media.0
+Connection:     	Disconnected from DC 4_media.0
+Connection:     	Disconnecting from DC 4_media.1
+DataCenterConnection: 	Backed up  from DC 4_media.1
+Connection:     	Disconnected from DC 4_media.1
+Connection:     	Disconnecting from DC 4_media.2
+DataCenterConnection: 	Backed up  from DC 4_media.2
+Connection:     	Disconnected from DC 4_media.2
+Connection:     	Disconnecting from DC 4_media.3
+DataCenterConnection: 	Backed up  from DC 4_media.3
+Connection:     	Disconnected from DC 4_media.3
+Connection:     	Disconnecting from DC 4_media.4
+DataCenterConnection: 	Backed up  from DC 4_media.4
+Connection:     	Disconnected from DC 4_media.4
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 4_media
+DataCenterConnection: 	Disconnecting from shared DC 5
+Connection:     	Disconnecting from DC 5.0
+DataCenterConnection: 	Backed up  from DC 5.0
+Connection:     	Disconnected from DC 5.0
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 5
+MTProto:        	Unreferenced instance
+Serialization:  	Unlocking exclusive session lock!
+Serialization:  	Unlocked exclusive session lock!
+MTProto:        	Shutting down MadelineProto (MTProto)
+MTProto:        	Will unreference instance
+DataCenterConnection: 	Disconnecting from shared DC 2
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 2
+DataCenterConnection: 	Disconnecting from shared DC 1
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 1
+DataCenterConnection: 	Disconnecting from shared DC 2_media
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 2_media
+DataCenterConnection: 	Disconnecting from shared DC 3
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 3
+DataCenterConnection: 	Disconnecting from shared DC 4
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 4
+DataCenterConnection: 	Disconnecting from shared DC 4_media
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 4_media
+DataCenterConnection: 	Disconnecting from shared DC 5
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 5
+MTProto:        	Unreferenced instance
+MTProto:        	Successfully destroyed MadelineProto
+ClientAbstract: 	Got exception while receiving in IPC client: Amp\Ipc\Sync\ChannelException: The channel closed unexpectedly. Did the context die? in phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/danog/ipc/lib/Sync/ChannelledStream.php:64
+Stack trace:
+#0 [internal function]: Amp\Ipc\Sync\ChannelledStream->Amp\Ipc\Sync\{closure}()
+#1 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Coroutine.php(96): Generator->send(NULL)
+#2 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Internal/Placeholder.php(125): Amp\Coroutine->Amp\{closure}(NULL, NULL)
+#3 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Deferred.php(49): class@anonymous->resolve(NULL)
+#4 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/byte-stream/lib/ResourceInputStream.php(156): Amp\Deferred->resolve()
+#5 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/byte-stream/lib/ResourceInputStream.php(208): Amp\ByteStream\ResourceInputStream->free()
+#6 [internal function]: Amp\ByteStream\ResourceInputStream->__destruct()
+#7 {main}
+[08-Oct-2021 11:35:05 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:35:05 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:35:05 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Server:         	Starting IPC server /home/pokermahdi/public_html/b/Upload.madeline (process)
+ProcessRunner:  	Starting process with '/usr/local/bin/php' '-dhtml_errors=0' '-ddisplay_errors=0' '-dlog_errors=1' '/home/pokermahdi/public_html/b/madeline.php' 'madeline-ipc' '/home/pokermahdi/public_html/b/Upload.madeline' '1476074245'
+Serialization:  	MadelineProto is starting, please wait...
+[08-Oct-2021 08:05:05 UTC] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	Got exclusive session lock!
+MTProto:        	Filling database cache. This can take few minutes.
+MTProto:        	Cache filled.
+DataCenter:     	Disconnecting all before reconnect!
+DataCenterConnection: 	Disconnecting from shared DC 
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 
+DataCenter:     	Disconnecting all before reconnect!
+DataCenterConnection: 	Disconnecting from shared DC 
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 
+DataCenter:     	Disconnecting all before reconnect!
+DataCenterConnection: 	Disconnecting from shared DC 
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 
+DataCenter:     	Disconnecting all before reconnect!
+DataCenterConnection: 	Disconnecting from shared DC 
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 
+DataCenter:     	Disconnecting all before reconnect!
+DataCenterConnection: 	Disconnecting from shared DC 
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 
+DataCenter:     	Disconnecting all before reconnect!
+DataCenterConnection: 	Disconnecting from shared DC 
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 
+DataCenter:     	Disconnecting all before reconnect!
+DataCenterConnection: 	Disconnecting from shared DC 
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 
+[08-Oct-2021 08:05:06 UTC] Enabled PHP logging
+DataCenter:     	Reconnecting to DC 2 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.51:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 2.0
+Session:        	Resetting session in DC 2.0...
+DataCenter:     	Reconnecting to DC 1 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.175.54:443 main DC 1, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 1.0
+Session:        	Resetting session in DC 1.0...
+DataCenter:     	Reconnecting to DC 2_media (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.151:443 main DC 2_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 2_media.0
+Session:        	Resetting session in DC 2_media.0...
+DataCenter:     	Reconnecting to DC 3 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.175.100:443 main DC 3, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 3.0
+Session:        	Resetting session in DC 3.0...
+DataCenter:     	Reconnecting to DC 4 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.92:443 main DC 4, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 4.0
+Session:        	Resetting session in DC 4.0...
+DataCenter:     	Reconnecting to DC 4_media (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.165.96:443 main DC 4_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 4_media.0
+Session:        	Resetting session in DC 4_media.0...
+DataCenter:     	Reconnecting to DC 5 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://91.108.56.119:443 main DC 5, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 5.0
+Session:        	Resetting session in DC 5.0...
+Connection:     	Connected to DC 2.0!
+DataCenterConnection: 	Restoring 0 messages to DC 2
+DataCenter:     	OK!
+Connection:     	Connected to DC 2_media.0!
+Connection:     	Connecting to DC 2_media.1
+Session:        	Resetting session in DC 2_media.1...
+Connection:     	Connected to DC 4.0!
+DataCenterConnection: 	Restoring 0 messages to DC 4
+DataCenter:     	OK!
+Connection:     	Connected to DC 4_media.0!
+Connection:     	Connecting to DC 4_media.1
+Session:        	Resetting session in DC 4_media.1...
+Connection:     	Connected to DC 2_media.1!
+Connection:     	Connecting to DC 2_media.2
+Session:        	Resetting session in DC 2_media.2...
+Connection:     	Connected to DC 4_media.1!
+Connection:     	Connecting to DC 4_media.2
+Session:        	Resetting session in DC 4_media.2...
+Connection:     	Connected to DC 2_media.2!
+Connection:     	Connecting to DC 2_media.3
+Session:        	Resetting session in DC 2_media.3...
+Connection:     	Connected to DC 4_media.2!
+Connection:     	Connecting to DC 4_media.3
+Session:        	Resetting session in DC 4_media.3...
+Connection:     	Connected to DC 2_media.3!
+Connection:     	Connecting to DC 2_media.4
+Session:        	Resetting session in DC 2_media.4...
+Connection:     	Connected to DC 4_media.3!
+Connection:     	Connecting to DC 4_media.4
+Session:        	Resetting session in DC 4_media.4...
+Connection:     	Connected to DC 2_media.4!
+DataCenterConnection: 	Restoring 0 messages to DC 2_media
+DataCenter:     	OK!
+Connection:     	Connected to DC 4_media.4!
+DataCenterConnection: 	Restoring 0 messages to DC 4_media
+DataCenter:     	OK!
+Connection:     	Connected to DC 1.0!
+DataCenterConnection: 	Restoring 0 messages to DC 1
+DataCenter:     	OK!
+Connection:     	Connected to DC 3.0!
+DataCenterConnection: 	Restoring 0 messages to DC 3
+DataCenter:     	OK!
+Connection:     	Connected to DC 5.0!
+DataCenterConnection: 	Restoring 0 messages to DC 5
+DataCenter:     	OK!
+MTProto:        	Initing authorization...
+MTProto:        	Initing authorization DC 2...
+MTProto:        	Done initing authorization DC 2
+MTProto:        	Initing authorization DC 1...
+MTProto:        	Done initing authorization DC 1
+MTProto:        	Initing authorization DC 3...
+MTProto:        	Done initing authorization DC 3
+MTProto:        	Initing authorization DC 4...
+MTProto:        	Done initing authorization DC 4
+MTProto:        	Initing authorization DC 5...
+MTProto:        	Done initing authorization DC 5
+MTProto:        	Initing authorization DC 2_media...
+MTProto:        	Done initing authorization DC 2_media
+MTProto:        	Initing authorization DC 4_media...
+MTProto:        	Done initing authorization DC 4_media
+DataCenter:     	Reconnecting to DC 2 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.51:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+DataCenterConnection: 	Already connected!
+DataCenter:     	OK!
+DataCenter:     	Reconnecting to DC 1 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.175.54:443 main DC 1, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+DataCenterConnection: 	Already connected!
+DataCenter:     	OK!
+DataCenter:     	Reconnecting to DC 2_media (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.151:443 main DC 2_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+DataCenterConnection: 	Already connected!
+DataCenter:     	OK!
+DataCenter:     	Reconnecting to DC 3 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.175.100:443 main DC 3, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+DataCenterConnection: 	Already connected!
+DataCenter:     	OK!
+DataCenter:     	Reconnecting to DC 4 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.92:443 main DC 4, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+DataCenterConnection: 	Already connected!
+DataCenter:     	OK!
+DataCenter:     	Reconnecting to DC 4_media (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.165.96:443 main DC 4_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+DataCenterConnection: 	Already connected!
+DataCenter:     	OK!
+DataCenter:     	Reconnecting to DC 5 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://91.108.56.119:443 main DC 5, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+DataCenterConnection: 	Already connected!
+DataCenter:     	OK!
+MTProto:        	Initing authorization...
+MTProto:        	Initing authorization DC 2...
+MTProto:        	Done initing authorization DC 2
+MTProto:        	Initing authorization DC 1...
+MTProto:        	Done initing authorization DC 1
+MTProto:        	Initing authorization DC 3...
+MTProto:        	Done initing authorization DC 3
+MTProto:        	Initing authorization DC 4...
+MTProto:        	Done initing authorization DC 4
+MTProto:        	Initing authorization DC 5...
+MTProto:        	Done initing authorization DC 5
+MTProto:        	Initing authorization DC 2_media...
+MTProto:        	Done initing authorization DC 2_media
+MTProto:        	Initing authorization DC 4_media...
+MTProto:        	Done initing authorization DC 4_media
+MTProto:        	Not fetching phone config
+MTProto:        	Not fetching phone config
+MsgIdHandler64: 	Given message id (7016603487381142529) is bigger than or equal to the current limit (7016603487381137409). Consider syncing your date.
+MTProto:        	Initing authorization...
+MTProto:        	Initing authorization DC 2...
+MTProto:        	Done initing authorization DC 2
+MTProto:        	Initing authorization DC 1...
+MTProto:        	Done initing authorization DC 1
+MTProto:        	Initing authorization DC 3...
+MTProto:        	Done initing authorization DC 3
+MTProto:        	Initing authorization DC 4...
+MTProto:        	Done initing authorization DC 4
+MTProto:        	Initing authorization DC 5...
+MTProto:        	Done initing authorization DC 5
+MTProto:        	Initing authorization DC 2_media...
+MTProto:        	Done initing authorization DC 2_media
+MTProto:        	Initing authorization DC 4_media...
+MTProto:        	Done initing authorization DC 4_media
+AckHandler:     	Could not find users.getUsers with message ID 7016603486389272576 in new_outgoing!
+MTProto:        	AUTH_KEY_UNREGISTERED
+MTProto:        	Starting update system
+API:            	MadelineProto is ready!
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.ipcState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.ipcState.php.lock...
+Server:         	IPC server started successfully!
+Serialization:  	MadelineProto is starting, please wait...
+Serialization:  	Connected to IPC socket!
+MTProto:        	Accepted IPC client connection!
+[08-Oct-2021 11:35:06 Asia/tehran] Enabled PHP logging
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+ProcessRunner:  	Got final message from worker: 
+ProcessRunner:  	Got final message from worker: 
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	It seems like the session is busy.
+Serialization:  	Telegram does not support starting multiple instances of the same session, make sure no other instance of the session is running.
+MsgIdHandler:   	Garbage collected 4 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 1 outgoing messages, 0 left
+GarbageCollector: 	gc_collect_cycles done. Cleaned memory: 0 Mb
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	Still waiting for exclusive session lock...
+[08-Oct-2021 11:35:18 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:35:18 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:35:18 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+[08-Oct-2021 11:35:18 Asia/tehran] Enabled PHP logging
+Login:          	Logging in as a bot...
+MTProto:        	Initing authorization...
+MTProto:        	Initing authorization DC 2...
+AuthKeyHandler: 	Trying to copy authorization from DC 4 to DC 2
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+MsgIdHandler:   	Can't garbage collect auth.exportAuthorization with message ID 7016603542223847424
+MsgIdHandler:   	Garbage collected 3 outgoing messages, 1 left
+MsgIdHandler64: 	Given message id (7016603542825690113) is bigger than or equal to the current limit (7016603542825674753). Consider syncing your date.
+MTProto:        	Done initing authorization DC 2
+MTProto:        	Initing authorization DC 1...
+AuthKeyHandler: 	Trying to copy authorization from DC 4 to DC 1
+MTProto:        	Initing authorization DC 3...
+AuthKeyHandler: 	Trying to copy authorization from DC 4 to DC 3
+MTProto:        	Initing authorization DC 4...
+MTProto:        	Done initing authorization DC 4
+MTProto:        	Initing authorization DC 5...
+AuthKeyHandler: 	Trying to copy authorization from DC 4 to DC 5
+MsgIdHandler64: 	Given message id (7016603543682468865) is bigger than or equal to the current limit (7016603543682463745). Consider syncing your date.
+MsgIdHandler64: 	Given message id (7016603544519510017) is bigger than or equal to the current limit (7016603544519490561). Consider syncing your date.
+MsgIdHandler64: 	Given message id (7016603544533893121) is bigger than or equal to the current limit (7016603544533870593). Consider syncing your date.
+MTProto:        	Done initing authorization DC 1
+MTProto:        	Done initing authorization DC 3
+MsgIdHandler64: 	Given message id (7016603545056091137) is bigger than or equal to the current limit (7016603545056084993). Consider syncing your date.
+MTProto:        	Done initing authorization DC 5
+MTProto:        	Initing authorization DC 2_media...
+MTProto:        	Done initing authorization DC 2_media
+MTProto:        	Initing authorization DC 4_media...
+MTProto:        	Done initing authorization DC 4_media
+MTProto:        	Starting update system
+Login:          	Logged in successfully!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+MsgIdHandler:   	Garbage collected 4 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 1 outgoing messages, 0 left
+MsgIdHandler:   	Garbage collected 7 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 7 outgoing messages, 0 left
+MsgIdHandler:   	Garbage collected 4 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 1 outgoing messages, 0 left
+MsgIdHandler:   	Garbage collected 4 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 1 outgoing messages, 0 left
+MsgIdHandler:   	Garbage collected 4 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 1 outgoing messages, 0 left
+Serialization:  	Still waiting for exclusive session lock...
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+[08-Oct-2021 11:35:26 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:35:26 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:35:26 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+Serialization:  	Still waiting for exclusive session lock...
+MsgIdHandler:   	Garbage collected 4 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 4 outgoing messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:35:31 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:35:31 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:35:31 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+Serialization:  	Still waiting for exclusive session lock...
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 2 outgoing messages, 0 left
+API:            	!!! Could not connect to MadelineProto, please check and report the logs for more details. !!!
+API:            	!!! Reconnecting using slower method. !!!
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	It seems like the session is busy.
+Serialization:  	Telegram does not support starting multiple instances of the same session, make sure no other instance of the session is running.
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	Still waiting for exclusive session lock...
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 11:36:01 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:36:01 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:36:01 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	Still waiting for exclusive session lock...
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 2 outgoing messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:36:03 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:36:03 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:36:03 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+API:            	!!! Could not connect to MadelineProto, please check and report the logs for more details. !!!
+Exception:      	Could not connect to MadelineProto, please check the MadelineProto.log file to debug! in API.php:288
+entry:          	\danog\MadelineProto\Exception: Could not connect to MadelineProto, please check the MadelineProto.log file to debug! in phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/API.php:288
+Revision: aeed13260f3a397f11564a1cfb706e25663422db-74
+TL Trace:
+<br>
+initAsynchronously()<br>
+<br>
+Previous TL trace:<br>
+<br>
+API.php(292):       	connectToMadelineProto({},true,false)<br>
+API.php(183):       	connectToMadelineProto({})<br>
+internalInitAPI({})<br>
+Coroutine.php(115): 	send([0,null])<br>
+Placeholder.php(125):	danog\MadelineProto\{closure}(null,[0,null])<br>
+Deferred.php(49):   	resolve([0,null])<br>
+Tools.php(444):     	resolve([0,null])<br>
+NativeDriver.php(109):	danog\MadelineProto\{closure}("ao",null)<br>
+Driver.php(117):    	dispatch(true)<br>
+Driver.php(61):     	tick()<br>
+Loop.php(87):       	run()<br>
+Tools.php(313):     	run({})<br>
+AsyncConstruct.php(46):	wait("To obtain a result from a Coroutine object, yield the result or disable async (not recommended). See https:\/\/docs.madelineproto.xyz\/docs\/ASYNC.html for more information on async.")<br>
+entry.php(94):      	init()<br>
+entry.php(122):     	{closure}()<br>
+madeline.php(174):  	require_once("phar:\/\/\/home\/pokermahdi\/public_html\/b\/madeline-74.phar\/vendor\/danog\/madelineproto\/src\/danog\/MadelineProto\/Ipc\/Runner\/entry.php")<br>
+madeline.php(179):  	___install_madeline()
+entry:          	Got exception in IPC server, exiting...
+entry:          	Reporting error!
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.ipcState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.ipcState.php.lock...
+entry:          	Reported error!
+[08-Oct-2021 08:06:06 UTC] PHP Fatal error:  Uncaught \danog\MadelineProto\Exception: Could not connect to MadelineProto, please check the MadelineProto.log file to debug! in phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/API.php:288
+Revision: aeed13260f3a397f11564a1cfb706e25663422db-74
+TL Trace:
+<br>
+initAsynchronously()<br>
+<br>
+Previous TL trace:<br>
+<br>
+API.php(292):       	connectToMadelineProto({},true,false)<br>
+API.php(183):       	connectToMadelineProto({})<br>
+internalInitAPI({})<br>
+Coroutine.php(115): 	send([0,null])<br>
+Placeholder.php(125):	danog\MadelineProto\{closure}(null,[0,null])<br>
+Deferred.php(49):   	resolve([0,null])<br>
+Tools.php(444):     	resolve([0,null])<br>
+NativeDriver.php(109):	danog\MadelineProto\{closure}("ao",null)<br>
+Driver.php(117):    	dispatch(true)<br>
+Driver.php(61):     	tick()<br>
+Loop.php(87):       	run()<br>
+Tools.php(313):     	run({})<br>
+AsyncConstruct.php(46):	wait("To obtain a result from a Coroutine object, yield the result or disable async ( in phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/API.php on line 288
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:37:18 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:37:18 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:37:18 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updateShort) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+PeerHandler:    	Try fetching 1263852011 with access hash 0
+MsgIdHandler:   	Garbage collected 3 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 4 outgoing messages, 0 left
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:42:29 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 11:42:29 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:42:29 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 11:42:32 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:42:32 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:42:32 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+MsgIdHandler:   	Garbage collected 3 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 2 outgoing messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:42:51 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:42:51 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:42:51 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 11:44:29 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:44:29 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:44:29 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:44:30 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 11:44:30 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:44:30 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:44:30 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:44:31 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:44:31 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+[08-Oct-2021 11:44:31 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:44:31 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:44:31 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:44:32 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:44:32 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:44:32 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+[08-Oct-2021 11:44:33 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:44:33 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:44:33 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:44:34 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 11:44:34 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:44:34 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:44:34 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:44:35 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:44:35 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+[08-Oct-2021 11:44:35 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:44:35 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:44:35 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:44:36 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:44:36 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:44:36 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 11:44:50 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:44:50 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:44:50 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 3 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 2 outgoing messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:45:01 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:45:02 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:45:02 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:45:04 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:45:04 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:45:04 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:45:06 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:45:06 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:45:06 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 11:45:07 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:45:07 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:45:07 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:47:53 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:47:53 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:47:53 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 11:47:54 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:47:54 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:47:54 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:47:56 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:47:56 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:47:56 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:47:57 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 11:47:57 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:47:57 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+[08-Oct-2021 11:47:58 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:47:59 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:47:59 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 11:48:00 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:48:00 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:48:00 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 11:48:06 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:48:07 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:48:07 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+ReadLoop:       	danog\MadelineProto\NothingInTheSocketException in phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Stream/Common/BufferedRawStream.php:178
+Stack trace:
+#0 [internal function]: danog\MadelineProto\Stream\Common\BufferedRawStream->bufferReadGenerator(1)
+#1 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php(115): Generator->send(NULL)
+#2 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Internal/Placeholder.php(125): danog\MadelineProto\Coroutine->danog\MadelineProto\{closure}(NULL, NULL)
+#3 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Deferred.php(49): class@anonymous->resolve(NULL)
+#4 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/byte-stream/lib/ResourceInputStream.php(76): Amp\Deferred->resolve(NULL)
+#5 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Loop/NativeDriver.php(265): Amp\ByteStream\ResourceInputStream::Amp\ByteStream\{closure}('du', Resource id #631, NULL)
+#6 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Loop/NativeDriver.php(97): Amp\Loop\NativeDriver->selectStreams(Array, Array, 1)
+#7 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Loop/Driver.php(117): Amp\Loop\NativeDriver->dispatch(true)
+#8 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Loop/Driver.php(61): Amp\Loop\Driver->tick()
+#9 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Loop.php(87): Amp\Loop\Driver->run()
+#10 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Tools.php(313): Amp\Loop::run(Object(Closure))
+#11 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(99): danog\MadelineProto\Tools::wait(Object(Amp\Internal\PrivatePromise))
+#12 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(122): {closure}()
+#13 /home/pokermahdi/public_html/b/madeline.php(174): require_once('phar:///home/po...')
+#14 /home/pokermahdi/public_html/b/madeline.php(179): ___install_madeline()
+#15 {main}
+ReadLoop:       	Got nothing in the socket in DC 5.0, reconnecting...
+Connection:     	Reconnecting DC 5.0
+Connection:     	Disconnecting from DC 5.0
+Connection:     	Disconnected from DC 5.0
+DataCenter:     	Reconnecting to DC 5 (0) from existing
+DataCenterConnection: 	Trying shared connection via tcp://91.108.56.119:443 main DC 5, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (0)
+Connection:     	Connecting to DC 5.0
+Connection:     	Connected to DC 5.0!
+DataCenter:     	OK!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:48:57 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:48:57 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:48:57 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:49:00 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 11:49:00 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:49:00 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:49:02 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 11:49:02 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:49:03 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 11:49:21 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:49:22 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:49:22 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+ReadLoop:       	danog\MadelineProto\NothingInTheSocketException in phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Stream/Common/BufferedRawStream.php:178
+Stack trace:
+#0 [internal function]: danog\MadelineProto\Stream\Common\BufferedRawStream->bufferReadGenerator(1)
+#1 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php(115): Generator->send(NULL)
+#2 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Internal/Placeholder.php(125): danog\MadelineProto\Coroutine->danog\MadelineProto\{closure}(NULL, NULL)
+#3 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Deferred.php(49): class@anonymous->resolve(NULL)
+#4 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/byte-stream/lib/ResourceInputStream.php(76): Amp\Deferred->resolve(NULL)
+#5 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Loop/NativeDriver.php(265): Amp\ByteStream\ResourceInputStream::Amp\ByteStream\{closure}('am', Resource id #615, NULL)
+#6 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Loop/NativeDriver.php(97): Amp\Loop\NativeDriver->selectStreams(Array, Array, 0.714)
+#7 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Loop/Driver.php(117): Amp\Loop\NativeDriver->dispatch(true)
+#8 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Loop/Driver.php(61): Amp\Loop\Driver->tick()
+#9 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Loop.php(87): Amp\Loop\Driver->run()
+#10 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Tools.php(313): Amp\Loop::run(Object(Closure))
+#11 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(99): danog\MadelineProto\Tools::wait(Object(Amp\Internal\PrivatePromise))
+#12 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(122): {closure}()
+#13 /home/pokermahdi/public_html/b/madeline.php(174): require_once('phar:///home/po...')
+#14 /home/pokermahdi/public_html/b/madeline.php(179): ___install_madeline()
+#15 {main}
+ReadLoop:       	Got nothing in the socket in DC 2.0, reconnecting...
+Connection:     	Reconnecting DC 2.0
+Connection:     	Disconnecting from DC 2.0
+Connection:     	Disconnected from DC 2.0
+DataCenter:     	Reconnecting to DC 2 (0) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.51:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (0)
+Connection:     	Connecting to DC 2.0
+Connection:     	Connected to DC 2.0!
+DataCenter:     	OK!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 11:50:05 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:50:05 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:50:05 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:50:11 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 11:50:11 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:50:11 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 11:50:30 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:50:31 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:50:31 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+Serialization:  	Connected to IPC socket!
+MTProto:        	Accepted IPC client connection!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:50:46 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 11:50:46 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:50:46 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+SeqLoop:        	Was fed updates of type updates...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:51:00 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:51:00 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:51:00 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 3 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:51:05 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:51:05 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:51:05 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 11:51:19 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:51:20 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:51:20 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 11:52:44 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:52:45 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:52:45 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+UpdateHandler:  	Parsing updates (updateShort) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+PeerHandler:    	Try fetching 1258053136 with access hash 0
+MsgIdHandler:   	Garbage collected 3 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 4 outgoing messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 11:58:27 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:58:27 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 11:58:27 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:02:35 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:02:35 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:02:35 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:02:45 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:02:45 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:02:45 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:03:01 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:03:02 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:03:02 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:03:37 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:03:37 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:03:37 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:03:41 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:03:41 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:03:41 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:04:11 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:04:11 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:04:11 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:04:17 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:04:18 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:04:18 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:04:56 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:04:57 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:04:57 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:05:35 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:05:35 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:05:35 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:05:40 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:05:40 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:05:40 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:05:56 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:05:56 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:05:56 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:06:12 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:06:12 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:06:12 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updateShort) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 2 outgoing messages, 0 left
+UpdateHandler:  	Parsing updates (updateShort) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+MsgIdHandler:   	Can't garbage collect users.getFullUser with message ID 7016611762791251968
+MsgIdHandler:   	Garbage collected 1 outgoing messages, 1 left
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 1 outgoing messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:07:16 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:07:16 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:07:16 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+Exception:      	json_decode() expects parameter 1 to be string, array given in Neenja.php(452) : eval()'d code:3
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:07:24 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:07:24 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:07:24 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:07:34 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:07:34 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:07:34 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 3 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:07:39 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:07:39 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:07:39 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updateShort) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 2 outgoing messages, 0 left
+UpdateHandler:  	Parsing updates (updateShort) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 2 outgoing messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:08:13 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:08:13 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:08:13 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 3 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 2 outgoing messages, 0 left
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:14:10 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:14:11 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:14:11 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:14:13 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:14:13 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:14:13 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:14:44 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:14:44 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:14:44 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:15:29 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:15:30 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:15:30 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:15:55 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:15:56 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:15:56 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+SeqLoop:        	Was fed updates of type updates...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:18:17 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:18:18 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:18:18 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+ReadLoop:       	danog\MadelineProto\NothingInTheSocketException in phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Stream/Common/BufferedRawStream.php:178
+Stack trace:
+#0 [internal function]: danog\MadelineProto\Stream\Common\BufferedRawStream->bufferReadGenerator(1)
+#1 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Coroutine.php(115): Generator->send(NULL)
+#2 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Internal/Placeholder.php(125): danog\MadelineProto\Coroutine->danog\MadelineProto\{closure}(NULL, NULL)
+#3 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Deferred.php(49): class@anonymous->resolve(NULL)
+#4 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/byte-stream/lib/ResourceInputStream.php(76): Amp\Deferred->resolve(NULL)
+#5 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Loop/NativeDriver.php(265): Amp\ByteStream\ResourceInputStream::Amp\ByteStream\{closure}('dk', Resource id #617, NULL)
+#6 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Loop/NativeDriver.php(97): Amp\Loop\NativeDriver->selectStreams(Array, Array, 0.523)
+#7 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Loop/Driver.php(117): Amp\Loop\NativeDriver->dispatch(true)
+#8 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Loop/Driver.php(61): Amp\Loop\Driver->tick()
+#9 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Loop.php(87): Amp\Loop\Driver->run()
+#10 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Tools.php(313): Amp\Loop::run(Object(Closure))
+#11 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(99): danog\MadelineProto\Tools::wait(Object(Amp\Internal\PrivatePromise))
+#12 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/danog/madelineproto/src/danog/MadelineProto/Ipc/Runner/entry.php(122): {closure}()
+#13 /home/pokermahdi/public_html/b/madeline.php(174): require_once('phar:///home/po...')
+#14 /home/pokermahdi/public_html/b/madeline.php(179): ___install_madeline()
+#15 {main}
+ReadLoop:       	Got nothing in the socket in DC 1.0, reconnecting...
+Connection:     	Reconnecting DC 1.0
+Connection:     	Disconnecting from DC 1.0
+Connection:     	Disconnected from DC 1.0
+DataCenter:     	Reconnecting to DC 1 (0) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.175.54:443 main DC 1, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (0)
+Connection:     	Connecting to DC 1.0
+DataCenter:     	Connection failed (1): Connection to tcp://149.154.175.54:443 refused
+DataCenter:     	Reconnecting to DC 1 (0) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.175.54:80 main DC 1, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (0)
+Connection:     	Connecting to DC 1.0
+Connection:     	Connected to DC 1.0!
+DataCenter:     	OK!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+SeqLoop:        	Was fed updates of type updates...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:18:52 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:18:52 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:18:52 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+SeqLoop:        	Was fed updates of type updates...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:20:43 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:20:43 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:20:43 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:20:49 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:20:49 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:20:49 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:20:51 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:20:51 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:20:51 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+SeqLoop:        	Was fed updates of type updates...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:21:00 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:21:00 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:21:00 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:21:16 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:21:16 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:21:16 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:21:22 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:21:23 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:21:23 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:21:48 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:21:49 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:21:49 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+GarbageCollector: 	gc_collect_cycles done. Cleaned memory: 1 Mb
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+MsgIdHandler:   	Garbage collected 3 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:22:39 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:22:39 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:22:39 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:22:39 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:22:40 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:22:40 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 3 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:22:41 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:22:41 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:22:41 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:22:58 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:22:58 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:22:58 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+MsgIdHandler:   	Garbage collected 3 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:23:03 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:23:03 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:23:03 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+Serialization:  	Connected to IPC socket!
+MTProto:        	Accepted IPC client connection!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:23:04 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:23:04 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:23:04 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:23:05 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+[08-Oct-2021 12:23:05 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:23:05 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:23:14 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:23:14 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:23:14 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 2 outgoing messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:23:17 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:23:17 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:23:17 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:23:18 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:23:18 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:23:18 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:24:30 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:24:30 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:24:30 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updateShort) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+PeerHandler:    	Try fetching 1653611409 with access hash 0
+MsgIdHandler:   	Garbage collected 3 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 4 outgoing messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:24:52 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:24:52 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:24:52 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:24:56 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:24:56 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:24:56 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 2 outgoing messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:24:58 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:24:59 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:24:59 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:25:40 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:25:40 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:25:40 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+MsgIdHandler:   	Garbage collected 2 outgoing messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:25:42 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:25:43 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:25:43 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:25:44 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:25:45 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:25:45 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 2 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:26:36 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:26:36 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:26:36 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:27:06 Asia/tehran] Enabled PHP logging
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:27:06 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:27:06 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:27:14 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:27:14 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:27:14 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+SeqLoop:        	Was fed updates of type updates...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+[08-Oct-2021 12:27:50 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:27:50 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:27:50 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/pokermahdi/public_html/b/Upload.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+ClientAbstract: 	Got exception while receiving in IPC client: Amp\Ipc\Sync\ChannelException: The channel closed unexpectedly. Did the context die? in phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/danog/ipc/lib/Sync/ChannelledStream.php:64
+Stack trace:
+#0 [internal function]: Amp\Ipc\Sync\ChannelledStream->Amp\Ipc\Sync\{closure}()
+#1 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Coroutine.php(96): Generator->send(NULL)
+#2 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Internal/Placeholder.php(125): Amp\Coroutine->Amp\{closure}(NULL, NULL)
+#3 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Deferred.php(49): class@anonymous->resolve(NULL)
+#4 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/byte-stream/lib/ResourceInputStream.php(156): Amp\Deferred->resolve()
+#5 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/byte-stream/lib/ResourceInputStream.php(208): Amp\ByteStream\ResourceInputStream->free()
+#6 [internal function]: Amp\ByteStream\ResourceInputStream->__destruct()
+#7 {main}
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+[08-Oct-2021 12:31:10 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:31:10 Asia/tehran] Enabled PHP logging
+[08-Oct-2021 12:31:10 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2020 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	MadelineProto is starting, please wait...
+MTProto:        	Accepted IPC client connection!
+Serialization:  	Connected to IPC socket!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+FeedLoop:       	Resumed update feed loop generic
+MsgIdHandler:   	Garbage collected 1 incoming messages, 0 left
+ClientAbstract: 	Got exception while receiving in IPC client: Amp\Ipc\Sync\ChannelException: The channel closed unexpectedly. Did the context die? in phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/danog/ipc/lib/Sync/ChannelledStream.php:64
+Stack trace:
+#0 [internal function]: Amp\Ipc\Sync\ChannelledStream->Amp\Ipc\Sync\{closure}()
+#1 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Coroutine.php(96): Generator->send(NULL)
+#2 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Internal/Placeholder.php(125): Amp\Coroutine->Amp\{closure}(NULL, NULL)
+#3 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/amp/lib/Deferred.php(49): class@anonymous->resolve(NULL)
+#4 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/byte-stream/lib/ResourceInputStream.php(156): Amp\Deferred->resolve()
+#5 phar:///home/pokermahdi/public_html/b/madeline-74.phar/vendor/phabel/transpiler74/amphp/byte-stream/lib/ResourceInputStream.php(208): Amp\ByteStream\ResourceInputStream->free()
+#6 [internal function]: Amp\ByteStream\ResourceInputStream->__destruct()
+#7 {main}
