@@ -1,6 +1,6 @@
-ErrorDocument 404 /404.php
+ErrorDocument 404 404.php
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([a-zA-Z0-9\_\=\-]+)/?$ index.php?getTheFile=$1 [QSA]
 RewriteRule ^download\/([a-zA-Z]+\_[a-zA-Z]+)/?(.*)?$ download/index.php?hash=$1&name=$2 [QSA]
+RewriteRule ^nim\/([a-zA-Z0-9])?$ Nim/index.php?hash=$1 [QSA]
