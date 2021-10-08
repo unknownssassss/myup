@@ -25,15 +25,15 @@ if ($mProto->getAuthorization() !== MTProto::LOGGED_IN) {
 if (isset($_GET['hash']) && isset($_GET['name'])) {
     try {
         $hashdecode = explode("_",str_replace(range('a','z'),range(0,9),strrev($_GET['hash'])));
-    	        $id = $hashdecode[1];
+    	        $id = $hashdecode[1] / 1024 / 1024;
     	        $stamp = $hashdecode[0]; 
     	        if(!is_numeric($id) or !is_numeric($stamp)){
-    	            echo "<html><body><h1><p>Somthing Wrong Please Check Link<br/>Is Num</p></h1><h1><p>مشکلی رخ داد لطفا لینک را چک کنید</p></h1></body></html>";
-    	            exit;
+    	            http_response_code(404);
+    exit;
     	        }
     	        if($stamp < time()){
-    	                     echo "<html><body><h1><p>Somthing Wrong Please Check Link<br/>Stamp</p></h1><h1><p>مشکلی رخ داد لطفا لینک را چک کنید</p></h1></body></html>";
-    	            exit;
+    	                     http_response_code(404);
+    exit;
     	        }
         $media = $mProto->messages->getMessages(['id' => [$id]]);
         if (!isset($media['messages'][0]['media'])) {
