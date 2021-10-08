@@ -45,16 +45,15 @@ if ($mProto->getAuthorization() !== MTProto::LOGGED_IN) {
 if (isset($_GET['hash'])) {
     try {
         $id = random_decode($_GET['hash']);
-        echo $id;
-        exit;
+  
         if (!is_int($id)) {
-            http_response_code(404);
+            echo "init";
             exit;
         }
         $id = $id / 1024 / 1024;
         $media = $mProto->messages->getMessages(['id' => [$id]]);
         if (!isset($media['messages'][0]['media'])) {
-            http_response_code(404);
+            echo "sset";
             exit;
         }
         $getDownloadInfo = $mProto->getDownloadInfo($media['messages'][0]['media']);
