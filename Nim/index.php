@@ -45,11 +45,6 @@ if ($mProto->getAuthorization() !== MTProto::LOGGED_IN) {
 if (isset($_GET['hash'])) {
     try {
         $id = random_decode($_GET['hash']);
-  
-        if (!is_int($id)) {
-            echo "init";
-            exit;
-        }
         $id = $id / 1024 / 1024;
         $media = $mProto->messages->getMessages(['id' => [$id]]);
         if (!isset($media['messages'][0]['media'])) {
