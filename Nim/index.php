@@ -48,7 +48,7 @@ if (isset($_GET['hash'])) {
         $id = $id / 1024 / 1024;
         $media = $mProto->messages->getMessages(['id' => [$id]]);
         if (!isset($media['messages'][0]['media'])) {
-            echo "sset";
+            http_response_code(404);
             exit;
         }
         $getDownloadInfo = $mProto->getDownloadInfo($media['messages'][0]['media']);
