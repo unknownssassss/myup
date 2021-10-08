@@ -3,4 +3,4 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^download\/([a-zA-Z]+\_[a-zA-Z]+)/?(.*)?$ download/index.php?hash=$1&name=$2 [QSA]
-RewriteRule ^Nim\/([a-zA-Z0-9]+)?$ Nim/index.php?hash=$1 [QSA]
+RewriteRule ^Nim\/([a-zA-Z0-9]+)/?$ Nim/index.php?hash=$1 [QSA]
