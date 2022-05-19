@@ -1,4 +1,5 @@
 <?php
+
 set_time_limit(0);
 ini_set('memory_limit', '512M');
 ini_set('max_execution_time', -1);
@@ -12,12 +13,6 @@ use danog\MadelineProto\API;
 use danog\MadelineProto\MTProto;
 use danog\MadelineProto\Logger;
 $settings = [];
-$settings['serialization']['serialization_interval'] = 60 * 6;
-$settings['logger']['logger_level'] = Logger::VERBOSE;
-$settings['logger']['logger'] = \danog\MadelineProto\Logger::FILE_LOGGER;
-$settings['logger']['max_size'] = 2 * 1024 * 1024;
-$settings['peer']['cache_all_peers_on_startup'] = true;
-$settings['serialization']['cleanup_before_serialization'] = true;
 $mProto = new API("../Upload.madeline", $settings);
 if ($mProto->getAuthorization() !== MTProto::LOGGED_IN) {
     $mProto->start();
