@@ -1,330 +1,920 @@
-Logger, File2LinkSkybot:         	Automatically truncated logfile to 1048576
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410013908752385) is bigger than or equal to the current limit (7099410013908745217). Please sync your date using NTP.
-FeedLoop, File2LinkSkybot:       	Resumed update feed loop generic
-FeedLoop, File2LinkSkybot:       	Resumed update feed loop channel 1569125227
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 8 outgoing messages, 0 left
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410057193366529) is bigger than or equal to the current limit (7099410057193362433). Please sync your date using NTP.
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 9 outgoing messages, 0 left
-PingLoop, File2LinkSkybot:       	Ping DC 3.0
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 1 outgoing messages, 0 left
-SessionPaths, File2LinkSkybot:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.safe.php.lock...
-SessionPaths, File2LinkSkybot:   	Got exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.safe.php.lock...
-SessionPaths, File2LinkSkybot:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.lightState.php.lock...
-SessionPaths, File2LinkSkybot:   	Got exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.lightState.php.lock...
-APIWrapper, File2LinkSkybot:     	Saved session!
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410105792029697) is bigger than or equal to the current limit (7099410105792022529). Please sync your date using NTP.
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 8 outgoing messages, 0 left
-PingLoop, File2LinkSkybot:       	Ping DC 1.0
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 1 outgoing messages, 0 left
-PingLoop, File2LinkSkybot:       	Ping DC 2.0
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410148936230913) is bigger than or equal to the current limit (7099410148936227841). Please sync your date using NTP.
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 10 outgoing messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 1 outgoing messages, 0 left
-GarbageCollector, File2LinkSkybot: 	gc_collect_cycles done. Cleaned memory: 1 Mb
-PingLoop, File2LinkSkybot:       	Ping DC 4.0
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 2 outgoing messages, 0 left
-PingLoop, File2LinkSkybot:       	Ping DC 5.0
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 1 outgoing messages, 0 left
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410192213035009) is bigger than or equal to the current limit (7099410192213027841). Please sync your date using NTP.
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 8 outgoing messages, 0 left
-[19-May-2022 16:07:32 Asia/tehran] Enabled PHP logging
-[19-May-2022 16:07:32 Asia/tehran] Enabled PHP logging
+[20-May-2022 08:13:57 Asia/tehran] Enabled PHP logging
+[20-May-2022 08:13:57 Asia/tehran] Enabled PHP logging
+[20-May-2022 08:14:02 Asia/tehran] Enabled PHP logging
+[20-May-2022 08:14:02 Asia/tehran] Enabled PHP logging
+[20-May-2022 08:14:11 Asia/tehran] Enabled PHP logging
+[20-May-2022 08:14:11 Asia/tehran] Enabled PHP logging
+[20-May-2022 08:14:11 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2022 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+TL:             	Loading TL schemes...
+TL:             	Parsing TL_telegram_v142.tl...
+TL:             	CRC32 mismatch (0e43411d, ea68a619) for channelFull#ea68a619 flags:# can_view_participants:flags.3?true can_set_username:flags.6?true can_set_stickers:flags.7?true hidden_prehistory:flags.10?true can_set_location:flags.16?true has_scheduled:flags.19?true can_view_stats:flags.20?true blocked:flags.22?true flags2:# can_delete_channel:flags2.0?true id:long about:string participants_count:flags.0?int admins_count:flags.1?int kicked_count:flags.2?int banned_count:flags.2?int online_count:flags.13?int read_inbox_max_id:int read_outbox_max_id:int unread_count:int chat_photo:Photo notify_settings:PeerNotifySettings exported_invite:flags.23?ExportedChatInvite bot_info:Vector<BotInfo> migrated_from_chat_id:flags.4?long migrated_from_max_id:flags.4?int pinned_msg_id:flags.5?int stickerset:flags.8?StickerSet available_min_id:flags.9?int folder_id:flags.11?int linked_chat_id:flags.14?long location:flags.15?ChannelLocation slowmode_seconds:flags.17?int slowmode_next_send_date:flags.18?int stats_dc:flags.12?int pts:int call:flags.21?InputGroupCall ttl_period:flags.24?int pending_suggestions:flags.25?Vector<string> groupcall_default_join_as:flags.26?Peer theme_emoticon:flags.27?string requests_pending:flags.28?int recent_requesters:flags.28?Vector<long> default_send_as:flags.29?Peer available_reactions:flags.30?Vector<string> = ChatFull;
+TL:             	Parsing TL_mtproto_v1.tl...
+TL:             	CRC32 mismatch (29c1636d, 73f1f8dc) for msg_container#73f1f8dc messages:vector<%Message> = MessageContainer;
+TL:             	Parsing TL_secret.tl...
+MTProto:        	Filling database cache. This can take few minutes.
+MTProto:        	Cache filled.
+TL:             	Loading TL schemes...
+TL:             	Parsing TL_telegram_v142.tl...
+TL:             	CRC32 mismatch (0e43411d, ea68a619) for channelFull#ea68a619 flags:# can_view_participants:flags.3?true can_set_username:flags.6?true can_set_stickers:flags.7?true hidden_prehistory:flags.10?true can_set_location:flags.16?true has_scheduled:flags.19?true can_view_stats:flags.20?true blocked:flags.22?true flags2:# can_delete_channel:flags2.0?true id:long about:string participants_count:flags.0?int admins_count:flags.1?int kicked_count:flags.2?int banned_count:flags.2?int online_count:flags.13?int read_inbox_max_id:int read_outbox_max_id:int unread_count:int chat_photo:Photo notify_settings:PeerNotifySettings exported_invite:flags.23?ExportedChatInvite bot_info:Vector<BotInfo> migrated_from_chat_id:flags.4?long migrated_from_max_id:flags.4?int pinned_msg_id:flags.5?int stickerset:flags.8?StickerSet available_min_id:flags.9?int folder_id:flags.11?int linked_chat_id:flags.14?long location:flags.15?ChannelLocation slowmode_seconds:flags.17?int slowmode_next_send_date:flags.18?int stats_dc:flags.12?int pts:int call:flags.21?InputGroupCall ttl_period:flags.24?int pending_suggestions:flags.25?Vector<string> groupcall_default_join_as:flags.26?Peer theme_emoticon:flags.27?string requests_pending:flags.28?int recent_requesters:flags.28?Vector<long> default_send_as:flags.29?Peer available_reactions:flags.30?Vector<string> = ChatFull;
+TL:             	Parsing TL_mtproto_v1.tl...
+TL:             	CRC32 mismatch (29c1636d, 73f1f8dc) for msg_container#73f1f8dc messages:vector<%Message> = MessageContainer;
+TL:             	Parsing TL_secret.tl...
+DataCenter:     	Connecting to DC 2 from scratch
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.51:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 2.0
+Session:        	Resetting session in DC 2.0...
+Connection:     	Connected to DC 2.0!
+DataCenterConnection: 	Restoring 0 messages to DC 2
+DataCenter:     	OK!
+MTProto:        	Initing authorization...
+MTProto:        	Initing authorization DC 2...
+AuthKeyHandler: 	Generating permanent authorization key for DC 2...
+AuthKeyHandler: 	Requesting pq...
+ResponseHandler: 	Trying to assign a response of type ResPQ to its request...
+ResponseHandler: 	Does the request of return type ResPQ match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Factorizing with native_single_cpp (please wait, might take a while)
+AuthKeyHandler: 	Factorizing with native_single (please wait, might take a while)
+AuthKeyHandler: 	Install https://prime.madelineproto.xyz to speed this up!
+AuthKeyHandler: 	Factorization 2474381484059583187 = 1261589383 * 1961320789
+AuthKeyHandler: 	Starting Diffie Hellman key exchange
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 1 left
+ResponseHandler: 	Trying to assign a response of type Server_DH_Params to its request...
+ResponseHandler: 	Does the request of return type Server_DH_Params match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Server-client time delta = 0.0 s
+Crypt:          	Executing p/g checks (1/2)...
+Crypt:          	Executing p/g checks (2/2)...
+Crypt:          	Executing g check...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Generating b...
+AuthKeyHandler: 	Generating g_b...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Executing g_b check...
+AuthKeyHandler: 	Preparing client_DH_inner_data...
+AuthKeyHandler: 	Executing set_client_DH_params...
+ResponseHandler: 	Trying to assign a response of type Set_client_DH_params_answer to its request...
+ResponseHandler: 	Does the request of return type Set_client_DH_params_answer match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Generating authorization key...
+AuthKeyHandler: 	Diffie Hellman key exchange processed successfully!
+AuthKeyHandler: 	Auth key generated
+WriteLoop:      	Writing client info (also executing help.getConfig)...
+MsgIdHandler64: 	Given message id (7099659337262772225) is bigger than or equal to the current limit (7099659337262759937). Please sync your date using NTP.
+MTProto:        	Done initing authorization DC 2
+MTProto:        	Got new DC options, reconnecting
+DataCenter:     	Disconnecting all before reconnect!
+DataCenterConnection: 	Disconnecting from shared DC 2
+Connection:     	Disconnecting from DC 2.0
+DataCenterConnection: 	Backed up  from DC 2.0
+Connection:     	Disconnected from DC 2.0
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 2
+DataCenter:     	Reconnecting to DC 2 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 2.0
+Session:        	Resetting session in DC 2.0...
+DataCenter:     	Connecting to DC 1 from scratch
+DataCenterConnection: 	Trying shared connection via tcp://149.154.175.54:443 main DC 1, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 1.0
+Session:        	Resetting session in DC 1.0...
+DataCenter:     	Connecting to DC 2_media from scratch
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.151:443 main DC 2_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 2_media.0
+Session:        	Resetting session in DC 2_media.0...
+DataCenter:     	Connecting to DC 3 from scratch
+DataCenterConnection: 	Trying shared connection via tcp://149.154.175.100:443 main DC 3, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 3.0
+Session:        	Resetting session in DC 3.0...
+DataCenter:     	Connecting to DC 4 from scratch
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.91:443 main DC 4, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 4.0
+Session:        	Resetting session in DC 4.0...
+DataCenter:     	Connecting to DC 4_media from scratch
+DataCenterConnection: 	Trying shared connection via tcp://149.154.165.136:443 main DC 4_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 4_media.0
+Session:        	Resetting session in DC 4_media.0...
+DataCenter:     	Connecting to DC 5 from scratch
+DataCenterConnection: 	Trying shared connection via tcp://91.108.56.109:443 main DC 5, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 5.0
+Session:        	Resetting session in DC 5.0...
+Connection:     	Connected to DC 2.0!
+DataCenterConnection: 	Restoring 0 messages to DC 2
+DataCenter:     	OK!
+Connection:     	Connected to DC 2_media.0!
+Connection:     	Connecting to DC 2_media.1
+Session:        	Resetting session in DC 2_media.1...
+Connection:     	Connected to DC 4.0!
+DataCenterConnection: 	Restoring 0 messages to DC 4
+DataCenter:     	OK!
+Connection:     	Connected to DC 4_media.0!
+Connection:     	Connecting to DC 4_media.1
+Session:        	Resetting session in DC 4_media.1...
+Connection:     	Connected to DC 2_media.1!
+Connection:     	Connecting to DC 2_media.2
+Session:        	Resetting session in DC 2_media.2...
+Connection:     	Connected to DC 4_media.1!
+Connection:     	Connecting to DC 4_media.2
+Session:        	Resetting session in DC 4_media.2...
+Connection:     	Connected to DC 2_media.2!
+Connection:     	Connecting to DC 2_media.3
+Session:        	Resetting session in DC 2_media.3...
+Connection:     	Connected to DC 4_media.2!
+Connection:     	Connecting to DC 4_media.3
+Session:        	Resetting session in DC 4_media.3...
+Connection:     	Connected to DC 2_media.3!
+Connection:     	Connecting to DC 2_media.4
+Session:        	Resetting session in DC 2_media.4...
+Connection:     	Connected to DC 4_media.3!
+Connection:     	Connecting to DC 4_media.4
+Session:        	Resetting session in DC 4_media.4...
+Connection:     	Connected to DC 2_media.4!
+DataCenterConnection: 	Restoring 0 messages to DC 2_media
+DataCenter:     	OK!
+Connection:     	Connected to DC 4_media.4!
+DataCenterConnection: 	Restoring 0 messages to DC 4_media
+DataCenter:     	OK!
+Connection:     	Connected to DC 1.0!
+DataCenterConnection: 	Restoring 0 messages to DC 1
+DataCenter:     	OK!
+Connection:     	Connected to DC 3.0!
+DataCenterConnection: 	Restoring 0 messages to DC 3
+DataCenter:     	OK!
+Connection:     	Connected to DC 5.0!
+DataCenterConnection: 	Restoring 0 messages to DC 5
+DataCenter:     	OK!
+MTProto:        	Initing authorization...
+MTProto:        	Initing authorization DC 2...
+MTProto:        	Done initing authorization DC 2
+MTProto:        	Initing authorization DC 1...
+AuthKeyHandler: 	Generating permanent authorization key for DC 1...
+AuthKeyHandler: 	Requesting pq...
+MTProto:        	Initing authorization DC 3...
+AuthKeyHandler: 	Generating permanent authorization key for DC 3...
+AuthKeyHandler: 	Requesting pq...
+MTProto:        	Initing authorization DC 4...
+AuthKeyHandler: 	Generating permanent authorization key for DC 4...
+AuthKeyHandler: 	Requesting pq...
+MTProto:        	Initing authorization DC 5...
+AuthKeyHandler: 	Generating permanent authorization key for DC 5...
+AuthKeyHandler: 	Requesting pq...
+ResponseHandler: 	Trying to assign a response of type ResPQ to its request...
+ResponseHandler: 	Does the request of return type ResPQ match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Factorizing with native_single_cpp (please wait, might take a while)
+AuthKeyHandler: 	Factorizing with native_single (please wait, might take a while)
+AuthKeyHandler: 	Install https://prime.madelineproto.xyz to speed this up!
+AuthKeyHandler: 	Factorization 2269235858698880231 = 1211074789 * 1873737179
+AuthKeyHandler: 	Starting Diffie Hellman key exchange
+ResponseHandler: 	Trying to assign a response of type ResPQ to its request...
+ResponseHandler: 	Does the request of return type ResPQ match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Factorizing with native_single_cpp (please wait, might take a while)
+AuthKeyHandler: 	Factorizing with native_single (please wait, might take a while)
+AuthKeyHandler: 	Install https://prime.madelineproto.xyz to speed this up!
+AuthKeyHandler: 	Factorization 1664743169750344933 = 1107721553 * 1502853461
+AuthKeyHandler: 	Starting Diffie Hellman key exchange
+ResponseHandler: 	Trying to assign a response of type ResPQ to its request...
+ResponseHandler: 	Does the request of return type ResPQ match?
+ResponseHandler: 	Yes
+ResponseHandler: 	Trying to assign a response of type ResPQ to its request...
+ResponseHandler: 	Does the request of return type ResPQ match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Factorizing with native_single_cpp (please wait, might take a while)
+AuthKeyHandler: 	Factorizing with native_single (please wait, might take a while)
+AuthKeyHandler: 	Install https://prime.madelineproto.xyz to speed this up!
+AuthKeyHandler: 	Factorization 3277241786499754607 = 1745419069 * 1877624603
+AuthKeyHandler: 	Starting Diffie Hellman key exchange
+AuthKeyHandler: 	Factorizing with native_single_cpp (please wait, might take a while)
+AuthKeyHandler: 	Factorizing with native_single (please wait, might take a while)
+AuthKeyHandler: 	Install https://prime.madelineproto.xyz to speed this up!
+AuthKeyHandler: 	Factorization 1954954522655352553 = 1369581203 * 1427410451
+AuthKeyHandler: 	Starting Diffie Hellman key exchange
+Session:        	Can't garbage collect server_DH_params_ok, not handled yet!
+Session:        	Garbage collected 1 incoming messages, 1 left
+Session:        	Garbage collected 1 outgoing messages, 1 left
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 1 left
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+ResponseHandler: 	Trying to assign a response of type Server_DH_Params to its request...
+ResponseHandler: 	Does the request of return type Server_DH_Params match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Server-client time delta = 0.0 s
+Crypt:          	Executing p/g checks (1/2)...
+Crypt:          	Executing p/g checks (2/2)...
+Crypt:          	Executing g check...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Generating b...
+AuthKeyHandler: 	Generating g_b...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Executing g_b check...
+AuthKeyHandler: 	Preparing client_DH_inner_data...
+AuthKeyHandler: 	Executing set_client_DH_params...
+ResponseHandler: 	Trying to assign a response of type Server_DH_Params to its request...
+ResponseHandler: 	Does the request of return type Server_DH_Params match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Server-client time delta = 0.0 s
+Crypt:          	Executing p/g checks (1/2)...
+Crypt:          	Executing p/g checks (2/2)...
+Crypt:          	Executing g check...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Generating b...
+AuthKeyHandler: 	Generating g_b...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Executing g_b check...
+AuthKeyHandler: 	Preparing client_DH_inner_data...
+AuthKeyHandler: 	Executing set_client_DH_params...
+ResponseHandler: 	Trying to assign a response of type Set_client_DH_params_answer to its request...
+ResponseHandler: 	Does the request of return type Set_client_DH_params_answer match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Generating authorization key...
+AuthKeyHandler: 	Diffie Hellman key exchange processed successfully!
+AuthKeyHandler: 	Auth key generated
+WriteLoop:      	Writing client info (also executing help.getConfig)...
+MsgIdHandler64: 	Given message id (7099659344200151041) is bigger than or equal to the current limit (7099659344200145921). Please sync your date using NTP.
+MTProto:        	Done initing authorization DC 4
+ResponseHandler: 	Trying to assign a response of type Set_client_DH_params_answer to its request...
+ResponseHandler: 	Does the request of return type Set_client_DH_params_answer match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Generating authorization key...
+AuthKeyHandler: 	Diffie Hellman key exchange processed successfully!
+AuthKeyHandler: 	Auth key generated
+WriteLoop:      	Writing client info (also executing help.getConfig)...
+ResponseHandler: 	Trying to assign a response of type Server_DH_Params to its request...
+ResponseHandler: 	Does the request of return type Server_DH_Params match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Server-client time delta = 0.0 s
+Crypt:          	Executing p/g checks (1/2)...
+Crypt:          	Executing p/g checks (2/2)...
+Crypt:          	Executing g check...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Generating b...
+AuthKeyHandler: 	Generating g_b...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Executing g_b check...
+AuthKeyHandler: 	Preparing client_DH_inner_data...
+AuthKeyHandler: 	Executing set_client_DH_params...
+ResponseHandler: 	Trying to assign a response of type Server_DH_Params to its request...
+ResponseHandler: 	Does the request of return type Server_DH_Params match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Server-client time delta = 0.0 s
+Crypt:          	Executing p/g checks (1/2)...
+Crypt:          	Executing p/g checks (2/2)...
+Crypt:          	Executing g check...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Generating b...
+AuthKeyHandler: 	Generating g_b...
+Crypt:          	Executing g_a check (1/2)...
+Crypt:          	Executing g_a check (2/2)...
+AuthKeyHandler: 	Executing g_b check...
+AuthKeyHandler: 	Preparing client_DH_inner_data...
+AuthKeyHandler: 	Executing set_client_DH_params...
+MsgIdHandler64: 	Given message id (7099659346455425025) is bigger than or equal to the current limit (7099659346455293953). Please sync your date using NTP.
+MTProto:        	Done initing authorization DC 1
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 1 left
+Session:        	Garbage collected 6 incoming messages, 0 left
+Session:        	Garbage collected 4 outgoing messages, 0 left
+Session:        	Garbage collected 6 incoming messages, 0 left
+Session:        	Garbage collected 4 outgoing messages, 0 left
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 1 left
+ResponseHandler: 	Trying to assign a response of type Set_client_DH_params_answer to its request...
+ResponseHandler: 	Does the request of return type Set_client_DH_params_answer match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Generating authorization key...
+AuthKeyHandler: 	Diffie Hellman key exchange processed successfully!
+AuthKeyHandler: 	Auth key generated
+WriteLoop:      	Writing client info (also executing help.getConfig)...
+ResponseHandler: 	Trying to assign a response of type Set_client_DH_params_answer to its request...
+ResponseHandler: 	Does the request of return type Set_client_DH_params_answer match?
+ResponseHandler: 	Yes
+AuthKeyHandler: 	Generating authorization key...
+AuthKeyHandler: 	Diffie Hellman key exchange processed successfully!
+AuthKeyHandler: 	Auth key generated
+WriteLoop:      	Writing client info (also executing help.getConfig)...
+MsgIdHandler64: 	Given message id (7099659348898570241) is bigger than or equal to the current limit (7099659348898557953). Please sync your date using NTP.
+MTProto:        	Done initing authorization DC 3
+MsgIdHandler64: 	Given message id (7099659349627878401) is bigger than or equal to the current limit (7099659349627854849). Please sync your date using NTP.
+MTProto:        	Done initing authorization DC 5
+MTProto:        	Initing authorization DC 2_media...
+WriteLoop:      	Writing client info (also executing help.getConfig)...
+MsgIdHandler64: 	Given message id (7099659350056268801) is bigger than or equal to the current limit (7099659350056245249). Please sync your date using NTP.
+MTProto:        	Done initing authorization DC 2_media
+MTProto:        	Initing authorization DC 4_media...
+WriteLoop:      	Writing client info (also executing help.getConfig)...
+MsgIdHandler64: 	Given message id (7099659350168041473) is bigger than or equal to the current limit (7099659350168022017). Please sync your date using NTP.
+MTProto:        	Done initing authorization DC 4_media
+DataCenter:     	Reconnecting to DC 2 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+DataCenterConnection: 	Already connected!
+DataCenter:     	OK!
+MTProto:        	Not reconnecting to DC 1 (-1)
+MTProto:        	Not reconnecting to DC 2_media (-1)
+MTProto:        	Not reconnecting to DC 3 (-1)
+MTProto:        	Not reconnecting to DC 4 (-1)
+MTProto:        	Not reconnecting to DC 4_media (-1)
+MTProto:        	Not reconnecting to DC 5 (-1)
+MTProto:        	Initing authorization...
+MTProto:        	Initing authorization DC 2...
+MTProto:        	Done initing authorization DC 2
+MTProto:        	Initing authorization DC 1...
+MTProto:        	Done initing authorization DC 1
+MTProto:        	Initing authorization DC 3...
+MTProto:        	Done initing authorization DC 3
+MTProto:        	Initing authorization DC 4...
+MTProto:        	Done initing authorization DC 4
+MTProto:        	Initing authorization DC 5...
+MTProto:        	Done initing authorization DC 5
+MTProto:        	Initing authorization DC 2_media...
+MTProto:        	Done initing authorization DC 2_media
+MTProto:        	Initing authorization DC 4_media...
+MTProto:        	Done initing authorization DC 4_media
+DataCenter:     	Reconnecting to DC 2 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+DataCenterConnection: 	Already connected!
+DataCenter:     	OK!
+MTProto:        	Not reconnecting to DC 1 (-1)
+MTProto:        	Not reconnecting to DC 2_media (-1)
+MTProto:        	Not reconnecting to DC 3 (-1)
+MTProto:        	Not reconnecting to DC 4 (-1)
+MTProto:        	Not reconnecting to DC 4_media (-1)
+MTProto:        	Not reconnecting to DC 5 (-1)
+MTProto:        	Initing authorization...
+MTProto:        	Initing authorization DC 2...
+MTProto:        	Done initing authorization DC 2
+MTProto:        	Initing authorization DC 1...
+MTProto:        	Done initing authorization DC 1
+MTProto:        	Initing authorization DC 3...
+MTProto:        	Done initing authorization DC 3
+MTProto:        	Initing authorization DC 4...
+MTProto:        	Done initing authorization DC 4
+MTProto:        	Initing authorization DC 5...
+MTProto:        	Done initing authorization DC 5
+MTProto:        	Initing authorization DC 2_media...
+MTProto:        	Done initing authorization DC 2_media
+MTProto:        	Initing authorization DC 4_media...
+MTProto:        	Done initing authorization DC 4_media
+MsgIdHandler64: 	Given message id (7099659350310843393) is bigger than or equal to the current limit (7099659350310825985). Please sync your date using NTP.
+MTProto:        	We're in IR, nearest DC is 4.
+MTProto:        	Starting update system
+API:            	MadelineProto is ready!
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+MTProto:        	Will unreference instance
+UpdateLoop:     	Exiting getUpdate loop generic due to signal
+DataCenterConnection: 	Disconnecting from shared DC 2
+Connection:     	Disconnecting from DC 2.0
+DataCenterConnection: 	Backed up  from DC 2.0
+Connection:     	Disconnected from DC 2.0
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 2
+DataCenterConnection: 	Disconnecting from shared DC 1
+Connection:     	Disconnecting from DC 1.0
+DataCenterConnection: 	Backed up  from DC 1.0
+Connection:     	Disconnected from DC 1.0
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 1
+DataCenterConnection: 	Disconnecting from shared DC 2_media
+Connection:     	Disconnecting from DC 2_media.0
+DataCenterConnection: 	Backed up  from DC 2_media.0
+Connection:     	Disconnected from DC 2_media.0
+Connection:     	Disconnecting from DC 2_media.1
+DataCenterConnection: 	Backed up  from DC 2_media.1
+Connection:     	Disconnected from DC 2_media.1
+Connection:     	Disconnecting from DC 2_media.2
+DataCenterConnection: 	Backed up  from DC 2_media.2
+Connection:     	Disconnected from DC 2_media.2
+Connection:     	Disconnecting from DC 2_media.3
+DataCenterConnection: 	Backed up  from DC 2_media.3
+Connection:     	Disconnected from DC 2_media.3
+Connection:     	Disconnecting from DC 2_media.4
+DataCenterConnection: 	Backed up  from DC 2_media.4
+Connection:     	Disconnected from DC 2_media.4
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 2_media
+DataCenterConnection: 	Disconnecting from shared DC 3
+Connection:     	Disconnecting from DC 3.0
+DataCenterConnection: 	Backed up  from DC 3.0
+Connection:     	Disconnected from DC 3.0
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 3
+DataCenterConnection: 	Disconnecting from shared DC 4
+Connection:     	Disconnecting from DC 4.0
+DataCenterConnection: 	Backed up  from DC 4.0
+Connection:     	Disconnected from DC 4.0
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 4
+DataCenterConnection: 	Disconnecting from shared DC 4_media
+Connection:     	Disconnecting from DC 4_media.0
+DataCenterConnection: 	Backed up  from DC 4_media.0
+Connection:     	Disconnected from DC 4_media.0
+Connection:     	Disconnecting from DC 4_media.1
+DataCenterConnection: 	Backed up  from DC 4_media.1
+Connection:     	Disconnected from DC 4_media.1
+Connection:     	Disconnecting from DC 4_media.2
+DataCenterConnection: 	Backed up  from DC 4_media.2
+Connection:     	Disconnected from DC 4_media.2
+Connection:     	Disconnecting from DC 4_media.3
+DataCenterConnection: 	Backed up  from DC 4_media.3
+Connection:     	Disconnected from DC 4_media.3
+Connection:     	Disconnecting from DC 4_media.4
+DataCenterConnection: 	Backed up  from DC 4_media.4
+Connection:     	Disconnected from DC 4_media.4
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 4_media
+DataCenterConnection: 	Disconnecting from shared DC 5
+Connection:     	Disconnecting from DC 5.0
+DataCenterConnection: 	Backed up  from DC 5.0
+Connection:     	Disconnected from DC 5.0
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 5
+MTProto:        	Unreferenced instance
+API:            	Prompting final serialization...
+SessionPaths:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+API:            	Done final serialization!
+MTProto:        	Shutting down MadelineProto (MTProto)
+MTProto:        	Will unreference instance
+DataCenterConnection: 	Disconnecting from shared DC 2
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 2
+DataCenterConnection: 	Disconnecting from shared DC 1
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 1
+DataCenterConnection: 	Disconnecting from shared DC 2_media
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 2_media
+DataCenterConnection: 	Disconnecting from shared DC 3
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 3
+DataCenterConnection: 	Disconnecting from shared DC 4
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 4
+DataCenterConnection: 	Disconnecting from shared DC 4_media
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 4_media
+DataCenterConnection: 	Disconnecting from shared DC 5
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 5
+MTProto:        	Unreferenced instance
+MTProto:        	Successfully destroyed MadelineProto
+[20-May-2022 08:14:20 Asia/tehran] Enabled PHP logging
+[20-May-2022 08:14:20 Asia/tehran] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2022 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Server:         	Starting IPC server /home/harimjl3/public_html/Poker/up/Upload.madeline (process)
+ProcessRunner:  	Starting process with '/usr/local/bin/php' '-dhtml_errors=0' '-ddisplay_errors=0' '-dlog_errors=1' '/home/harimjl3/public_html/Poker/up/madeline.php' 'madeline-ipc' '/home/harimjl3/public_html/Poker/up/Upload.madeline' '94452438'
+Serialization:  	MadelineProto is starting, please wait...
+[20-May-2022 03:44:21 UTC] Enabled PHP logging
+[20-May-2022 03:44:21 UTC] Enabled PHP logging
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2022 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	Got exclusive session lock!
+MTProto:        	Filling database cache. This can take few minutes.
+MTProto:        	Cache filled.
+DataCenter:     	Disconnecting all before reconnect!
+DataCenterConnection: 	Disconnecting from shared DC 
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 
+DataCenter:     	Disconnecting all before reconnect!
+DataCenterConnection: 	Disconnecting from shared DC 
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 
+DataCenter:     	Disconnecting all before reconnect!
+DataCenterConnection: 	Disconnecting from shared DC 
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 
+DataCenter:     	Disconnecting all before reconnect!
+DataCenterConnection: 	Disconnecting from shared DC 
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 
+DataCenter:     	Disconnecting all before reconnect!
+DataCenterConnection: 	Disconnecting from shared DC 
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 
+DataCenter:     	Disconnecting all before reconnect!
+DataCenterConnection: 	Disconnecting from shared DC 
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 
+DataCenter:     	Disconnecting all before reconnect!
+DataCenterConnection: 	Disconnecting from shared DC 
+DataCenterConnection: 	Backed up 0, added to 0 existing messages) from DC 
+DataCenter:     	Reconnecting to DC 2 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 2.0
+Session:        	Resetting session in DC 2.0...
+DataCenter:     	Reconnecting to DC 1 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.175.54:443 main DC 1, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 1.0
+Session:        	Resetting session in DC 1.0...
+DataCenter:     	Reconnecting to DC 2_media (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.151:443 main DC 2_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 2_media.0
+Session:        	Resetting session in DC 2_media.0...
+DataCenter:     	Reconnecting to DC 3 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.175.100:443 main DC 3, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 3.0
+Session:        	Resetting session in DC 3.0...
+DataCenter:     	Reconnecting to DC 4 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.91:443 main DC 4, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 4.0
+Session:        	Resetting session in DC 4.0...
+DataCenter:     	Reconnecting to DC 4_media (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.165.136:443 main DC 4_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 4_media.0
+Session:        	Resetting session in DC 4_media.0...
+DataCenter:     	Reconnecting to DC 5 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://91.108.56.109:443 main DC 5, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+Connection:     	Connecting to DC 5.0
+Session:        	Resetting session in DC 5.0...
+Connection:     	Connected to DC 2.0!
+DataCenterConnection: 	Restoring 0 messages to DC 2
+DataCenter:     	OK!
+Connection:     	Connected to DC 2_media.0!
+Connection:     	Connecting to DC 2_media.1
+Session:        	Resetting session in DC 2_media.1...
+Connection:     	Connected to DC 4.0!
+DataCenterConnection: 	Restoring 0 messages to DC 4
+DataCenter:     	OK!
+Connection:     	Connected to DC 4_media.0!
+Connection:     	Connecting to DC 4_media.1
+Session:        	Resetting session in DC 4_media.1...
+Connection:     	Connected to DC 2_media.1!
+Connection:     	Connecting to DC 2_media.2
+Session:        	Resetting session in DC 2_media.2...
+Connection:     	Connected to DC 4_media.1!
+Connection:     	Connecting to DC 4_media.2
+Session:        	Resetting session in DC 4_media.2...
+Connection:     	Connected to DC 2_media.2!
+Connection:     	Connecting to DC 2_media.3
+Session:        	Resetting session in DC 2_media.3...
+Connection:     	Connected to DC 4_media.2!
+Connection:     	Connecting to DC 4_media.3
+Session:        	Resetting session in DC 4_media.3...
+Connection:     	Connected to DC 2_media.3!
+Connection:     	Connecting to DC 2_media.4
+Session:        	Resetting session in DC 2_media.4...
+Connection:     	Connected to DC 4_media.3!
+Connection:     	Connecting to DC 4_media.4
+Session:        	Resetting session in DC 4_media.4...
+Connection:     	Connected to DC 2_media.4!
+DataCenterConnection: 	Restoring 0 messages to DC 2_media
+DataCenter:     	OK!
+Connection:     	Connected to DC 4_media.4!
+DataCenterConnection: 	Restoring 0 messages to DC 4_media
+DataCenter:     	OK!
+Connection:     	Connected to DC 1.0!
+DataCenterConnection: 	Restoring 0 messages to DC 1
+DataCenter:     	OK!
+Connection:     	Connected to DC 3.0!
+DataCenterConnection: 	Restoring 0 messages to DC 3
+DataCenter:     	OK!
+Connection:     	Connected to DC 5.0!
+DataCenterConnection: 	Restoring 0 messages to DC 5
+DataCenter:     	OK!
+MTProto:        	Initing authorization...
+MTProto:        	Initing authorization DC 2...
+MTProto:        	Done initing authorization DC 2
+MTProto:        	Initing authorization DC 1...
+MTProto:        	Done initing authorization DC 1
+MTProto:        	Initing authorization DC 3...
+MTProto:        	Done initing authorization DC 3
+MTProto:        	Initing authorization DC 4...
+MTProto:        	Done initing authorization DC 4
+MTProto:        	Initing authorization DC 5...
+MTProto:        	Done initing authorization DC 5
+MTProto:        	Initing authorization DC 2_media...
+MTProto:        	Done initing authorization DC 2_media
+MTProto:        	Initing authorization DC 4_media...
+MTProto:        	Done initing authorization DC 4_media
+DataCenter:     	Reconnecting to DC 2 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.41:443 main DC 2, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+DataCenterConnection: 	Already connected!
+DataCenter:     	OK!
+DataCenter:     	Reconnecting to DC 1 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.175.54:443 main DC 1, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+DataCenterConnection: 	Already connected!
+DataCenter:     	OK!
+DataCenter:     	Reconnecting to DC 2_media (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.151:443 main DC 2_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+DataCenterConnection: 	Already connected!
+DataCenter:     	OK!
+DataCenter:     	Reconnecting to DC 3 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.175.100:443 main DC 3, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+DataCenterConnection: 	Already connected!
+DataCenter:     	OK!
+DataCenter:     	Reconnecting to DC 4 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.167.91:443 main DC 4, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+DataCenterConnection: 	Already connected!
+DataCenter:     	OK!
+DataCenter:     	Reconnecting to DC 4_media (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://149.154.165.136:443 main DC 4_media, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+DataCenterConnection: 	Already connected!
+DataCenter:     	OK!
+DataCenter:     	Reconnecting to DC 5 (-1) from existing
+DataCenterConnection: 	Trying shared connection via tcp://91.108.56.109:443 main DC 5, via ipv4 using AbridgedStream => BufferedRawStream => DefaultStream (-1)
+DataCenterConnection: 	Already connected!
+DataCenter:     	OK!
+MTProto:        	Initing authorization...
+MTProto:        	Initing authorization DC 2...
+MTProto:        	Done initing authorization DC 2
+MTProto:        	Initing authorization DC 1...
+MTProto:        	Done initing authorization DC 1
+MTProto:        	Initing authorization DC 3...
+MTProto:        	Done initing authorization DC 3
+MTProto:        	Initing authorization DC 4...
+MTProto:        	Done initing authorization DC 4
+MTProto:        	Initing authorization DC 5...
+MTProto:        	Done initing authorization DC 5
+MTProto:        	Initing authorization DC 2_media...
+MTProto:        	Done initing authorization DC 2_media
+MTProto:        	Initing authorization DC 4_media...
+MTProto:        	Done initing authorization DC 4_media
+MsgIdHandler64: 	Given message id (7099659374111987713) is bigger than or equal to the current limit (7099659374111968257). Please sync your date using NTP.
+MTProto:        	Initing authorization...
+MTProto:        	Initing authorization DC 2...
+MTProto:        	Done initing authorization DC 2
+MTProto:        	Initing authorization DC 1...
+MTProto:        	Done initing authorization DC 1
+MTProto:        	Initing authorization DC 3...
+MTProto:        	Done initing authorization DC 3
+MTProto:        	Initing authorization DC 4...
+MTProto:        	Done initing authorization DC 4
+MTProto:        	Initing authorization DC 5...
+MTProto:        	Done initing authorization DC 5
+MTProto:        	Initing authorization DC 2_media...
+MTProto:        	Done initing authorization DC 2_media
+MTProto:        	Initing authorization DC 4_media...
+MTProto:        	Done initing authorization DC 4_media
+AckHandler:     	Could not find users.getUsers with message ID 7099659370685792256 in new_outgoing!
+MTProto:        	AUTH_KEY_UNREGISTERED
+MTProto:        	Starting update system
+API:            	MadelineProto is ready!
+SessionPaths:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.ipcState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.ipcState.php.lock...
+Serialization:  	MadelineProto is starting, please wait...
+Serialization:  	Connected to IPC socket!
+Server:         	IPC server started successfully!
+MTProto:        	Accepted IPC client connection!
+[20-May-2022 08:14:22 Asia/tehran] Enabled PHP logging
+API:            	Shutting down MadelineProto (danog\MadelineProto\API)
+API:            	Prompting final serialization...
+API:            	Done final serialization!
+ProcessRunner:  	Got final message from worker: 
+ProcessRunner:  	Got final message from worker: 
+Logger:         	MadelineProto
+Logger:         	Copyright (C) 2016-2022 Daniil Gentili
+Logger:         	Licensed under AGPLv3
+Logger:         	https://github.com/danog/MadelineProto
+Serialization:  	It seems like the session is busy.
+Serialization:  	Telegram does not support starting multiple instances of the same session, make sure no other instance of the session is running.
+Session:        	Garbage collected 4 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+GarbageCollector: 	gc_collect_cycles done. Cleaned memory: 0 Mb
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	Still waiting for exclusive session lock...
+API:            	!!! Could not connect to MadelineProto, please check and report the logs for more details. !!!
+API:            	!!! Reconnecting using slower method. !!!
+SessionPaths:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.safe.php.lock...
+Serialization:  	It seems like the session is busy.
+Serialization:  	Telegram does not support starting multiple instances of the same session, make sure no other instance of the session is running.
+Serialization:  	Still waiting for exclusive session lock...
+SessionPaths:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+[20-May-2022 08:14:54 Asia/tehran] Enabled PHP logging
+[20-May-2022 08:14:54 Asia/tehran] Enabled PHP logging
 Logger:         	MadelineProto
 Logger:         	Copyright (C) 2016-2022 Daniil Gentili
 Logger:         	Licensed under AGPLv3
 Logger:         	https://github.com/danog/MadelineProto
 Serialization:  	MadelineProto is starting, please wait...
-MTProto, File2LinkSkybot:        	Accepted IPC client connection!
+MTProto:        	Accepted IPC client connection!
 Serialization:  	Connected to IPC socket!
+[20-May-2022 08:14:54 Asia/tehran] Enabled PHP logging
+Login:          	Logging in as a bot...
+MTProto:        	Initing authorization...
+MTProto:        	Initing authorization DC 2...
+AuthKeyHandler: 	Trying to copy authorization from DC 4 to DC 2
+MsgIdHandler64: 	Given message id (7099659516848550913) is bigger than or equal to the current limit (7099659516848546817). Please sync your date using NTP.
+MTProto:        	Done initing authorization DC 2
+MTProto:        	Initing authorization DC 1...
+AuthKeyHandler: 	Trying to copy authorization from DC 4 to DC 1
+MTProto:        	Initing authorization DC 3...
+AuthKeyHandler: 	Trying to copy authorization from DC 4 to DC 3
+MTProto:        	Initing authorization DC 4...
+MTProto:        	Done initing authorization DC 4
+MTProto:        	Initing authorization DC 5...
+AuthKeyHandler: 	Trying to copy authorization from DC 4 to DC 5
+MsgIdHandler64: 	Given message id (7099659517729324033) is bigger than or equal to the current limit (7099659517729314817). Please sync your date using NTP.
+MsgIdHandler64: 	Given message id (7099659518511273985) is bigger than or equal to the current limit (7099659518511253505). Please sync your date using NTP.
+MsgIdHandler64: 	Given message id (7099659518536032257) is bigger than or equal to the current limit (7099659518536016897). Please sync your date using NTP.
+MTProto:        	Done initing authorization DC 1
+MTProto:        	Done initing authorization DC 3
+MsgIdHandler64: 	Given message id (7099659519034978305) is bigger than or equal to the current limit (7099659519034974209). Please sync your date using NTP.
+MTProto:        	Done initing authorization DC 5
+MTProto:        	Initing authorization DC 2_media...
+MTProto:        	Done initing authorization DC 2_media
+MTProto:        	Initing authorization DC 4_media...
+MTProto:        	Done initing authorization DC 4_media
+MTProto:        	Starting update system
+Login:          	Logged in successfully!
+Session:        	Garbage collected 4 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+Session:        	Can't garbage collect rpc_result, not handled yet!
+Session:        	Garbage collected 7 incoming messages, 1 left
+Session:        	Garbage collected 9 outgoing messages, 1 left
+Session:        	Garbage collected 4 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+Session:        	Garbage collected 4 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+Session:        	Garbage collected 4 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
 API:            	Shutting down MadelineProto (danog\MadelineProto\API)
 API:            	Prompting final serialization...
 API:            	Done final serialization!
-UpdateHandler, File2LinkSkybot:  	Parsing updates (updates) received via the socket...
-SeqLoop, File2LinkSkybot:        	Was fed updates of type updates...
-FeedLoop, File2LinkSkybot:       	Resumed update feed loop channel 1569125227
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-SessionPaths, File2LinkSkybot:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.safe.php.lock...
-SessionPaths, File2LinkSkybot:   	Got exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.safe.php.lock...
-SessionPaths, File2LinkSkybot:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.lightState.php.lock...
-SessionPaths, File2LinkSkybot:   	Got exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.lightState.php.lock...
-APIWrapper, File2LinkSkybot:     	Saved session!
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410239720010753) is bigger than or equal to the current limit (7099410239720005633). Please sync your date using NTP.
-FeedLoop, File2LinkSkybot:       	Resumed update feed loop generic
-FeedLoop, File2LinkSkybot:       	Resumed update feed loop channel 1569125227
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 8 outgoing messages, 0 left
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410282986130433) is bigger than or equal to the current limit (7099410282986127361). Please sync your date using NTP.
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 9 outgoing messages, 0 left
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410326269600769) is bigger than or equal to the current limit (7099410326269595649). Please sync your date using NTP.
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 9 outgoing messages, 0 left
-PingLoop, File2LinkSkybot:       	Ping DC 3.0
-Session, File2LinkSkybot:        	Garbage collected 0 outgoing messages, 1 left
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 1 outgoing messages, 0 left
-[19-May-2022 16:08:04 Asia/tehran] Enabled PHP logging
-[19-May-2022 16:08:04 Asia/tehran] Enabled PHP logging
-Logger:         	MadelineProto
-Logger:         	Copyright (C) 2016-2022 Daniil Gentili
-Logger:         	Licensed under AGPLv3
-Logger:         	https://github.com/danog/MadelineProto
-Serialization:  	MadelineProto is starting, please wait...
-MTProto, File2LinkSkybot:        	Accepted IPC client connection!
-Serialization:  	Connected to IPC socket!
-UpdateHandler, File2LinkSkybot:  	Parsing updates (updates) received via the socket...
-SeqLoop, File2LinkSkybot:        	Was fed updates of type updates...
-FeedLoop, File2LinkSkybot:       	Resumed update feed loop channel 1569125227
-API:            	Shutting down MadelineProto (danog\MadelineProto\API)
-API:            	Prompting final serialization...
-API:            	Done final serialization!
-SessionPaths, File2LinkSkybot:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.safe.php.lock...
-SessionPaths, File2LinkSkybot:   	Got exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.safe.php.lock...
-SessionPaths, File2LinkSkybot:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.lightState.php.lock...
-SessionPaths, File2LinkSkybot:   	Got exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.lightState.php.lock...
-APIWrapper, File2LinkSkybot:     	Saved session!
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410374140689409) is bigger than or equal to the current limit (7099410374140684289). Please sync your date using NTP.
-FeedLoop, File2LinkSkybot:       	Resumed update feed loop generic
-FeedLoop, File2LinkSkybot:       	Resumed update feed loop channel 1569125227
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 8 outgoing messages, 0 left
-PingLoop, File2LinkSkybot:       	Ping DC 1.0
-Session, File2LinkSkybot:        	Garbage collected 0 outgoing messages, 1 left
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 1 outgoing messages, 0 left
-PingLoop, File2LinkSkybot:       	Ping DC 2.0
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 1 outgoing messages, 0 left
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410417487117313) is bigger than or equal to the current limit (7099410417487112193). Please sync your date using NTP.
-PingLoop, File2LinkSkybot:       	Ping DC 4.0
-Session, File2LinkSkybot:        	Garbage collected 10 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 10 outgoing messages, 0 left
-PingLoop, File2LinkSkybot:       	Ping DC 5.0
-Session, File2LinkSkybot:        	Garbage collected 0 outgoing messages, 1 left
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 1 outgoing messages, 0 left
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410460745233409) is bigger than or equal to the current limit (7099410460745229313). Please sync your date using NTP.
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 8 outgoing messages, 0 left
-SessionPaths, File2LinkSkybot:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.safe.php.lock...
-SessionPaths, File2LinkSkybot:   	Got exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.safe.php.lock...
-SessionPaths, File2LinkSkybot:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.lightState.php.lock...
-SessionPaths, File2LinkSkybot:   	Got exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.lightState.php.lock...
-APIWrapper, File2LinkSkybot:     	Saved session!
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410508576634881) is bigger than or equal to the current limit (7099410508576628737). Please sync your date using NTP.
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 8 outgoing messages, 0 left
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410551855088641) is bigger than or equal to the current limit (7099410551855084545). Please sync your date using NTP.
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 9 outgoing messages, 0 left
-PingLoop, File2LinkSkybot:       	Ping DC 3.0
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 1 outgoing messages, 0 left
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410595143339009) is bigger than or equal to the current limit (7099410595143333889). Please sync your date using NTP.
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 8 outgoing messages, 0 left
-[19-May-2022 16:09:04 Asia/tehran] Enabled PHP logging
-[19-May-2022 16:09:04 Asia/tehran] Enabled PHP logging
-Logger:         	MadelineProto
-Logger:         	Copyright (C) 2016-2022 Daniil Gentili
-Logger:         	Licensed under AGPLv3
-Logger:         	https://github.com/danog/MadelineProto
-Serialization:  	MadelineProto is starting, please wait...
-MTProto, File2LinkSkybot:        	Accepted IPC client connection!
-Serialization:  	Connected to IPC socket!
-UpdateHandler, File2LinkSkybot:  	Parsing updates (updates) received via the socket...
-SeqLoop, File2LinkSkybot:        	Was fed updates of type updates...
-FeedLoop, File2LinkSkybot:       	Resumed update feed loop channel 1569125227
-API:            	Shutting down MadelineProto (danog\MadelineProto\API)
-API:            	Prompting final serialization...
-API:            	Done final serialization!
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-SessionPaths, File2LinkSkybot:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.safe.php.lock...
-SessionPaths, File2LinkSkybot:   	Got exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.safe.php.lock...
-SessionPaths, File2LinkSkybot:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.lightState.php.lock...
-SessionPaths, File2LinkSkybot:   	Got exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.lightState.php.lock...
-APIWrapper, File2LinkSkybot:     	Saved session!
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410642960041985) is bigger than or equal to the current limit (7099410642960037889). Please sync your date using NTP.
-FeedLoop, File2LinkSkybot:       	Resumed update feed loop generic
-FeedLoop, File2LinkSkybot:       	Resumed update feed loop channel 1569125227
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 8 outgoing messages, 0 left
-PingLoop, File2LinkSkybot:       	Ping DC 1.0
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 1 outgoing messages, 0 left
-PingLoop, File2LinkSkybot:       	Ping DC 2.0
-Session, File2LinkSkybot:        	Garbage collected 0 outgoing messages, 1 left
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 1 outgoing messages, 0 left
-PingLoop, File2LinkSkybot:       	Ping DC 4.0
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 2 outgoing messages, 0 left
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410686342443009) is bigger than or equal to the current limit (7099410686342434817). Please sync your date using NTP.
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 8 outgoing messages, 0 left
-PingLoop, File2LinkSkybot:       	Ping DC 5.0
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 1 outgoing messages, 0 left
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410729591943169) is bigger than or equal to the current limit (7099410729591940097). Please sync your date using NTP.
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 10 outgoing messages, 0 left
-SessionPaths, File2LinkSkybot:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.safe.php.lock...
-SessionPaths, File2LinkSkybot:   	Got exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.safe.php.lock...
-SessionPaths, File2LinkSkybot:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.lightState.php.lock...
-SessionPaths, File2LinkSkybot:   	Got exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.lightState.php.lock...
-APIWrapper, File2LinkSkybot:     	Saved session!
-ResponseHandler, File2LinkSkybot: 	Received bad_msg_notification: incorrect server salt (in this case, the bad_server_salt response is received with the correct salt, and the message is to be re-sent with it)
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410777666467841) is bigger than or equal to the current limit (7099410777666459649). Please sync your date using NTP.
-Session, File2LinkSkybot:        	Garbage collected 10 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 9 outgoing messages, 0 left
-UpdateHandler, File2LinkSkybot:  	Parsing updates (updateShort) received via the socket...
-FeedLoop, File2LinkSkybot:       	Resumed update feed loop generic
-Session, File2LinkSkybot:        	Garbage collected 2 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 2 outgoing messages, 0 left
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410820924137473) is bigger than or equal to the current limit (7099410820924131329). Please sync your date using NTP.
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 8 outgoing messages, 0 left
-PingLoop, File2LinkSkybot:       	Ping DC 3.0
-ResponseHandler, File2LinkSkybot: 	Received bad_msg_notification: incorrect server salt (in this case, the bad_server_salt response is received with the correct salt, and the message is to be re-sent with it)
-Session, File2LinkSkybot:        	Garbage collected 2 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 2 outgoing messages, 0 left
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410864527571969) is bigger than or equal to the current limit (7099410864527564801). Please sync your date using NTP.
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 9 outgoing messages, 0 left
-[19-May-2022 16:10:05 Asia/tehran] Enabled PHP logging
-[19-May-2022 16:10:05 Asia/tehran] Enabled PHP logging
-Logger:         	MadelineProto
-Logger:         	Copyright (C) 2016-2022 Daniil Gentili
-Logger:         	Licensed under AGPLv3
-Logger:         	https://github.com/danog/MadelineProto
-Serialization:  	MadelineProto is starting, please wait...
-MTProto, File2LinkSkybot:        	Accepted IPC client connection!
-Serialization:  	Connected to IPC socket!
-API:            	Shutting down MadelineProto (danog\MadelineProto\API)
-UpdateHandler, File2LinkSkybot:  	Parsing updates (updates) received via the socket...
-SeqLoop, File2LinkSkybot:        	Was fed updates of type updates...
-FeedLoop, File2LinkSkybot:       	Resumed update feed loop channel 1569125227
-API:            	Prompting final serialization...
-API:            	Done final serialization!
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-SessionPaths, File2LinkSkybot:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.safe.php.lock...
-SessionPaths, File2LinkSkybot:   	Got exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.safe.php.lock...
-SessionPaths, File2LinkSkybot:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.lightState.php.lock...
-SessionPaths, File2LinkSkybot:   	Got exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.lightState.php.lock...
-APIWrapper, File2LinkSkybot:     	Saved session!
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410911661852673) is bigger than or equal to the current limit (7099410911661847553). Please sync your date using NTP.
-FeedLoop, File2LinkSkybot:       	Resumed update feed loop generic
-FeedLoop, File2LinkSkybot:       	Resumed update feed loop channel 1569125227
-PingLoop, File2LinkSkybot:       	Ping DC 1.0
-ResponseHandler, File2LinkSkybot: 	Received bad_msg_notification: incorrect server salt (in this case, the bad_server_salt response is received with the correct salt, and the message is to be re-sent with it)
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 8 outgoing messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 2 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 2 outgoing messages, 0 left
-PingLoop, File2LinkSkybot:       	Ping DC 2.0
-ResponseHandler, File2LinkSkybot: 	Received bad_msg_notification: incorrect server salt (in this case, the bad_server_salt response is received with the correct salt, and the message is to be re-sent with it)
-Session, File2LinkSkybot:        	Garbage collected 2 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 2 outgoing messages, 0 left
-PingLoop, File2LinkSkybot:       	Ping DC 4.0
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 2 outgoing messages, 0 left
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410954926033921) is bigger than or equal to the current limit (7099410954926026753). Please sync your date using NTP.
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 7 outgoing messages, 0 left
-PingLoop, File2LinkSkybot:       	Ping DC 5.0
-ResponseHandler, File2LinkSkybot: 	Received bad_msg_notification: incorrect server salt (in this case, the bad_server_salt response is received with the correct salt, and the message is to be re-sent with it)
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 1 outgoing messages, 1 left
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 1 outgoing messages, 0 left
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099410998212205569) is bigger than or equal to the current limit (7099410998212202497). Please sync your date using NTP.
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 9 outgoing messages, 0 left
-SessionPaths, File2LinkSkybot:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.safe.php.lock...
-SessionPaths, File2LinkSkybot:   	Got exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.safe.php.lock...
-SessionPaths, File2LinkSkybot:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.lightState.php.lock...
-SessionPaths, File2LinkSkybot:   	Got exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.lightState.php.lock...
-APIWrapper, File2LinkSkybot:     	Saved session!
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099411046223287297) is bigger than or equal to the current limit (7099411046223283201). Please sync your date using NTP.
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 8 outgoing messages, 0 left
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099411089493432321) is bigger than or equal to the current limit (7099411089493425153). Please sync your date using NTP.
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 9 outgoing messages, 0 left
-PingLoop, File2LinkSkybot:       	Ping DC 3.0
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 1 outgoing messages, 0 left
-[19-May-2022 16:11:03 Asia/tehran] Enabled PHP logging
-[19-May-2022 16:11:03 Asia/tehran] Enabled PHP logging
-Logger:         	MadelineProto
-Logger:         	Copyright (C) 2016-2022 Daniil Gentili
-Logger:         	Licensed under AGPLv3
-Logger:         	https://github.com/danog/MadelineProto
-Serialization:  	MadelineProto is starting, please wait...
-MTProto, File2LinkSkybot:        	Accepted IPC client connection!
-Serialization:  	Connected to IPC socket!
-API:            	Shutting down MadelineProto (danog\MadelineProto\API)
-API:            	Prompting final serialization...
-API:            	Done final serialization!
-UpdateHandler, File2LinkSkybot:  	Parsing updates (updates) received via the socket...
-SeqLoop, File2LinkSkybot:        	Was fed updates of type updates...
-FeedLoop, File2LinkSkybot:       	Resumed update feed loop channel 1569125227
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099411132781662209) is bigger than or equal to the current limit (7099411132781657089). Please sync your date using NTP.
-FeedLoop, File2LinkSkybot:       	Resumed update feed loop generic
-FeedLoop, File2LinkSkybot:       	Resumed update feed loop channel 1569125227
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 9 outgoing messages, 0 left
-PingLoop, File2LinkSkybot:       	Ping DC 1.0
-SessionPaths, File2LinkSkybot:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.safe.php.lock...
-SessionPaths, File2LinkSkybot:   	Got exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.safe.php.lock...
-SessionPaths, File2LinkSkybot:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.lightState.php.lock...
-SessionPaths, File2LinkSkybot:   	Got exclusive lock of /home/harimjl3/public_html/Poker/n/Upload.madeline.lightState.php.lock...
-APIWrapper, File2LinkSkybot:     	Saved session!
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 1 outgoing messages, 0 left
-PingLoop, File2LinkSkybot:       	Ping DC 2.0
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099411180642246657) is bigger than or equal to the current limit (7099411180642241537). Please sync your date using NTP.
-FeedLoop, File2LinkSkybot:       	Resumed update feed loop generic
-FeedLoop, File2LinkSkybot:       	Resumed update feed loop channel 1569125227
-Session, File2LinkSkybot:        	Garbage collected 9 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 8 outgoing messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 1 outgoing messages, 0 left
-PingLoop, File2LinkSkybot:       	Ping DC 4.0
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 2 outgoing messages, 0 left
-UpdateHandler, File2LinkSkybot:  	Parsing updates (updates) received via the socket...
-FeedLoop, File2LinkSkybot:       	Resumed update feed loop generic
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-MsgIdHandler64, File2LinkSkybot: 	Given message id (7099411223919152129) is bigger than or equal to the current limit (7099411223919147009). Please sync your date using NTP.
-PingLoop, File2LinkSkybot:       	Ping DC 5.0
-[19-May-2022 16:11:25 Asia/tehran] Enabled PHP logging
-[19-May-2022 16:11:25 Asia/tehran] Enabled PHP logging
-Logger:         	MadelineProto
-Logger:         	Copyright (C) 2016-2022 Daniil Gentili
-Logger:         	Licensed under AGPLv3
-Logger:         	https://github.com/danog/MadelineProto
-Serialization:  	MadelineProto is starting, please wait...
-MTProto, File2LinkSkybot:        	Accepted IPC client connection!
-Serialization:  	Connected to IPC socket!
-API:            	Shutting down MadelineProto (danog\MadelineProto\API)
-API:            	Prompting final serialization...
-API:            	Done final serialization!
-UpdateHandler, File2LinkSkybot:  	Parsing updates (updates) received via the socket...
-FeedLoop, File2LinkSkybot:       	Resumed update feed loop generic
-Session, File2LinkSkybot:        	Garbage collected 1 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 1 outgoing messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 10 incoming messages, 0 left
-Session, File2LinkSkybot:        	Garbage collected 9 outgoing messages, 0 left
+UpdateHandler:  	Parsing updates (updates) received via the socket...
+SeqLoop:        	Was fed updates of type updates...
+Session:        	Garbage collected 4 incoming messages, 0 left
+Session:        	Garbage collected 5 outgoing messages, 0 left
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	Still waiting for exclusive session lock...
+Serialization:  	Still waiting for exclusive session lock...
+API:            	!!! Could not connect to MadelineProto, please check and report the logs for more details. !!!
+Exception:      	Could not connect to MadelineProto, please check the MadelineProto.log file to debug! in API.php:292
+entry:          	\danog\MadelineProto\Exception: Could not connect to MadelineProto, please check the MadelineProto.log file to debug! in phar:///home/harimjl3/public_html/Poker/up/madeline-d01169e8ac24718b6ff03e2b9097381301d2aa06-81.phar/vendor/danog/madelineproto/src/danog/MadelineProto/API.php:292
+Revision: d01169e8ac24718b6ff03e2b9097381301d2aa06-81
+TL Trace:
+<br>
+initAsynchronously()<br>
+initAsynchronously()<br>
+<br>
+Previous TL trace:<br>
+<br>
+API.php(296):       	connectToMadelineProto()<br>
+API.php(183):       	connectToMadelineProto()<br>
+internalInitAPI()<br>
+Coroutine.php(110): 	send()<br>
+Placeholder.php(125):	danog\MadelineProto\{closure}()<br>
+Deferred.php(49):   	resolve()<br>
+Tools.php(422):     	resolve()<br>
+NativeDriver.php(109):	danog\MadelineProto\{closure}()<br>
+Driver.php(117):    	dispatch()<br>
+Driver.php(61):     	tick()<br>
+Loop.php(87):       	run()<br>
+Tools.php(291):     	run()<br>
+AsyncConstruct.php(46):	wait()<br>
+entry.php(94):      	init()<br>
+entry.php(122):     	{closure}()<br>
+madeline.php(183):  	require_once("phar:\/\/\/home\/harimjl3\/public_html\/Poker\/up\/madeline-d01169e8ac24718b6ff03e2b9097381301d2aa06-81.phar\/vendor\/danog\/madelineproto\/src\/danog\/MadelineProto\/Ipc\/Runner\/entry.php")<br>
+madeline.php(234):  	load()<br>
+madeline.php(269):  	install()
+entry:          	Got exception in IPC server, exiting...
+entry:          	Reporting error!
+SessionPaths:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.ipcState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.ipcState.php.lock...
+entry:          	Reported error!
+[20-May-2022 03:45:21 UTC] PHP Fatal error:  Uncaught \danog\MadelineProto\Exception: Could not connect to MadelineProto, please check the MadelineProto.log file to debug! in phar:///home/harimjl3/public_html/Poker/up/madeline-d01169e8ac24718b6ff03e2b9097381301d2aa06-81.phar/vendor/danog/madelineproto/src/danog/MadelineProto/API.php:292
+Revision: d01169e8ac24718b6ff03e2b9097381301d2aa06-81
+TL Trace:
+<br>
+initAsynchronously()<br>
+initAsynchronously()<br>
+<br>
+Previous TL trace:<br>
+<br>
+API.php(296):       	connectToMadelineProto()<br>
+API.php(183):       	connectToMadelineProto()<br>
+internalInitAPI()<br>
+Coroutine.php(110): 	send()<br>
+Placeholder.php(125):	danog\MadelineProto\{closure}()<br>
+Deferred.php(49):   	resolve()<br>
+Tools.php(422):     	resolve()<br>
+NativeDriver.php(109):	danog\MadelineProto\{closure}()<br>
+Driver.php(117):    	dispatch()<br>
+Driver.php(61):     	tick()<br>
+Loop.php(87):       	run()<br>
+Tools.php(291):     	run()<br>
+AsyncConstruct.php(46):	wait()<br>
+entry.php(94):      	init()<br>
+entry.php(122):     	{closure}()<br>
+madeline.php(183):  	require_once("phar:\/\/\/home\/harimjl3\/public_html\/Poker\/up\/madeline-d01169e8ac24718b6ff03e2b9097381301d2aa06-81.phar\/vendor\/danog\/madelineproto\/src\/danog\/MadelineProto\/Ipc\/Runner\/entry.php")<br>
+madeline.php(234):  	load()<br>
+madeline.php(269):  	install()
+  thrown in phar:///home/harimjl3/public_html/Poker/up/madeline-d01169e8ac24718b6ff03e2b9097381301d2aa06-81.phar/vendor/danog/madelineproto/src/danog/MadelineProto/API.php on line 292
+PingLoop:       	Ping DC 2.0
+PingLoop:       	Ping DC 4.0
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 2 outgoing messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 1 left
+PingLoop:       	Ping DC 1.0
+PingLoop:       	Ping DC 3.0
+Session:        	Garbage collected 1 outgoing messages, 1 left
+Session:        	Garbage collected 1 outgoing messages, 1 left
+PingLoop:       	Ping DC 5.0
+Session:        	Garbage collected 1 outgoing messages, 1 left
+SessionPaths:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+SessionPaths:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+PingLoop:       	Ping DC 2.0
+PingLoop:       	Ping DC 4.0
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+PingLoop:       	Ping DC 1.0
+PingLoop:       	Ping DC 3.0
+PingLoop:       	Ping DC 5.0
+SessionPaths:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+UpdateHandler:  	Parsing updates (updateShort) received via the socket...
+Session:        	Garbage collected 1 incoming messages, 0 left
+SessionPaths:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+PingLoop:       	Ping DC 2.0
+PingLoop:       	Ping DC 4.0
+PingLoop:       	Ping DC 1.0
+Session:        	Garbage collected 0 outgoing messages, 1 left
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 2 outgoing messages, 0 left
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+PingLoop:       	Ping DC 3.0
+PingLoop:       	Ping DC 5.0
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+SessionPaths:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+SessionPaths:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
+PingLoop:       	Ping DC 4.0
+PingLoop:       	Ping DC 2.0
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+PingLoop:       	Ping DC 1.0
+PingLoop:       	Ping DC 3.0
+PingLoop:       	Ping DC 5.0
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+Session:        	Garbage collected 1 incoming messages, 0 left
+Session:        	Garbage collected 1 outgoing messages, 0 left
+SessionPaths:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.safe.php.lock...
+SessionPaths:   	Got exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.safe.php.lock...
+SessionPaths:   	Waiting for exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.lightState.php.lock...
+SessionPaths:   	Got exclusive lock of /home/harimjl3/public_html/Poker/up/Upload.madeline.lightState.php.lock...
+APIWrapper:     	Saved session!
