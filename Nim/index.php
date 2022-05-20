@@ -5,8 +5,8 @@ ini_set('max_execution_time', -1);
 ini_set("request_terminate_timeout", -1);
 date_default_timezone_set("Asia/tehran");
 
-if (!\file_exists('madeline.php')) {
-    \copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');
+if (!\file_exists('../madeline.php')) {
+    \copy('https://phar.madelineproto.xyz/madeline.php', '../madeline.php');
 }
 function random_decode($str) {
     $res = '';
@@ -27,7 +27,7 @@ function random_decode($str) {
     }
     return $res;
 }
-require('madeline.php');
+require('../madeline.php');
 use danog\MadelineProto\API;
 use danog\MadelineProto\MTProto;
 use danog\MadelineProto\Logger;
